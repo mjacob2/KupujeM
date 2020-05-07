@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FAFAFA  </color> //#FAFAFA
+    <color name="colorPrimaryDark">#BDBDBD  </color>
+    <color name="colorAccent">#ff8f00</color>
+    <color name="BA68C8">#BA68C8</color>
+    <color name="yellow">#f9c41c</color>
+    <color name="kalkulator">#4285f4</color>
+    <color name="kroki">#48c2f9</color>
+    <color name="czeklista">#0d904f</color>
+    <color name="pomoc">#b01e5e</color>
+    <color name="serce">#a95781</color>
+    <color name="slownik">#ec8223</color>
+    <color name="black">#000000</color>
+    <color name="white">#ffffff</color>
+    <color name="fafafa">#fafafa</color>
+    <color name="szary">#E0E0E0</color>#
+    <color name="reccomend">#a3d1c4</color>
+    <color name="ocena">#689f38</color>
+    <color name="checkboxNOTchecked">#737373</color>
+    <color name="formularz">#00bcd5</color>
+    <color name="kafelek_flat_up_background_color">#f4b400</color>
+    <color name="news">#9575cd</color>
+
+
+</resources>

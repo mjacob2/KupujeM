@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="pl.middlers.kupujem.Home"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:title="podziel się"
+        android:icon="@drawable/ic_action_share"
+        android:id="@+id/action_share"
+        app:showAsAction="always"/>
+    <item
+        android:title="oceń aplikację"
+        android:icon="@drawable/ic_gold_star"
+        android:id="@+id/action_rate"
+        app:showAsAction="always"/>
+
+    <item
+        android:title="o aplikacji"
+        android:id="@+id/action_o_aplikacji"
+        app:showAsAction="never"/>
+
+
+
+
+
+
+</menu>

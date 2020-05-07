@@ -1,0 +1,1221 @@
+
+<resources>
+    <string name="app_name">KupujeM</string>
+
+    <string name="facebook_app_id">378779515824767</string>
+
+    <string name="base64EncodedPublicKey">MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAsyJOZLOot0tlIjrHVeNI07fIX74Hxz0lJ9Opqwms7oQnww1WUgXlC8FTevwdQ6Dpw4Wenr+xNh0qqGlbA2+A9t0hPPCVgkZCPXoEklLntleNxehG8rBG2mcO68JbJrxZ2+WZA+u0t7189KRZV/2biZjZXJVROmqi3o3OQsaGinsFcYfcBYVwJZG8QzLDxRHHeANXKXBB6YBT7U2ys8GfJq5ZCvsu8pachvt9c5rsvwfIDt02is31/N1bl8KCzbnD1/ztR7N1K4OkFmmxg1siHamGurA21Bb/xV+XW8vudyIY0asD3K0rBd7fB2MmXUa2B4esHDISSJ4X54GuwvB3ZwIDAQAB</string>
+
+
+    <string name="body_negocjuj_cenę"><b>Jednak oczywiście nie zawsze jest tak łatwo.</b>
+        \n\nByć może w&#160;danej lokalizacji brakuje mieszkań i&#160;w&#160;kolejce za Tobą stoi jeszcze kilka osób.
+        W&#160;takim wypadku sprzedający może nie być skory do rozmów.
+        \n\nPodobnie, jeśli kupujesz jedno z&#160;ostatnich mieszkań  w&#160;danej inwestycji, lub z&#160;najciekawszym rozkładem pokoi lub atrakcyjnym widokiem za oknem.
+        \n\nW&#160;ostateczności nawet najbardziej uparty deweloper jest w&#160;stanie dorzucić np. miejsce postojowe lub chociaż komórkę lokatorską jako \"gratis\".
+        \n\n\n<b>Oprócz tego, możesz jeszcze negocjować:</b>
+        \n\n- wprowadzenie przeróbek w M na koszt dewelopera,
+        \n\n- standard/cenę wykończenia M (jeśli deweloper to oferuje),
+        \n\n- brak czynszu przez np. rok (w&#160;wypadku, gdy deweloper jest zarządcą nieruchomości),
+        \n\n- pokrycie przez dewelopera całości kosztów notarialnych,
+        \n\n- wydłużenie okresu gwarancji,
+        \n\ni wszystko inne, co jest szczególne dla danej inwestycji.
+    </string>
+
+    <string name="link">
+        <a href="http://www.google.com">http://www.google.com</a></string>
+
+    <string name="Title_deweloperska">Podpisz umowę deweloperską</string>
+
+    <string name="Title_Prospekt_emisyjny">Przeczytaj prospekt informacyjny</string>
+
+    <string name="Title_wniosek_kredytowy">Załatw kredyt hipoteczny</string>
+
+    <string name="Title_odbior">Odbierz swoje M</string>
+
+    <string name="body_odbior">Prawdopodobnie do tego czasu już zapłaciłeś pewną sumę deweloperowi. Czas przelać pierwszą transzę z kredytu. </string>
+
+    <string name="Title_umowa_notarialna">Podpisz umowę notarialną</string>
+    <string name="Title_ubezpiecz_mieszkanie">Kup ubezpieczenie</string>
+    <string name="Title_negocjuj_cene">Negocjuj cenę</string>
+
+    <string name="zalatw_kredyt_akapit1">Różnice w ratach dla kredytu 300.000 zł mogą sięgać <b>500 zł miesięcznie!</b>
+        \n\nJeśli weźmiesz kiepski kredyt, różnica w całkowitej kwocie do zapłaty, może Cię kosztować nawet <b>100.000,00 zł!</b>
+        Dlatego rozumiesz, jak ważne jest <u>znalezienie najlepszego kredytu.</u>
+        \n\nProwadzą do niego dwie drogi:
+        \n- samodzielne szukanie ofert
+        \n- pomoc doradcy finansowego</string>
+
+    <string name="zalatw_kredyt_akapit2">Po pierwsze, <u>nie posiłkuj się porównywarkami znalezionymi w internecie.</u>
+        \n\nNikt nie ręczy za ich aktualność ani za rzetelność wprowadzonych danych.
+        \n\nPoszukiwania najlepszej oferty należy zacząć od odwiedzenia kilku banków.
+        \n\n<b>Ilu konkretnie?</b>
+        \n\nTo zależy tylko od Ciebie i ilości czasu jakim dysponujesz!
+        \n\nA potrzebujesz go dużo, ponieważ <b>w każdej placówce</b> będziesz musiał odstać swoje w kolejce lub w ogóle umówić się na konkretny dzień z dedykowanym doradcą.
+        \n\n<b>Wypyta Cię on o:</b>
+        \n\n- dochody
+        \n- koszty utrzymania
+        \n- posiadane kredyty i inne zobowiązania
+        \n- historię kredytową
+        \n- potrzeby finansowe
+        \n- rodzaj nieruchomości
+        \n- kwotę posiadanych oszczędności
+        \n- itd... itd...
+        \n\n<b>I tak w każdym banku, z każdym doradcą od nowa...</b>
+        \n\nKiedy po paru dniach będziesz miał w ręku kilkanaście ofert, musisz je ze sobą porównać.
+        \n\nMożesz zacząć od sprawdzenia <b>całkowitej kwoty do spłaty.</b>
+        \n\nTen parametr łatwo pozwala znaleźć <b>najtańszą ofertę.</b>
+        \n\nNiekoniecznie będzie to <b>oferta z najniższą ratą</b>, bo do kosztów kredytu wliczyć należy także kwotę prowizji i wymaganych ubezpieczeń oraz dodatkowych produktów do obsługi kredytu.
+        \n\nNastępnie, kiedy wybrałeś już <b>2 lub 3 najlepsze oferty</b>, musisz udać się osobiście do tych banków i złożyć komplet dokumentów.
+        \n\nLista jest długa i w każdym banku inna.
+        \n\nKażda pomyłka i uzupełnianie braków to <u>kilka straconych dni.</u>
+        \n\nNastępnie można już tylko czekać na <b>decyzję wstępną.</b>
+        \n\nDopiero decyzja wstępna jest potwierdzeniem, że bank <i>zechce udzielić Ci kredytu.</i>
+        \n\nJeśli masz już decyzje wstępne, czas wybrać <b>tę jedną</b> i procesować wniosek dalej, zgodnie z wytycznymi danego banku.
+        \n\nKiedy spełnisz wszystkie wymagania, <b>bank przygotuje umowę do podpisu.</b></string>
+
+
+    <string name="zalatw_kredyt_akapit3">Załatwienie kredytu z <b>dobrym, sprawdzonym, solidnym i godnym zaufania</b> doradcą trwa znacznie krócej, niż samemu.
+        \n\nPo pierwsze, doradca finansowy <b>już na pierwszym spotkaniu</b> porówna dla Ciebie <u>wszystkie</u> dostępne oferty bankowe i pomoże wybrać tę najlepszą.
+        \n\nCo ważne, są to dokładnie <b>te same oferty</b>, jakie dostałbyś w oddziale banku - ani droższe ani tańsze.
+        \n\nPomoc doradcy finansowego jest dla Ciebie <b>całkowicie bezpłatna</b> i <u>nie podnosi ona kosztu kredytu.</u>
+        \n\nMoże go natomiast <b>obniżyć</b> - ponieważ doradca jest na bieżąco, weźmie pod uwagę dodatkowe czynniki, takie jak:
+        \n\n- czasy procesowe w danym banku,
+        \n- rodzaj wymaganych dokumentów,
+        \n- sposób obliczania zdolności kredytowej,
+        \n- wszystkie szczegółowe warunki promocji, pisane drobnym drukiem,
+        \n- itp.
+        \n\nDlatego niezwykle ważne jest, abyś <b>mógł zaufać swojemu doradcy!</b>
+        \n\nJeśli chcesz - możemy skontaktować Cię z <b>dobrym, sprawdzonym, solidnym i godnym zaufania</b> doradcą w Twoim mieście!
+        \n\nAby otrzymać do niego kontakt, kliknij poniższy przycisk.
+        </string>
+
+    <string name="Title_zaplac">Zapłać deweloperowi</string>
+
+    <string name="zaplac_akapit1">Banki wypłacają kredyty w <b>transzach</b>, czyli w&#160;częściach, aby dzięki temu móc w razie czego monitorować postęp prac budowy i sposób wykorzystania środków z&#160;kredytu.
+        \n\nTransze wypłacane są zgodnie z <b>harmonogramem</b>, ustalonym przed podpisaniem umowy kredytowej.
+        \n\nWypłata środków następuje po rozliczeniu poprzedniej transzy.
+    </string>
+
+    <string name="zaplac_akapit2">Z chwilą, kiedy bank przeleje deweloperowi pierwszą transzę, zaczynasz płacić raty.
+        \n\nW większości przypadków jednak, będziesz płacić <b>tylko same odsetki.</b>
+        \n\nZ każdą kolejną transzą, wysokość raty będzie odpowiednio rosnąć.
+        \n\nTen okres nazywany jest <b>karencją</b> w spłacie kapitału.
+        \n\nDopiero, gdy bank wypłaci ostatnią transzę, zaczniesz spłacać całą ratę (odsetki + kapitał).
+        \n\n<b>Zaletą</b> takiego rozwiązania jest niskie obciążenie Twojego portfela na początku.
+        \n\n<b>Wadą</b> jest to, że przez okres karencji nie spłacasz w ogóle pożyczonych pieniędzy (kapitału) tylko sme odsetki.
+        \n\nCo ciekawe, taki system nie jest regułą we wszystkich bankach.</string>
+
+    <string name="odbior_akapit1">Wszystko to, czego nie stwierdzisz przy odbiorze, będziesz mógł potem dochodzić w drodze reklamacji przez 5 lat.
+        \n\nJednak im więcej usterek znajdziesz na tym etapie, tym lepiej, bo trudniej naprawiać M, w którym już się mieszka.</string>
+
+    <string name="odbior_akapit1_1">Po zakończeniu budowy a przed zawarciem umowy końcowej, dokonuje się odbioru M, który zostaje potwierdzony dokumentem - <b>protokołem odbioru.</b>
+    \n\nW trakcie odbioru razem z deweloperem dokonuje się oględzin technicznych lokalu - jego zgodności z postanowieniami umowy deweloperskiej.
+        \n\nSpisuje się także stany liczników i wszystkie przekazywane klucze oraz sprawdza się standard wykończenia.</string>
+
+    <string name="odbior_akapit2">Możesz nie zechcieć dokonać odbioru, kiedy wady są <b>bardzo istotne</b> i nie da się ich w ogóle naprawić, lub byłoby to bardzo trudne i kosztowne, np:
+        \n\n- nie taki układ pomieszczeń
+        \n- nieodpowiedni rozmiar i kształt okien
+        \n- zbyt mała powierzchnia
+        \n- inny rozkład
+        \n- materiały niższej jakości
+        \n- zawilgocenie
+        \n- spękane mury, itd...
+        \n\nCzyli po prostu wtedy, gdy M jest wykonane <b>niezgodnie z umową</b> i ma wady uniemożliwiające lub w znaczący sposób utrudniające korzystanie z niego.
+        \n\nNieodebranie lokalu prowadzi prostą drogą do <b>odstąpienia od umowy z winy dewelopera.</b>
+        \n\nJeśli sprawy są tak poważne, dobrze jest <b>zrobić zdjęcia</b>, aby mieć czym poprzeć swoje racje podczas ewentualnego <b>spotkania w sądzie.</b>
+        \n\nGdy postanawiasz nie odebrać M, sporządź chociaż protokół potwierdzający <b>sam fakt stawiennictwa</b> obu stron do odbioru oraz ujawnienia wad dyskwalifikujących. </string>
+
+    <string name="odbior_akapit3">Nawet jeśli przy odbiorze <b>nie odnajdziesz wszystkich wad </b>(także prawnych), masz jeszcze <b>5 lat,</b> aby zgłaszać deweloperowi reklamacje z <b>tytułu rękojmi.</b>
+        \n\nZasady są dokładnie takie same, jak w przypadku zakupu <b>towarów codziennego użytku.</b>
+        \n\nNa przykład <b>w pierwszym roku</b> jesteś na uprzywilejowanej pozycji, ponieważ domniemywa się, że każda zgłoszona w tym czasie wada, istniała <b>w momencie dokonywania odbioru</b> i deweloper musi ją naprawić.
+        \n\nChyba że jest on w stanie udowodnić, że to <b>Ty spowodowałeś daną usterkę.</b>
+        \n\nWynika z tego fakt, że nawet jeśli <b>nie przyłożysz się</b> do procedury odbioru, to i tak masz jeszcze 12 miesięcy <i>taryfy ulgowej.</i>
+        \n\nPamiętaj jednak, że <b>nie możesz reklamować</b> usterek, o istnieniu których <b>wiedziałeś</b>, w chwili podpisywania umowy.
+        \n\nDlatego jeśli deweloper <b>odmówił usunięcia wad</b> zgłoszonych na protokole odbioru, <b>nie możesz</b> już później żądać ich naprawy z tytułu rękojmi!
+        \n\nPo podpisaniu protokołu i wpisaniu w nim wszystkich wykrytych nieprawidłowości, deweloper ma <b>14</b> dni na ustosunkowanie się do nich.
+        \n\nJeśli deweloper uzna wady, ma <b>30 dni na ich naprawienie</b> (dłużej, jeśli to faktycznie konieczne).
+        \n\nJeśli ich nie uzna, <b>pozostaje droga sądowa.</b>
+        \n\nJeśli <b>nie otrzymasz odpowiedzi</b> od dewelopera w ciągu 14 dni, to deweloper <b>musi uznać</b> wady za zasadne i je naprawić.
+    </string>
+
+
+    <string name="prospekt_akapit1">
+        Prospekt informacyjny musi być przygotowany przez dewelopera według ustawowego wzoru.
+        \n\nDeweloper musi obowiązkowo Ci go udostępnić do zapoznania, jeśli  jesteś zainteresowany daną inwestycją, która dopiero jest w fazie budowania.
+        \nSprawdzając ten dokument, przede wszystkim zwróć uwagę na:</string>
+
+    <string name="notariusz_wstep">Z chwilą złożenia podpisu na akcie notarialnym - stajesz się prawowitym właścicielem M.
+        \n\nPotocznie umowa, na mocy której deweloper przenosi własność M na Ciebie, nazywana jest <i>umową przyrzeczoną</i> lub <i>umową ostateczną</i>.
+        \n\nJej treść jest ściśle powiązana z treścią umowy deweloperskiej, co nie znaczy, że nie trzeba się z nią wnikliwie zapoznać.
+</string>
+
+    <string name="notariusz_akapit1">- ustanowienie <b>odrębnej własności lokalu</b>, czyli założenie dla Twojego M odrębnej księgi wieczystej, dzięki czemu staje się ono bytem prawnym niezależnym od gruntu i reszty budynku
+    \n\n- przypisanie M <b>proporcjonalnego udziału</b> w nieruchomości wspólnej (gruncie i budynku) - dzięki czemu stajesz się ich współwłaścicielem,
+    \n\n- (opcjonalnie) ustanowienie <b>hipoteki</b> w związku z Twoim kredytem,
+    \n\n- i najważniejsze - <b>przeniesienie praw własności</b> na Ciebie.</string>
+
+    <string name="notariusz_akapit2">Jest to <b>najważniejsza rzecz</b>, na którą powinieneś zwrócić uwagę podczas podpisywania umowy końcowej.
+        \n\nNie chciałbyś przecież kupić M z milionowym kredytem, zaciągniętym przez dewelopera!
+    \n\nA właśnie tak się stanie, jeśli do umowy końcowej, deweloper nie przedstawi <b>zgody banku</b> na wyodrębnienie Twojego lokalu bez hipoteki.
+        \n\nBez tego będziesz <b>ponosił finansową odpowiedzialność</b> za to, że deweloper nie spłaca kredytu!
+        \n\nChyba, że deweloper finansuje inwestycję z <i>własnej kieszeni</i>, co zdarza się bardzo rzadko.
+    \n\nCzęsto bank wydaje taką zgodę pod warunkiem zapłacenia wcześniej całej ceny M.
+        \n\nOprócz hipotek już wpisanych, w dniu umowy końcowej w KW mogą widnieć <b>wzmianki o wpisach.</b>
+        \n\nByła o nich mowa przy kroku do umowy deweloperskiej.
+        \n\nDlatego bardzo ważne jest, abyś w takiej sytuacji, otrzymał chociaż od dewelopera upoważnienie do wglądu do akt KW i mógł się zapoznać z treścią wpisów.
+        \n\nMoże się bowiem okazać, że kupisz M z dodatkowym kredytem do spłacenia!
+    </string>
+    <string name="Bezplatna_pomoc">Bezpłatna pomoc doradcy kredytowego</string>
+    <string name="bezplatna_pomoc_akapit1">Doradca finansowy (zwany także doradcą kredytowym) już na pierwszym spotkaniu i&#160;całkowicie bezpłatnie pokaże Ci oferty wszystkich banków i&#160;dopasuje je do Twoich potrzeb.
+    \n\nPomoże skompletować dokumenty i&#160;zaniesie je do banku.
+        Będzie nadzorował i&#160;koordynował cały proces przyznawania kredytu.
+
+    \n\nRolą doradcy jest porównać oferty wszystkich banków i&#160;znaleźć najlepszą dla Ciebie.
+            Jego pomoc jest dla Ciebie zawsze bezpłatna.
+    \n\nJeśli chcesz, możemy skontaktować Cię z&#160;takim doradcą kredytowym w&#160;Twoim mieście.</string>
+
+    <string name="ubezpiecz_akapit1">
+        Chodzi o&#160;ubezpieczenie murów, czyli konstrukcji budynku przed zawaleniem i&#160;zniszczeniem w&#160;wyniku powodzi, pożaru itp.
+        Składka jest płatna raz w&#160;roku i&#160;wynosi około 100&#160;zł za każde 100.000&#160;zł wartości&#160;M.
+        \n\nUbezpieczenie to jest wymagane praktycznie zawsze.
+        Jest to zrozumiałe, wszak bankowi zależy, abyś miał motywację do spłaty kredytu.
+        A&#160;motywacja ta szybko może zniknąć razem z&#160;np. zawaloną ścianą nośną lub zerwanym po wichurze dachem.
+         </string>
+    <string name="ubezpiecz_akapit2">Należy jednak wiedzieć, że ubezpieczenia różnią się między sobą i warto przeczytać <b>OWU - Ogólne Warunki Ubezpieczeniowe</b>, aby w przyszłości nie być zaskoczonym.
+        \n\nJeśli z&#160;jakichś powodów nie odpowiada Ci ubezpieczenie oferowane przez bank, i&#160;jeśli nie jest to wymóg do skorzystania z&#160;konkretnej promocji, to śmiało możesz skorzystać <b>z&#160;dowolnego</b> ubezpieczenia, jakie znajdziesz na rynku.
+        \n\nMasz w&#160;tym <b>pełną swobodę.</b>
+        \n\nWiąże się to jednak z&#160;pewną <b>niewygodą.</b>
+        \n\nMianowicie <b>co roku</b> będziesz musiał przychodzić do banku i&#160;przedstawiać nową, oryginalną, podpisaną polisę ubezpieczeniową wraz z&#160;potwierdzeniem zapłaty składki.
+        \n\nW&#160;przeciwnym wypadku <b>narazisz się</b> na płatne monity, kary lub w&#160;najgorszym wypadku - wypowiedzenie umowy kredytowej z&#160;żądaniem natychmiastowej spłaty.</string>
+
+    <string name="ubezpiecz_akapit3">W znakomitej większości, banki oferują ubezpieczenie \"u siebie\", to znaczy u zaprzyjaźnionego towarzystwa ubezpieczeniowego.
+        \n\nDecydując się na ubezpieczenie od banku, masz ten <b>komfort</b>, że raz podpisana deklaracja <b>odnawia się automatycznie co roku</b>, a składka sama schodzi z&#160;konta.
+        \n\nO&#160;niczym nie musisz pamiętać.
+        \n\nW praktyce, różnice w&#160;cenie składki są tak niewielkie, że&#160;znakomita większość Klientów decyduje się na&#160;ubezpieczenie \"w&#160;banku\".</string>
+    <string name="ubezpiecz_akapit4">Razem z&#160;umową ubezpieczenia, należy podpisać też&#160;przeniesienie praw z&#160;polisy na bank.
+        \n\nTak&#160;zwaną cesję.
+        \n\nTo&#160;znaczy, że w&#160;razie nieszczęścia, pieniądze z&#160;polisy znajdą się w&#160;rękach banku i&#160;to on postara się w&#160;miarę możliwości naprawić szkody.
+        \n\nGdyby nie było co&#160;naprawiać po Twoim M, z&#160;pieniędzy z&#160;polisy bank <b>spłaci kredyt</b>, a&#160;jeśli coś zostanie, odda Tobie.</string>
+
+
+    <string name="TITLE_przed_zakupem_1">Lokalizacja</string>
+    <string name="BODY_przed_zakupem_1">Odległość od centrum to pojęcie względne.
+            Można bowiem mieszkać blisko centrum i mieć wszędzie daleko.
+        Można też mieszkać na obrzeżach, a móc wszędzie szybko dojechać.
+        \n\nSprawdź zatem, jak wygląda dojazd <i>do</i> i <i>z</i> miejsca pracy, szkoły, przedszkola itp.
+            Sprawdź dojazd samochodem i transportem publicznym, bo czasem możesz być na niego skazany.
+            Zrób to rano, w godzinach szczytu i wieczorem.
+        \n\nWbrew pozorom nie jest to bez znaczenia.
+            Jak donoszą szwedzkie badania, dojazd do pracy ponad 45 minut - zwiększa szanse na rozwód o 40%!
+            Długa droga do pracy, to także większe wydatki na paliwo i utrzymanie samochodu.
+        \n\nZastanów się także, jak w niedalekiej przyszłości, warunki transportowe mogą się zmienić na lepsze lub gorsze.
+            \n\nJeśli w Twojej okolicy dopiero powstają osiedla, to możesz się spodziewać rosnących korków.
+            Z drugiej strony, im większa społeczność, tym większe możliwości wpływu na zmiany.
+            Być może już istnieją plany poszerzenia drogi albo wybudowania dodatkowego torowiska lub nowej trasy autobusu.</string>
+
+
+    <string name="TITLE_przed_zakupem_2">Co w okolicy</string>
+    <string name="BODY_przed_zakupem_2">
+            Sprawdź, czy niedaleko Twojego przyszłego M znajduje się to, czego regularnie potrzebujesz, oraz, to co może Ci się przydać od czasu do czasu.
+        \n\nKażdy musi niekiedy się udać do lekarza, apteki, sklepu spożywczego czy pospacerować w parku.
+            \n\nIm bliżej do tych miejsc, tym wygodniejsze życie a w przyszłości łatwiejsza sprzedaż M.
+            \n\nPodobnie, im bliżej na siłownię czy basen, tym lepiej.
+
+        \n\nRaczej odradzamy M w polu na odludziu, obok ruchliwej ulicy, torów kolejowych, linii wysokiego napięcia, pod lądującymi samolotami, blisko wyjazdu pojazdów ratunkowych, stadionu itp.
+
+        \n\nSprawdź, czy w okolicy łatwo znaleźć miejsce parkingowe.
+        \n\nPrzyjemne życie może także zepsuć daleka droga do rowerowni, wózkowni czy śmietnika.
+        \n\nNależy również sprawdzić, jak wygląda kwestia bezpieczeństwa.
+        \n\nPrzejdź się po okolicy któregoś wieczora i sprawdź, czy nie kręcą się tam podejrzani ludzie?
+            Czy ulice są dostatecznie oświetlone?
+            Czy zaparkowany pod blokiem samochód będzie bezpieczny, a wracające ze szkoły dziecko będzie mogło spokojnie trafić do domu?
+    </string>
+    <string name="TITLE_przed_zakupem_3">Strony świata</string>
+    <string name="BODY_przed_zakupem_3">
+            Korzystna lokalizacja względem stron świata jest kwestią często bagatelizowaną podczas zakupu M.
+            To błąd, bo ma ona ogromne znaczenie dla komfortu.
+            Wpływa na temperaturę, stopień doświetlenia i pomaga zachować zdrowy mikroklimat.
+
+        \n\n<b>WSCHÓD</b> - dla sypialni.
+        \nPoranne słońce ułatwi wstawanie, za dnia nie nagrzeje zbytnio i zapewni optymalną temperaturę w nocy.
+
+        \n\n<b>POŁUDNIE</b> - dla strefy dziennej.
+        \nZ jednej strony słońce za darmo ogrzeje wnętrze zimą, latem natomiast opanowanie żaru może stanowić wyzwanie.
+
+        \n\n<b>ZACHÓD</b> - dla dzieci.
+        \nSłońce naturalnie doświetli pokoje, kiedy dzieci wrócą ze szkoły i będą potrzebowały jeszcze chwilę na odrobienie lekcji czy leniuchowanie.
+
+        \n\n<b>PÓŁNOC</b> - dla strefy gospodarczej.
+        \nNie ma szans na bezpośrednie światło od północnej strony.
+        W takim M będzie zawsze ciemniej i zimniej.
+    </string>
+    <string name="TITLE_przed_zakupem_4">Co mówią sąsiedzi</string>
+    <string name="BODY_przed_zakupem_4">
+            Sąsiedzi są prawdziwą kopalnią wiedzy o warunkach mieszkaniowych.
+        \n\nWarto przezwyciężyć początkowy opór i odwiedzić i porozmawiać z jak największą ilością osób, które już zamieszkują dany budynek czy okolicę.
+            Wystarczy zapukać i powiedzieć:
+        \n\n<i>Dzień dobry, planuję zakupić M w tej klatce/bloku/okolicy i chciałbym podpytać, jak się tutaj mieszka?</i>
+        \n\nZadziwiające, jak wiele osób szczerze i otwarcie potrafi powiedzieć o wszystkich wadach i zaletach danej nieruchomości.
+            \n\nTylko w ten sposób dowiesz się o tym, kto lubi pohałasować w dzień a kto w nocy, jak zarządca reaguje na zgłaszane problemy i sugestie, czy przez ściany słychać każde słowo, czy rachunki nie są za wysokie, itp.
+        \n\nDzięki rozmowie z sąsiadami dowiesz się także, jak wygląda sprawa głosowania uchwał we wspólnocie i czy łatwo udaje się znajdować porozumienie np. co do remontów czy bieżących napraw.
+
+    </string>
+
+
+    <string name="TITLE_przed_zakupem_5">Czynsz i opłaty</string>
+    <string name="BODY_przed_zakupem_5">
+            Nie ma M bezczynszowych.
+            Nie da się też mieszkać bez prądu, wody czy ogrzewania.
+            Lista rzeczy, za które przyjdzie Ci zapłacić jest długa, i zależy od miejscowych uwarunkowań.
+        \n\nDlatego zanim kupisz M, dowiedz się ile będzie Cię kosztować miesięcznie jego utrzymanie.
+        \n\nDo najczęściej spotykanych punktów należą:
+        \n\n- zużycie wody
+            \n- odprowadzanie ścieków
+            \n- podgrzanie wody
+            \n- ogrzewanie (opłata stała i zmienna)
+            \n- fundusz remontowy
+            \n- wynagrodzenie zarządcy
+            \n- ubezpieczenie
+            \n- sprzątanie
+            \n- prąd w częściach wspólnych
+            \n- serwis konserwatorski
+            \n- odśnieżanie
+            \n- pielęgnacja zieleni
+            \n- serwis windy
+            \n- ochrona 24h
+            \n- i inne
+        \n\nDo tego dochodzą Twoje indywidualne rachunki za zużycie prądu, gazu oraz internet i telewizję.
+
+    </string>
+    <string name="TITLE_przed_zakupem_6">Kim jest zarządca</string>
+
+    <string name="wspolnota_mieszkaniowa">Z chwilą sprzedaży i wyodrębnienia przez dewelopera pierwszego M, automatycznie, z mocy prawa, utworzona zostaje <b>dwuosobowa wspólnota mieszkaniowa</b>, złożona z dewelopera i nabywcy pierwszego mieszkania.
+            Z każdym kolejnym sprzedanym M, przybywa członków wspólnoty.
+
+        \n\nDeweloper <b>sprzedając pierwsze M</b>, w akcie notarialnym z pierwszym właścicielem, może zlecić <b>zarządzanie nieruchomością wspólną zewnętrznej firmie</b>. Taki zarządca pełni obowiązki i odpowiada za swoją pracę tak jak zarząd.
+
+        \n\nJeśli tego nie zrobi, zastosowanie moją poniższe zasady:
+
+        \n\nDopóki wyodrębnionych lokali jest <b>mniej niż 8</b>, każdy z właścicieli jest tak samo, na równych prawach zobowiązany i odpowiedzialny za zarządzanie nieruchomością wspólną.
+           \n\nRównież każda ważna decyzja, dotycząca nieruchomości wspólnych, musi zostać podjęta jednogłośnie.
+
+        \n\nZ chwilą wyodrębnienia <b>więcej niż 8</b> lokali, wspólnota jest zobowiązana powołać jedno- bądź kilkuosobowy <b>zarząd</b> spośród swoich członków.
+
+        \n\nZarząd ten może powierzyć obowiązki wykonawcze zewnętrznej firmie, która staje się <b>administratorem budynku</b>.
+        \n\nTo znaczy, będzie <b>tyko wspomagać zarząd</b> w zwykłych czynnościach. Odpowiedzialność, cały czas będzie ciążyć na zarządzie.
+
+        \n\nŻeby <b>przerzucić całą odpowiedzialność i obowiązki</b> za zarządzanie nieruchomością wspólną, właściciele mogą <b>umową w formie aktu notarialnego</b> zlecić te zadania zewnętrznemu podmiotowi.
+</string>
+
+    <string name="spoldzielnia">Spółdzielnia mieszkaniowa ma status przedsiębiorcy.
+        \n\nMimo to, jej działalność nie zmierza do osiągania zysku, ale do zaspokajania potrzeb mieszkaniowych jej członków oraz ich rodzin.
+        \n\nKupując M w spółdzielni, nie stajesz się jego właścicielem.
+            \n\nPrzysługuje Ci jedynie spółdzielcze własnościowe prawo do lokalu.
+            \n\nPrawnym i jedynym właścicielem M jest spółdzielnia.
+
+        \n\nW takim przypadku nie możesz tym M dowolnie rozporządzać (np. zrobić generalnego remontu czy zarejestrować działalności gosp.) bez zgody spółdzielni.
+        \n\nRównież wzięcie kredytu na zakup takiego prawa jest utrudnione.
+        \n\nSzczególnie jeśli M nie ma założonej księgi wieczystej, lub co jeszcze gorsze, nie może mieć, z uwagi na nieuregulowany stan prawny gruntu.
+        \n\nJest to częstym przypadkiem, gdyż spółdzielnie mieszkaniowe to relikt poprzedniego ustroju i od 2007 roku nie ma już możliwości ustanawiania takich praw.
+    </string>
+    <string name="checklisty">Checklisty</string>
+    <string name="TITLE_przed_zakupem_7">Źródło ciepła</string>
+    <string name="BODY_przed_zakupem_7">Ciepła woda w kranie i w kaloryferach może pochodzić z kilku źródeł.
+        \n\n<b>1. CIEPŁOWNIA MIEJSKA</b>
+            \nCiepło z sieci miejskiej jest najbezpieczniejszym i najwygodniejszym, bo bezobsługowym, rozwiązaniem.
+            Plusem jest także rozliczanie w stałych, miesięcznych płatnościach, wyrównywanych raz w roku.
+            \n\nNiestety, na takie źródło mogą sobie pozwolić tylko te budynki, które są w zasięgu sieci podziemnych rur, biegnących od miejskiej ciepłowni.
+            \n\nZasada działania jest prosta: gorąca woda z sieci oddaje ciepło wodzie, krążącej w kaloryferach.
+            \n\nMoże także służyć do podgrzania zimnej wody z wodociągów, aby zapewnić ciepłą wodę w kranie.
+        \n\n<b>2. KOTŁOWNIA W BLOKU</b>
+            \nPodobnie, lecz na znacznie mniejszą skalę, działa kotłownia, zlokalizowana w gospodarczej części budynku mieszkalnego.
+            \n\nKupując M z takim systemem, warto zwrócić uwagę, gdzie ta kotłownia dokładnie się znajduje.
+            Powszechne sa bowiem narzekania osób mieszkających w jej pobliżu, na dobiegający z niej hałas.
+         \n\n<b>3. GAZ</b>
+            \nCzyli tak zwane <i>junkersy</i>, mogą służyć tylko do podgrzewania na bieżąco wody, albo (te nowocześniejsze) również do grzania wody w kaloryferach.
+            \n\nWłączają się na każde żądanie ciepła, a spalany w ich wnętrzu gaz, podgrzewa przepływającą w rurach wodę.
+            \n\nDzisiejsze urządzenia mogą być wyposażone w elektroniczne termostaty i programatory, które pozwalają ustawić temperaturę  w pomieszczeniu w zależności od pory dnia.
+            \n\nNiestety gaz zawsze wiąże się z niebezpieczeństwem wycieku, zatrucia lub nawet wybuchu.
+            \n\nUżytkownicy często skarżą się także na wysokie koszty obsługi.
+            \n\nWynikają one jednak często z niskiej jakości urządzeń albo z nieumiejętnego korzystania z nich.
+            \n\nNajlepiej bowiem, aby temperatura ciepłej wody w kranie była ustawiona na komfortową, ale jak najniższą.
+            Bezsensowne jest marnowanie gazu na podgrzanie wody, którą trzeba potem schładzać i mieszać z zimną.
+            \n\nJakkolwiek by jednak nie oszczędzać, trzeba się przygotować na dużo większe wydatki w okresie zimowym, jeśli gazem trzeba również ogrzewać M.
+        \n\n<b>3. PRĄD</b>
+            \nZamiana energii elektrycznej w cieplną ciągle jest tą najdroższą.
+            Czy to chodzi o ogrzewanie i magazynowanie wody do kąpieli w popularnych bojlerach, czy elektryczne kaloryfery.
+            \n\nKoszty użytkowania takich instalacji zawsze bardzo mocno uderzają po kieszeni i nie można wierzyć w zapewnienia sprzedającego, że jest inaczej.
+            Nawet jeśli działają na trochę tańszy, dwutaryfowy prąd.
+            \n\nTakie źródło ciepła stosuje się tylko i wyłącznie tam, gdzie nie ma absolutnie żadnej innej możliwości (np. stare kamienice) oprócz alternatywy, w postaci pieca kaflowego opalanego węglem.
+
+
+    </string>
+    <string name="TITLE_przed_zakupem_8">Ogólny stan budynku</string>
+    <string name="BODY_przed_zakupem_8">To, w jakim stanie jest budynek, mówi wiele o sprawności zarządu wspólnoty/spółdzielni.
+    \n\nJeśli widzisz brudną klatkę, odrapane ściany czy szpecące graffiti, to znak, że zarząd nie ma pieniędzy na bieżące utrzymanie i kłopoty ze ściąganiem czynszu od lokatorów.
+     \n\nNie wróży to dobrze na przyszłość, kiedy konieczna może być np. wymiana pionów kanalizacyjnych czy remont dachu.
+    \n\nZ drugiej strony, być może zarząd już zaplanował i zebrał środki na kapitalny remont, który rozpocznie się niedługo, co podniesie wartość M.
+        \n\nAby dowiedzieć się o takich sprawach, trzeba wraz z aktualnym właścicielem M, udać się do zarządcy nieruchomości.</string>
+
+
+    <string name="TITLE_przed_zakupem_9">Stan wyposażenia</string>
+    <string name="BODY_przed_zakupem_9">
+        Nie bój się otworzyć każdej szafki w kuchni.
+        Zajrzeć do lodówki, sprawdzić czy pralka jest w ogóle podłączona.
+    \n\nNie chcesz przecież, aby się okazało, że kupiłeś M, które wymaga większego wkładu finansowego, niż przewidywałeś.
+        \n\nW prawdzie przysługuje Ci prawo reklamowania wszystkich wad ukrytych z tytułu rękojmi, tak jak byś kupował od dewelopera.
+        Ale czy nie lepiej wcześniej wszystko sprawdzić dwa razy, niż się potem sądzić ze sprzedającym?
+        \n\nSprawdź zatem, czy wszystkie okna są szczelne i czy łatwo się otwierają i zamykają. Podobnie drzwi wewnętrzne i wejściowe.
+        \n\nPozapalaj światła i sprawdź, czy włączenie czajnika i piekarnika nie <i>wysadza</i> korków.
+        \n\nSzczególnie uważaj na M typu <i>świeżo po remoncie</i>.
+        Szybki i tani remont potrafi ukryć naprawdę duże usterki.
+    </string>
+
+    <string name="TITLE_przed_zakupem_10">Co zostaje w M</string>
+    <string name="BODY_przed_zakupem_10">
+        W umowie przedwstępnej spisz wszystkie wartościowe rzeczy, które mają zostać w M.
+        Dokładnie napisz markę i model.
+        \n\nJeśli napiszesz tylko np.<i>pralka</i>, to nie zdziw się, jeśli przy przejmowaniu M, zamiast nowoczesnego modelu, który widziałeś wcześniej, zastaniesz 20 letni złom.
+        \n\nPralka to pralka.
+        Udowodnij teraz, że miała być inna.
+        \n\nPodobnie dizajnerskie kaloryfery, drogie baterie umywalkowe itp.
+        \n\nCzasami sprawę ratują zdjęcia.
+        Ale aby był z nich jakikolwiek pożytek, muszą być naprawdę bardzo szczegółowe, kolorowe i stanowić załącznik do umowy.
+
+        \n\nInaczej sprawa ma się z wyposażeniem <b>wmontowanym na stałe</b>.
+        \n\nSprzedający nie może zabrać ze sobą rolet zewnętrznych, drzwi ani okien.
+        Nie może skuć kafelek ani rozmontować podłogi, rozkręcić szafy w zabudowie ani kuchni, jeśli nie jest wolnostojąca, itp.</string>
+
+    <string name="Title_Sprawdz_dewelopera">Sprawdź dewelopera</string>
+
+    <string name="Sprawdz_dewelopera_akapit1">Zanim w ogóle weźmiesz pod uwagę daną inwestycję, sprawdź dokładnie kto stoi po stronie sprzedającego.
+        \n\nJest to szczególnie ważne, kiedy kupujesz M, które dopiero zostanie wybudowane.</string>
+
+    <string name="Sprawdz_dewelopera_akapit2"><a href="http://pzfd.pl/czlonkowie-pzfd//">PZDF</a> zrzesza firmy, które odznaczają się odpowiednimi standardami etycznymi i&#160;działają przynajmniej 3 lata.
+        \n\nOczywiście nie można na tej podstawie stwierdzić, że z&#160;danym deweloperem nie będzie kłopotów.
+        \n\nJest to jednak znak, że kupujesz od dużej i&#160;sprawdzonej firmy, która przestrzega <a href="http://pzfd.pl/inicjatywy/kodeks-dobrych-praktyk/">Kodeks Dobrych Praktyk</a>. </string>
+
+    <string name="Sprawdz_dewelopera_akapit3">Firmę deweloperską można mieć nawet prowadząc <b>jednoosobową działalność</b>.
+            \n\nJednak w&#160;razie niewykonania należycie przez takiego przedsiębiorcę umowy, można go pozwać tylko do wysokości majątku osobistego, jaki posiada.
+            \n\n<i>Co ciekawe, może on nie mieć w ogóle majątku, bo np. cały przepisał na żonę lub dzieci.</i>
+
+        \n\nCzęściej spotyka się na tym rynku duże przedsiębiorstwa, organizowane w formie <b>spółek&#160;z&#160;o.o. lub&#160;S.A</b>.
+            \n\nDuże w&#160;rozumieniu kapitału zakładowego, sięgającego nierzadko kilkudziesięciu milionów złotych.
+            \n\nW razie sporu sądowego, taka spółka odpowiada do wysokości właśnie tego kapitału.
+        \n\nJednak jak to w Polsce, często do prowadzenia danej inwestycji, tworzone są <b>spółki celowe</b>, z&#160;minimalnym kapitałem&#160;- <u>5&#160;tys.&#160;zł.</u>
+            \n\n<i>Zawierzenie takiej spółce, że będzie miała pieniądze na doprowadzenie inwestycji do końca, jest sporym ryzykiem!</i>
+        \n\nAby sprawdzić te informacje, wystarczy odwiedzić stronę <a href="https://ems.ms.gov.pl/krs/wyszukiwaniepodmiotu">Krajowego Rejestru Sądowego</a>, wypełnić przynajmniej jedno pole i&#160;wyszukać daną firmę.</string>
+    <string name="Sprawdz_dewelopera_akapit4">Potem wystarczy przewinąć do dołu strony i pobrać wydruk.</string>
+    <string name="Sprawdz_dewelopera_akapit5">Rubryka 8 działu 1. zawiera wpis mówiący o kapitale zakładowym. </string>
+    <string name="Sprawdz_dewelopera_akapit6">Trzeba również skontrolować, kto jest upoważniony do reprezentowania spółki.
+        \n\nDo zawierania umów z kupującymi, zarząd może upoważnić swojego pracownika, <u>ale bezwzględnie musi on mieć notarialne upoważnienie i&#160;okazać Ci jego oryginał.</u>
+        \n\nWarto oczywiście jeszcze zapoznać się z&#160;całym wydrukiem z&#160;KRS i&#160;poprosić dewelopera o rozwianie wszelkich wątpliwości.</string>
+
+    <string name="Title_prad">Podłącz media</string>
+
+    <string name="prad_akapit1">Podczas odbioru M, deweloper powinien wręczyć Ci <b>Kartę Danych Technicznych.</b>
+    \n\nJest to dokument potwierdzający przyłączenie Twojego M&#160;do sieci jednego z&#160;poniższych dystrybutorów:</string>
+    <string name="prad_akapit2">Jednak zanim z&#160;gniazdka popłynie prąd, musisz podpisać umowę ze sprzedawcą energii.
+        \n\nW tym celu, możesz udać się prosto do <b>Twojego dystrybutora</b>, albo porównać ceny na rynku i&#160;wybrać jednego z&#160;kilkudziesięciu sprzedawców energii.
+    \n\nSkorzystanie z&#160;tej drugiej opcji, może przynieść Ci nawet <b>200-400zł</b> rocznych oszczędności.</string>
+
+    <string name="gaz_akapit1">Teoretycznie sprawa z gazem wygląda podobnie jak z prądem.
+    \n\nW praktyce jednak, ponad 90% Polaków korzysta z usług jednej firmy - PGNiG.
+    \n\nJest tak głównie dlatego, że rynek gazu jest w Polsce dopiero w fazie transformacji.
+    \n\nNie znaczy to natomiast, że jesteś skazany na tego jednego dostawcę.
+    \n\nNikt nie zabroni Ci kupować gaz od innego sprzedawcy, którzy coraz bardziej reklamują się na rynku.</string>
+
+    <string name="internet_akapit1">Aby znaleźć dostawcę internetu, wystarczy zajrzeć do skrzynki pocztowej.
+    \n\nZapewne znajdziesz tam kilkanaście ulotek dostawców, gotowych świadczyć usługi w Twoim budynku.
+    \n\nW wyborze dostawcy masz pełną autonomię i nie musisz zgadzać się na dostawcę narzucanego przez dewelopera.</string>
+
+    <string name="TV_akapit1">Choć nikt nie może Ci zabronić przyczepienia anteny satelitarnej za oknem (o ile nie narusza to np. konstrukcji budynku i zasad bezpieczeństwa), to i tak odradzamy takie rozwiązanie <b>ze względów estetycznych.</b>
+    \n\nTym bardziej, że każde M, wybudowane po 2013r. musi być podłączone do dużej anteny zbiorczej na dachu, która pozwala na skorzystanie z oferty <b>dowolnie wybranego</b> przez Ciebie dostawcy telewizji.
+  </string>
+    <string name="Title_wpisz_hipoteke">Wpisz hipotekę</string>
+    <string name="Title_formalnosci_urzad">Załatw sprawy urzędowe</string>
+
+
+    \\OD DEWELOPERA - SPRAWY URZĘDOWE
+    \\
+    <string name="formalnosci_urzad_akapit1">Ciągle istnieje obowiązek meldunkowy.
+        Należy go dokonać w ciągu 30 dni od zamieszkania pod nowym adresem.
+    \n\nSłuży do tego <a href="https://goo.gl/wO7xW9">formularz</a>, składany w urzędzie gminy, podparty aktem notarialnym zakupu nowego M.
+    \n\nSprawa jest załatwiana bezpłatnie i od ręki.
+        \n\nAutomatycznie zostaniesz także wymeldowany z poprzedniego adresu.
+</string>
+
+    <string name="formalnosci_urzad_akapit15">Co ciekawe, nie trzeba wymieniać dowodu osobistego.
+    Nawet, jeśli posiada się ten starego typu, z nieaktualnym już adresem.
+        \n\nNależy natomiast wymienić prawo jazdy i dowód rejestracyjny samochodu.</string>
+
+    <string name="formalnosci_urzad_akapit2">Podatek ten wpłacany jest wprost do gminnej kasy.
+        Jego maksymalna wysokość ustalana jest przez Ministra Finansów i w 2018 r. wynosi:
+        \n\n- 0,77 zł od 1 m2 powierzchni M,
+        \n- 0,48 zł od 1 m2 powierzchni proporcjonalnego udziału w gruntach.
+    \n\nW ciągu 14 dni od zakupu M należy złożyć w urzędzie gminy odpowiednią deklarację (każde miasto ma inną).
+        Wszystkie informacje, potrzebne do prawidłowego wypełnienia deklaracji znajdują się na akcie notarialnym.</string>
+
+    <string name="formalnosci_urzad_akapit3">*Ten akapit dotyczy tylko tych, których M jest wybudowane na gruncie należącym do Skarbu Państwa.
+    \n\nJeśli tak jest w Twoim przypadku, to oprócz wyżej wymienionych podatków od nieruchomości, przyjdzie Ci jeszcze zapłacić za użytkowanie wieczyste gruntu, w wysokości proporcjonalnego udziału w powierzchni gruntu.
+    \n\nOpłata ta zależy między innymi od wartości gruntu, dlatego najlepiej będzie, jeśli po szczegóły jak i gdzie opłacać tę należność, udasz się do swojego urzędu gminy.</string>
+
+    <string name="formalnosci_urzad_akapit4">Zmianę adresu zamieszkania warto zgłosić jeszcze w tych instytucjach:
+    \n\n- bank,
+    \n- Urząd Skarbowy <a href="https://goo.gl/1WCuYl">(druk ZAP-3)</a>,
+    \n- ZUS i OFE
+    \n- prywatne firmy ubezpieczeniowe,
+    \n- operator komórkowy,
+    \n- zakład pracy,
+    \n- przychodnia,
+        \n- szkoła, przedszkole dziecka,
+    </string>
+
+    <string name="Title_Sprawdz_sprzedajacego">Sprawdź sprzedającego</string>
+    <string name="Title_przedwstepna">Podpisz umowę przedwstępną</string>
+    <string name="Title_wtorny_notarialna">Podpisz umowę notarialną</string>
+    <string name="Title_wtorny_zaplac">Zapłać sprzedającemu</string>
+
+    \\OD DEWELOPERA - WPIS HIPOTEKI
+    \\
+    <string name="hipoteka_akapit1">Kredyty mieszkaniowe dlatego zwane są hipotecznymi, ponieważ zabezpieczeniem spłaty kredytu jest właśnie hipoteka, wpisana w IV dziale księgi wieczystej.
+    \n\nTo znaczy (w skrócie), że w razie niespłacania rat kredytu, sprawa trafi do komornika, który sprzeda M na licytacji i odda należne pieniądze bankowi.
+    \n\nW zamian za takie zabezpieczenie, banki rozkładają spłatę kredytu na długie lata i oferują niskie oprocentowanie.</string>
+
+    <string name="hipoteka_akapit2">Najprościej o wpisanie hipoteki poprosić <b>notariusza</b>, który przygotowuje umowę końcową.
+        \n\nWystarczy pokazać mu umowę kredytową i specjalne <b>oświadczenie</b> banku do wpisania hipoteki tą drogą.
+        \n\nNotariusz nie powinien pobrać za to dodatkowego wynagrodzenia, policzy tylko za koszty ustanowienia hipoteki - 200zł za wpis oraz 19zł podatku od wpisu.</string>
+
+    <string name="hipoteka_akapit3">Czasami sytuacja wymusza złożenie wniosku o wpis hipoteki samemu.
+    \n\nNależy wtedy wypełnić <a href="https://bip.ms.gov.pl/Data/Files/_public/bip/kw/formularze/1/kw-wpis.pdf">wniosek o wpis hipoteki</a>
+        zgodnie ze wzorem, udostępnionym w konkretnym <b>Wydziale Ksiąg Wieczystych</b> przy Sądzie Rejonowym w Twoim mieście.
+    \n\nPotrzebne będzie również <b>oświadczenie banku</b> o wpisie hipoteki.
+    \n\nPrzed złożeniem wniosku należy także dokonać <b>opłaty</b> - 200zł (w kasie w sądzie lub samemu przelewem).
+    \n\nPamiętaj aby przygotować <b>3 egzemplarze</b> - dla sądu, dla banku i dla Ciebie, na których powinna pojawić się pieczątka sądowa, potwierdzająca przyjęcie wniosku.
+    \n\nNa koniec wiele osób zapomina, aby zapłacić <b>podatek</b> - 19 zł.
+    \n\nW tym celu należy wypełnić i złożyć <a href="http://www.archbip.mf.gov.pl/bip/_files_/podatki/formularze_podatkowe/pcc_2004/pcc-3.pdf">formularz PCC-3</a> do Urzędu Skarbowego, właściwego ze względu na adres zamieszkania.
+        \n\nW przypadku, gdy jest więcej niż 1 właściciel nieruchomości, dla kolejnych należy wypełnić <a href="http://www.archbip.mf.gov.pl/bip/_files_/podatki/formularze_podatkowe/pcc_2004/pcc-3a.pdf">formularz PCC-3A</a>
+    </string>
+
+    <string name="body_negocjuj_cenę_wtorny_wstep">Każda obniżka ceny o&#160;1.000&#160;zł, to nawet 2.000&#160;zł mniej kredytu do spłaty!
+        \n\nPamiętaj, że sprzedający jest przygotowany na to, że klienci będą z&#160;nim negocjować cenę.
+        \n\nNawet jeśli uzna Twoją propozycję za zbyt niską, w&#160;zamian, zaproponuje swoją.</string>
+
+    <string name="body_negocjuj_cenę_wtorny">W&#160;ten sposób szybko spotkacie się&#160;<b>w połowie drogi</b>.
+        \n\nW&#160;pierwszej kolejności proponuj cenę <b>jeszcze niższą od tej</b>, którą rzeczywiście uważasz, że jesteś w&#160;stanie wynegocjować.
+        \n\nNajgorsze, co Cię może w tym wypadku spotkać, to brak zgody i&#160;kontr-oferta sprzedawcy.
+        \n\nŚrednio cenę wywoławczą udaje się <b>obniżyć o 5-10%.</b>
+        \n\nW&#160;większości przypadków nie powinno stanowić to większego wyzwania.
+        \n\n<b>Tym bardziej</b>, jeśli na tym M ciąży kredyt hipoteczny sprzedającego!
+        \n\nTaka sytuacja jest dla Ciebie bardzo niebezpieczna.
+        \n\nMało kto zdaje sobie sprawę, że przez chwilę <b>będziesz właścicielem tego kredytu</b> i zostanie Ci tylko <i>zaufać</i> sprzedającemu, że go spłaci.
+        \n\nJednak oczywiście <b>nie zawsze negocjacje idą tak łatwo.</b>
+        \n\nByć może w&#160;danej lokalizacji brakuje mieszkań i&#160;w&#160;kolejce za Tobą stoi jeszcze kilka osób.
+        \n\nW&#160;takim wypadku sprzedający może nie być skory do rozmów.
+        \n\nOprócz tego, możesz jeszcze negocjować np. pozostawienie w M dodatkowego wyposażenia lub pokrycie przez sprzedawcę całości kosztów notarialnych.</string>
+
+
+    <string name="wtorny_zaplac_akapit1">Jesteś już prawowitym właścicielem wymarzonego M.
+        \n\nPora pójść do banku i zlecić wypłatę kredytu na konto sprzedawcy.</string>
+
+
+    <string name="wtorny_zaplac_akapit2">W tym celu trzeba wziąć ze sobą akt notarialny i udać się do znajomej placówki banku.
+        \n\nZwróć uwagę, czy <b>nr konta</b> jest poprawnie wpisany i czy w tytule przelewu będzie widnieć przynajmniej:
+        \n\n- nr aktu notarialnego
+        \n- dokładny adres kupionego M
+        \n- Twoje imię i nazwisko
+        \n- informacja, że jest to przelew z tytułu zapłaty za dane M.
+        \n\nZwykle przelew nie pojawi się natychmiast na koncie sprzedającego.
+        \n\nBank może potrzebować <b>nawet 7 dni </b>roboczych na zweryfikowanie transakcji i wysłanie przelewu.
+
+    </string>
+    <string name="wtorny_odbior_akapit1">Odbiór M z rynku wtórnego sprowadza się w zasadzie tylko do stwierdzenia, czy w M sprzedający pozostawił to, co miał pozostawić, w stanie podobnym do tego, jaki widziałeś wcześniej.
+        \n\nSpisuje się także stan liczników i opisuje komplety kluczy i następuje ich symboliczne oddanie w Twoje ręce.
+        \n\nSprawdź, czy przekazywane klucze faktycznie pasują do zamków.
+</string>
+
+
+    <string name="wtorny_odbior_akapit2">Wszystkie te informacje powinny zostać spisane i podpisane przez obie strony na <b>protokole zdawczo-odbiorczym.</b>
+        \n\nWięcej uwagi powinieneś włożyć w odbiór M, w którym sprzedający zostawia w <b>rozliczeniu jakieś wyposażenie.</b>
+        \n\nJeśli na tym etapie nie znajdziesz wszystkich <b>niezgodności z umową,</b> będzie Ci trudno potem udowodnić, że druga strona nie wywiązała się z jej postanowień.
+        \n\nWszystkie <b>uchybienia</b> należy dokładnie spisać na protokole w polu:\"inne uwagi.\"</string>
+
+    \\WTÓRNY - SPRAWDŹ SPRZEDAJĄCEGO
+
+    <string name="wtorny_sprawdz_sprzedajacego_akapit1">Po obejrzeniu wielu różnych M, w końcu wybrałeś to jedyne?
+    \n\nGratulujemy!
+        \n\nZanim jednak podpiszesz cokolwiek, sprawdź bardzo dokładnie, jak wygląda to M, od strony prawnej. </string>
+
+    <string name="wtorny_sprawdz_sprzedajacego_akapit2">Powinieneś zacząć od sprawdzenia <b>KW - Księgi Wieczystej.</b>
+        \n\nKW sprawdza się dzisiaj w internecie.
+        Są aktualizowane niemal natychmiast.
+        \n\nAby to zrobić, wystarczy wejść na <a href="https://goo.gl/FIEVou">stronę Ministerstwa Sprawiedliwości</a> i wpisać nr księgi, który musi podać Ci sprzedający.
+        \n\nJeśli M nie ma urządzonej KW, to <b>poszukaj innego M.</b>
+    </string>
+
+    <string name="wtorny_sprawdz_sprzedajacego_akapit3">
+        W kolejnym oknie należy wybrać przeglądanie <b>aktualnej treści</b> KW.
+    </string>
+
+    <string name="wtorny_sprawdz_sprzedajacego_akapit4">I już masz wgląd do KW.
+    \n\nKlikając w poszczególne działy, dowiesz się wszystkiego o nieruchomości.
+    \n\n<b>I-O Oznaczenie nieruchomości</b> - zawiera min. adres, opis, powierzchnię.
+    \n\n<b>I-Sp Spis praw związanych z nieruchomością</b> – zawiera opis praw związanych z własnością nieruchomości, opis udziału w nieruchomości wspólnej. Ewentualnie opis prawa użytkowania wieczystego lub opis spółdzielni mieszkaniowej.
+    \n\n<b>II Własność</b> – zawiera opis właściciela i wielkość udziału we własności. Wszystkie osoby z tej listy muszą podpisać z Tobą umowę przedwstępną i umowę końcową, notarialną.
+    \n\n<b>III Prawa, roszczenia i ograniczenia</b> – To tutaj może być wpisana przysłowiowa \"babcia\", która będzie miała prawo mieszkać w tym M, nawet jeśli Ty będziesz jego właścicielem.
+        \n\n<b>UWAGA!</b> Brak wpisów w tym dziale, wcale nie oznacza, że nie kupisz M z \"babcią\"! Aby się upewnić, należy wrócić do działu II - Własność, i na samym dole przyjrzeć się na jakiej podstawie obecny właściciel nabył M. Jeśli jest tam mowa o umowie dożywocia - uważaj!
+        \n\nJeśli ciągle nie masz pewności, zostaje Ci udać się do sądu i przejrzeć papierową dokumentację dotyczącą danej KW.
+    \n\n<b>IV Hipoteki</b> – zawiera dane dotyczące hipoteki lub roszczenia o ustanowienie hipoteki.
+        Jeśli na to M dotychczasowy właściciel wziął kredyt, tutaj będą wszystkie informacje o nim.
+        \n\nTen kredyt przejdzie na Ciebie, jeśli nie dopilnujesz, aby sprzedający zobowiązał się go spłacić, zanim sprzeda Tobie M!.
+    </string>
+
+    <string name="wtorny_sprawdz_sprzedajacego_akapit5">Oprócz wpisanych już hipotek, czy innych roszczeń, mogą pojawić się nowe.
+        \n\nObecny właściciel może <b>za Twoimi plecami</b>, już po podpisaniu z Tobą umowy przedwstępnej:
+        \n\n- przepisać M na swoją córkę
+        \n- wziąć pod jego zastaw nowy kredyt
+        \n- dać prawo dożywotniego zamieszkiwania dla babci
+        \n- lub jego biznes może nie iść dobrze, i kontrahent może obciążyć M przymusową hipoteką o zapłatę należności.
+        \n\nZanim takie informacje zostaną rozpatrzone przez sąd i wpisane w KW, może minąć kilka miesięcy a Ty niczego nie świadomy, kupisz M obciążone długami!
+        \n\nDlatego, jak tylko do sądu wpłynie taki wniosek, sąd umieszcza w KW <b>wzmiankę o wniosku.</b></string>
+
+    <string name="wtorny_sprawdz_sprzedajacego_akapit6">Taka wzmianka to informacja, że za chwilę może być wpisana np. kolejna hipoteka.
+        \n\nCo ciekawe, <i>Sąd Najwyższy wyrokiem z&#160;19 maja 2016&#160;r., sygn.&#160;akt&#160;IV&#160;CSK&#160;535/15</i> stwierdził, że <b>wzmianka nie jest obciążeniem</b> i&#160;zapis o sprzedaży nieobciążonego lokalu nie dotyczy wzmianek.
+        \n\nDlatego zadbaj o to, aby umowa nakazywała, aby sprzedający sprzedał lokal nie tylko nieobciążony żadnym prawem, ale również aby na ten dzień nie było żadnych wzmianek o&#160;wpisach w&#160;KW.
+        \n\nInaczej możesz kupić M obciążone kredytem lub z przysłowiową \"babcią\".</string>
+
+    <string name="wtorny_sprawdz_sprzedajacego_akapit7">Mało kto sprawdza, czy w M, które zamierza kupić, jest <b>prowadzona czyjaś działalność gospodarcza.</b>
+        \n\nA jeśli jest, i takowy przedsiębiorca zalega z podatkami, Urząd Skarbowy może zwrócić się po ich zapłatę do nowego właściciela - czyli do Ciebie!
+        \n\nAby się przed tym uchronić, sprzedający musi wręczyć Ci oryginalne <a href="https://goo.gl/yk197R">zaświadczenie o wysokości zaległości podatkowych zbywającego</a>
+    </string>
+
+    <string name="wtorny_sprawdz_sprzedajacego_akapit8"><b>Nie bój się</b>, jeśli dotychczasowy właściciel ma <b>zaległości czynszowe.</b>
+        \n\nKupując M, masz \"czystą kartotekę\" i dopiero od dnia odebrania M, musisz co miesiąc płacić czynsz.
+        \n\nNie musisz spłacać poprzedniego właściciela.
+        \n\nProblem może pojawić się jednak przy rozliczeniu rocznym.
+        \n\nWspólnota bowiem <b>nie ma obowiązku</b> z pośpiechem rozliczać poprzedniego właściciela, tylko dlatego, że sprzedał M.
+        \n\nWspólnota dokonuje rozliczeń w odstępach rocznych i może się okazać, że pomimo iż poprzedni właściciel <b>nie ma żadnych zaległości</b> i przedstawi Ci nawet zaświadczenie, to i tak na Twoim koncie <b>pojawią się  niedobory</b>, np. z tytułu rozliczenia ogrzewania lub dużego zużycia wody, które niestety <b>będziesz musiał zapłacić</b>.
+        \n\nZ drugiej strony, ewentualne <b>nadwyżki</b>, zostaną na koniec roku, przekazane <b>Tobie</b>.
+        \n\nAby się uchronić przed potencjalnie dużymi stratami, możesz po prostu sprawdzić <b>aktualny stan wszystkich liczników</b> i porównać je z wpłaconymi do tej pory zaliczkami.
+        \n\nJeśli zauważysz, że sprzedający od początku roku <b>zużył wody za 1000zł</b>, a zaliczek na ten cel wpłacił jedynie 200zł, to masz argument do zbicia ceny.
+
+    </string>
+
+    <string name="wtorny_przedwstepna_akapit1">Mało kto wie, że aby wnioskować o kredyt hipoteczny, wcale <b>nie trzeba podpisywać umowy przedwstępnej</b>.
+        \n\nWiele banków zadowoli <b>oświadczenie zbywcy o zamiarze sprzedaży.</b>
+        \n\nNie trzeba nawet wpłacać zadatku.
+        \n\nJednak sprzedający nie będzie <b>niczym zobowiązany</b>, aby sprzedać M właśnie Tobie.
+        \n\nJeśli znajdzie kupca, który zapłaci <b>więcej</b> albo <b>szybciej</b>, to Ty zostaniesz z przysłowiową <i>ręką w nocniku.</i>
+        \n\nAby uniknąć takiej sytuacji, wiele osób podpisuje jednak umowę przedwstępną aby <i>zaklepać</i> sobie to M i wpłaca zadatek.
+        \n\nUmowę przedwstępną można podpisać albo <b>u notariusza</b> w formie aktu notarialnego, albo <b>przygotować ją samemu</b>, na zwykłej kartce papieru.
+        \n\nTa druga opcja, potocznie jest zwana <i>formą cywilnoprawną</i>.
+        \n\nJednak nie ma na świecie umów innych, niż cywilnoprawne.
+        \n\nDlatego będziemy nazywać ją <b>formą zwykłą</b>.
+    </string>
+    <string name="wtorny_przedwstepna_akapit2">Umowa przedwstępna jest opisana w Kodeksie Cywilnym art. 389 ust. 1 <i>\"Jest to umowa, przez którą obie strony zobowiązują się do zawarcia umowy ostatecznej, określając wszystkie istotne jest postanowienia.\"</i>
+        \n\nW <b>minimalistycznej formie</b>, powinna zawierać:
+        \n\n- dane osobowe zgodne z dokumentami i KW,
+        \n- opis nieruchomości,
+        \n- cenę,
+        \n- termin zawarcia umowy końcowej.
+        \n\nUmowa w formie zwykłej musi być podpisana przez wszystkich obecnych właścicieli M i przez wszystkich zamierzających ją kupić.
+        \n\nJeśli sprzedający nie będzie chciał podpisać umowy końcowej, będziesz mógł go <b>jedynie pozwać o zwrot kosztów</b> które poniosłeś, licząc na jej zawarcie oraz sądzić się z nim o zwrot zadatku w podwójnej wysokości.
+        \n\n<b>ZALETY:</b>
+        \n- prosta w przygotowaniu i podpisaniu,
+        \n- darmowa.
+
+        \n\n<b>WADY:</b>
+        \n- łatwo o błędy,
+        \n- wpłacony przez Ciebie zadatek trudno odzyskać. Tym bardziej w podwójnej wysokości.
+    </string>
+
+    <string name="wtorny_przedwstepna_akapit3">Podpisanie umowy u notariusza, <u>do czego Cię zachęcamy</u>, daje Ci tę przewagę, że jeśli sprzedający nie będzie chciał podpisać umowy końcowej, to sąd może <b>pomimo tego</b>, przenieść na Ciebie własność M, nawet <b>bez konieczności podpisywania umowy końcowej.</b>
+        \n\nPrawo to wygasa <b>po 12</b> miesiącach od podpisania umowy przedwstępnej.
+        \n\nDodatkowo możesz również wpisać w KW <b>roszczenie o przeniesienie własności.</b>
+        \n\nDzięki temu, nawet jeśli <b>za Twoimi plecami</b> M zostanie sprzedane komuś innemu, to nawet od nowego właściciela, będziesz mógł dochodzić przeniesienia prawa własności na Ciebie!
+        \n\nI na koniec, <b>co chyba najważniejsze</b>, notariusz może umieścić zapis z <i>art.777 k.p.c., </i>którym właściciel automatycznie podda się egzekucji sądowej, w razie gdyby nie chciał Ci zwrócić dwukrotności zadatku.
+        \n\nDzięki temu, zamiast się o zadatek sądzić, możesz iść prosto do komornika, aby odzyskał dla Ciebie Twoje pieniądze!
+
+        \n\n<b>ZALETY:</b>
+        \n- wolna od błędów
+        \n- notariusz bada wiarygodność załączanych dokumentów
+        \n- pewność zakupu
+        \n- pewność odzyskania zadatku
+
+        \n\n<b>WADY:</b>
+        \n- kosztuje. Za M warte 100.000 zł notariusz może policzyć <b>max. 720zł</b> (zwykle znacznie mniej!)
+    </string>
+
+
+    <string name="wtorny_notariusz_akapit1">Z chwilą złożenia podpisu na akcie notarialnym, stajesz się nowym właścicielem M.
+        \n\nAbyś mógł się nim cieszyć, dopilnuj aby ta umowa przenosząca własność, była dobrze skonstruowana.
+    </string>
+    <string name="wtorny_notariusz_akapit2">Jeśli sprzedający dopiero z pieniędzy od Ciebie spłaci kredyt, który ciąży na M, to znaczy, że <b>kupujesz zadłużone M.</b>
+        \n\nAbyś <b>nie musiał spłacać tego kredytu za niego</b>, potrzebujesz aby sprzedający zobowiązał się go bezwzględnie spłacić w określonym terminie.
+        \n\nOprócz tego, potrzebujesz oryginał zaświadczenia z jego banku, na którym będzie podany nr rachunku do całkowitej spłaty kredytu oraz informacja, że po całkowitej spłacie, <b>bank wykreśli hipotekę.</b>
+        \n\nTwój bank, w którym bierzesz kredyt, najpierw przeleje część pieniędzy na spłatę tamtego kredytu, a dopiero potem resztę na osobiste konto sprzedającego.
+        \n\n<b>Uwaga!</b>
+        \n\nTo, że Twój bank wpłacił pieniądze, to <b>wcale jeszcze nie oznacza</b>, że kredyt sprzedającego został spłacony!
+        \n\nSprzedający musi udać się do oddziału i <b>złożyć odpowiednią dyspozycję spłaty kredytu</b>.
+        \n\nPo tej czynności dostanie od banku ostateczną zgodę na wykreślenie hipoteki, którą będzie musiał Tobie przekazać.
+        \n\n<b>Gdyż to Ty musisz złożyć wniosek o wykreślenie tej hipoteki w sądzie.</b>
+        \n\nJeśli sprzedający tego nie zrobi, to nie dość, że możesz <b>odpowiadać za jego kredyt i musieć go spłacać,</b> to jeszcze Twój bank może <b>wypowiedzieć Ci niedawno podpisaną umowę, </b>bo nie ma jak wpisać swojej hipoteki.
+        \n\nJest zatem czego się obawiać, i jest to <b>mocny argument do negocjacji ceny!</b>
+    </string>
+    <string name="wtorny_notariusz_akapit3">To czy ktoś jest zameldowany w M, czy nie, <b>nie ma dla Ciebie żadnego znaczenia.</b>
+        \n\nMoże być w nim zameldowana cała romska rodzina, i nic Ci nie grozi!
+        \n\n<b>Meldunek nie daje im żadnego prawa!</b> Nie mogą nawet przestąpić progu Twojego M!
+        \n\n<b>Mało tego!</b>
+        \n\nNawet jeśli sprzedający do umowy notarialnej przedstawi Ci <b>zaświadczenie</b>, że w lokalu nikt nie jest zameldowany, to i tak <b>nie masz gwarancji,</b> że sekundę po tym, jak pobrał to zaświadczenie, nie zameldował z powrotem 10 osób!
+        \n\nAby mieć jakąś gwarancję, musiałbyś iść razem z nim do urzędu i patrzeć mu na ręce i nie odstępować go na krok, aż do podpisania umowy notarialnej.
+        \n\nDlatego bardziej sensownym rozwiązaniem jest zapis, że jeśli okaże się, że ktoś w M będzie dalej zameldowany, to na konto sprzedawcy przelejesz odpowiednio mniej pieniędzy, tytułem potrącenia kary umownej.</string>
+
+    <string name="wtorny_notariusz_akapit4"><b>Prawdziwy problem</b> pojawi się dopiero wtedy, gdy z uśmiechem na twarzy przyjdziesz odebrać klucze do własnego M, za które już <b>zapłaciłeś całą kwotę</b>, a drzwi otworzy Ci ubrany w piżamę sprzedający (lub ktokolwiek inny), który oświadczy, że <b>nie zamierza się wyprowadzać.</b>
+        \n\nI nie ważne, czy jest zameldowany czy nie.
+        \n\n<b>Mniejszy problem</b>, jeśli tylko on sam zamieszkuje bezprawnie Twoją nieruchomość.
+        \n\nW akcie notarialnym poddał się on bowiem egzekucji w zakresie opróżnienia i wydania lokalu w trybie <i>art. 777 § 4 kodeksu postępowania cywilnego.</i>
+        \n\nZatem po uzyskaniu w sądzie klauzuli wykonalności, za opłatą 50zł, masz tytuł egzekucyjny w kieszeni i możesz od razu wszczynać procedurę eksmisyjną u komornika, który może wyeksmitować go <i>na bruk</i>.
+        \n\nNo chyba, że akurat jest <b>zima</b>, albo jest osobą ustawowo chronioną <b>(np. bezrobotnym lub emerytem).</b>
+        \n\nWtedy komornik musi mu znaleźć <b>M socjalne</b>, co jak wiesz, może trwać kolejne bardzo długie lata.
+
+        \n\n\n<b>Znacznie gorzej</b>, jeśli razem z nim lokal zajmuje ktoś, kto <b>nie podpisał się na akcie notarialnym</b>, np. jego konkubina z dziećmi.
+        \n\nDla niej nie masz w kieszeni tytułu egzekucyjnego i <b>zanim pójdziesz do komornika</b> z prośbą o eksmisję, czeka Cię batalia w sądzie.
+        \n\nNawet jeśli ją wygrasz, to i tak dopiero <b>zacznie się kolejna</b>, z komornikiem i eksmisją.
+        \n\nWyjściem z takiej sytuacji jest tylko pozwać gminę o odszkodowanie za to, że nie ma dla nich lokalu socjalnego.
+        \n\nMożesz liczyć na odszkodowanie w wysokości miesięcznego czynszu i opłat, które mógłbyś zarabiać, gdybyś wynajął M.
+        \n\n\n<b>Najgorsze, że nie ma idealnego sposobu, aby się przed taką sytuacją zabezpieczyć!</b>
+        \n\nWarto rozmawiać ze sprzedającym i spytać, <b>gdzie</b> zamierza mieszkać po wyprowadzce.
+        \n\nDobrze, żeby pokazał swoją umowę przedwstępną, jeśli też kupuje nowe M. Niech opowie gdzie pracuje, czym się zajmuje.
+        \n\nDa Ci to jako takie pojęcie o jego zamiarach.</string>
+
+
+    <string name="wtorny_media_akapit1">Z chwilą dokonania odbioru M, nie kończą się Twoje obowiązki.
+    \n\nPowinieneś teraz zająć się podpisaniem nowych umów z dostawcami mediów.
+    \n\nSprzedający odpowiada za rachunki do dnia podpisania protokołu odbioru i do wartości liczników na nim zapisanych.</string>
+    <string name="wtorny_media_akapit2">Procedura podpisania umowy z dostawcą prądu i gazu nie jest skomplikowana.
+        \n\nWiąże się najczęściej z jednoczesnym wypowiedzeniem umowy przez poprzedniego właściciela i zawarciem nowej mowy przez Ciebie.
+        \n\nDowiedz się u danego dostawcy, czy wystarczy, że Ty dostarczysz podpisane wcześniej przez poprzedniego właściciela dokumenty czy jednak musi on udać się z nimi osobiście.
+        \n\nMoże się zdarzyć, że konieczne będzie wypełnienie specjalnych formularzy, dlatego nie ma jednej recepty i wszelkich informacji należy szukać u danego operatora.
+        \n\nWszystko po to, abyś mógł korzystać z <b>zamontowanych już liczników</b>, bez konieczności kosztownego ich odłączania i ponownego podłączania.
+    </string>
+    <string name="wtorny_media_akapit3">W tym przypadku poprzedni właściciel zwykle <b>zawczasu wypowiada umowy</b>, więc kiedy Ty wejdziesz do M, prawdopodobnie nie skorzystasz z tych mediów.
+    \n\nSprzedawca może Cię zachęcać do przepisania na Ciebie np. umowy internetu (tzw. cesja), bo np. jeśli teraz ją zerwie, to zapłaci wysoką karę.
+    \n\n<b>Nie musisz się na to godzić</b>, szczególnie jeśli wiesz, że za podobną usługę u konkurencji możesz zapłacić znacznie mniej.</string>
+
+
+    \\ >>>>> CHECKLISTA - ZANIM ODBIERZESZ OD DEWELOPERA >>>>> CHECKLISTA - ZANIM ODBIERZESZ OD
+    DEWELOPERA>>>>> CHECKLISTA - ZANIM ODBIERZESZ OD DEWELOPERA>>>>> CHECKLISTA - ZANIM ODBIERZESZ
+    OD DEWELOPERA>>>>> CHECKLISTA - ZANIM ODBIERZESZ OD DEWELOPERA
+
+    <string name="Checklista_odbior_title">Odbiór M od dewelopera</string>
+
+    <string name="checklista_zanim_kupisz_title">Sprawdź zanim kupisz</string>
+
+    <string name="TITLE_odbior_1">Powierzchnia m2</string>
+
+    <string name="BODY_odbior_1">Często umowa zawiera zapis o możliwym marginesie błędu (zazwyczaj 1-2% lub 1mkw), jednak wszelkie odstępstwo od umowy, daje ci prawo do odstąpienia od niej lub żądania zmniejszenia ceny.
+        \n\nPowierzchnia M może być obliczana w różny sposób.
+        Zależy to od normy, jaka została przyjęta w Twojej umowie deweloperskiej.
+    \n\n<b>- starsza PN -70/B-02365:</b>
+    \nw której do powierzchni wlicza się grubość tynków, powierzchnie z sufitem powyżej 2,2m w 100\% a ze skośnym sufitem od 1,4m do 2,2m w 50\% a poniżej 1,4m nie wlicza się.
+    \n\n<b>- nowsza PN-ISO 9836:1997:</b>
+    \nw której do powierzchni wlicza się grubość ścianek działowych.
+        Powierzchnie ze skośnym sufitem tylko od 1,9m.
+        Nie wlicza się grubości tynków (czyli mierzymy ścianę wykończoną bez listew przypodłogowych.
+    \n\nW obu normach nie wlicza się otworów drzwiowych.
+        W praktyce nie wlicza się również powierzchni balkonów, tarasów itp. (teoretycznie, bo M z dużymi tarasami są zwykle sporo droższe)</string>
+    <string name="TITLE_odbior_2">Podłoga</string>
+    <string name="BODY_odbior_2">
+        Najlepiej jej poziom sprawdzić w wielu miejscach długą poziomicą.
+        Szczególnie w pobliżu ścian i drzwi.
+        Ewentualnie, sprawdzi się w tym celu również zwykła piłeczka.
+		\n\nNiepokój powinny wzbudzać rysy i pęknięcia na wierzchniej warstwie podłogi - wylewce.
+        Szczególnie, jeśli korespondują z tymi na ścianie.
+        \n\nSprawdź, czy między podłogą a ścianą jest zostawiona wąska szczelina - dylatacja.
+        \n\nWarto także zobaczyć, czy podłoga na balkonie jest tak zrobiona, aby bez problemu odpływała z niej woda.
+        Sprawdź więc za pomocą piłeczki, czy na pewno ma spadek.</string>
+    <string name="TITLE_odbior_3">Ściany - kąty</string>
+    <string name="BODY_odbior_3">
+        Ściany i sufity powinny być równe i proste.
+        Należy sprawdzić pion i poziom ścian oraz kąty na ich styku – powinny być proste (chyba, że projekt mówi inaczej).
+        \n\nZnane są przypadki sprawdzania pionów ścian odważnikiem na sznurku i przykładania metrowej deski do każdego kąta, aby sprawdzić czy są idealnie proste.
+        \n\nJednak wystarczy się uważnie przyjrzeć, aby dostrzec nawet drobne niedociągnięcia w tej kwestii.</string>
+    <string name="TITLE_odbior_4">Ściany - powierzchnia</string>
+    <string name="BODY_odbior_4">
+        Ściany i sufity muszą być czyste i suche oraz mieć równo rozłożony tynk (bez zgrubień i wybrzuszeń).
+        \n\nSzczególnie uważnie przyjrzyj się sufitowi jeżeli M jest na ostatnim piętrze.
+        \n\nWszelkie plamy i przebarwienia mogą oznaczać wilgoć, a to z kolei może zwiastować najgorsze – przeciekający dach.</string>
+    <string name="TITLE_odbior_5">Ściany - rysy, spękania</string>
+    <string name="BODY_odbior_5">Nie daj sobie wmówić, że rysy i spękania to rzecz normalna.
+        \n\nW idealnie wybudowanym budynku, z zachowaniem wszystkich zasad projektowania i budowania, bez oszczędzania pieniędzy i czasu - ściany nie pękają i nie mają rys.
+        \n\nRzeczywistość jest jednak inna i praktycznie we wszystkich M oddawanych do użytku, pojawiają się rysy i pęknięcia, szczególnie na niższych piętrach.
+        \n\n<b>CZY JEST TO BEZPIECZNE CZY NIE?</b>
+        \n\nNajważniejsze to sprawdzić, czy pęknięcie się nie powiększa.
+        Aby to zbadać, należy pokryć je w kilku miejscach jednym lub dwoma <i>plackami</i> ze zwykłego gipsu.
+        Jeśli po 1-2 tygodniach placki również spękają, oznacza to kłopoty.
+        \n\nTrzeba też przyjrzeć się głębokości i szerokości rys.
+        Te naprawdę drobne, prawdopodobnie znikną pod warstwą farby lub zaprawy szpachlowej.
+        \n\nTe głębokie, długie i widoczne z daleka na pierwszy rzut oka, wymagają głębszej analizy, skucia tynku i zbadania przez niezależnego inspektora budowlanego.
+        \n\nNie bagatelizuj pęknięć na lekkich ścianach działowych!
+        Mogą sugerować ugięcie stropu pod nimi, przez zbyt duże obciążenie.
+</string>
+    <string name="TITLE_odbior_6">Wentylacja</string>
+    <string name="BODY_odbior_6">
+    Aby sprawdzić czy wentylacja działa sprawnie, wystarczy do otworu kominowego przyłożyć zapaloną zapalniczkę lub zapałkę.
+    \n\nJeśli zauważysz, że płomień ewidentnie kieruje się do otworu lub nawet jest zdmuchiwany przez ciąg powietrza, <b>to dobrze</b>.
+    \n\nWentylacja powinna też pracować bezgłośnie, nie powinieneś słyszeć dochodzących z niej żadnych szumów ani pisków.
+    </string>
+    <string name="TITLE_odbior_0">Zanim zaczniesz</string>
+    <string name="BODY_odbior_0">Podstawowa zasada - bez pośpiechu!
+        \n\nNa odbiór umów się, gdy jest jasno, ponieważ w M nie będzie jeszcze podłączone światło.
+        \n\nZresztą przy świetle elektrycznym gorzej widać, np. nierówności tynków i podłoża. Chyba, że jesteś bardzo dokładny, i chcesz przykładać latarkę do ściany pod różnymi kątami.
+
+        \n\nPrzydadzą Ci się:
+        \n- długa poziomica lub chociaż piłeczka
+        \n- długa miarka
+        \n- projekt M
+        \n- umowa
+
+        \n\nPodczas odbioru M spisuje się <b>protokół</b>, w którym musisz zapisać swoje spostrzeżenia co do wadliwego wykonania różnych elementów.
+        \n\nInnymi słowy, jest to po prostu reklamacja wadliwie wykonanej umowy.
+        \n\nZgodnie z prawem, możesz tam wpisać wszystko, co przyjdzie Ci do głowy.
+        Deweloper nie ma prawa odmówić Ci dokonania jakiegoś wpisu.
+        \n\nJeżeli deweloper nie zgadza się z Tobą, to powinien w ciągu 14 dni od dnia podpisania protokołu doręczyć Ci oświadczenie, że nie uznaje zgłoszonych przez Ciebie wad.
+        Musi też wyjaśnić, <b>dlaczego ich nie uznaje</b>.
+        \n\nWady które uzna, musi naprawić w ciągu 30 dni.
+        \n\nWszystkie kwestie sporne są rozwiązywane dokładnie na takich samych zasadach, jak reklamacje <i>sklepowe</i>.
+        \n\nI na koniec nie bój się, jeśli nie wykryjesz wszystkich wad.
+        \n\nMasz jeszcze 5 lat, na zgłaszanie reklamacji!
+        \n\nJeśli nie czujesz się na siłach, na dokładne sprawdzenie M możesz od razu umówić się z Inspektorem Nadzoru Budowlanego.
+        Zapłacisz mu ok. 200-400zł.
+        \n\nZnajdziesz go np. przez Polski Związek Inżynierów i Techników Budownictwa, który ma oddziały we wszystkich większych miastach.
+
+    </string>
+    <string name="TITLE_odbior_7">Okna i drzwi</string>
+    <string name="BODY_odbior_7">
+        Okna powinny się łatwo otwierać i zamykać.
+        Nie mogą trzeć o ościeżnice - powinny chodzić miękko, płynnie i cicho.
+        \n\nSzyby nie powinny być porysowane ani pęknięte.
+        \n\nRamy okien muszą być czyste, tj. bez żadnych śladów farby.
+        \n\nDrzwi zewnętrzne i wewnętrzne również powinny łatwo się otwierać i zamykać.
+        Sprawdź, czy nie są porysowane ani poobijane.
+        \n\nAby sprawdzić szczelność drzwi i okien, wsuń kawałek papieru w dowolne miejsce między ościeżnicę a skrzydło i spróbuj go wyciągnąć po zamknięciu skrzydła.
+        Jeśli lekko wyciągniesz cały pasek, to znak, że są one nieszczelne.
+</string>
+    <string name="TITLE_odbior_8">Prąd i woda</string>
+    <string name="BODY_odbior_8">
+        Sprawdź, czy podprowadzono wszystkie dopływy i odpływy wody w kuchni i łazience, które są zaznaczone na planie.
+        \n\nZobacz, czy został podprowadzony dopływ i odpływ wody do pralki i zmywarki, oraz czy w ich pobliżu jest gniazdko prądowe.
+        \n\nW Twoim M prawdopodobnie nie ma jeszcze prądu, dlatego trudno sprawdzić na tym etapie, czy instalacja jest prawidłowo wykonana.
+        \n\nPamiętaj, aby pierwszą czynnością po podłączeniu prądu, było sprawdzenie działania instalacji, bowiem kucie świeżo malowanych ścian z pewnością popsuje Ci humor.</string>
+    <string name="TITLE_odbior_9">Garaż i piwnica</string>
+    <string name="BODY_odbior_9">Jeśli razem z M, kupiłeś garaż, miejsce postojowe lub piwnicę, koniecznie sprawdź również te miejsca.
+    \n\nUpewnij się, że Twoje miejsce postojowe czy garaż znajdują się tym miejscu, jakie jest wskazane w projekcie i w umowie.
+    Zmierz również jego powierzchnię i wpisz do protokołu, jeśli jest mniejsza, niż przewidywana.
+    \n\nTo samo dotyczy piwnicy czy komórki lokatorskiej.
+    \n\nCena metra kw. tych powierzchni często jest podobna do ceny metra kw. M, dlatego każde odchylenie od umowy, może stanowić dla Ciebie dużą obniżkę ceny.</string>
+    <string name="TITLE_odbior_10">Standard wykończenia</string>
+    <string name="BODY_odbior_10">
+        Jeśli Twoje M miało zostać wykończone w standardzie wyższym, niż potocznie zwany <i>deweloperski</i>, powinieneś dokładnie skontrolować wykonanie dodatkowych prac.
+    \n\n- płytki powinny być równo położone względem siebie i płaszczyzny ściany oraz podłogi.
+    \n\n- stukając w płytki nie powinieneś słyszeć <i>echa</i>, czyli pustej przestrzeni pod nimi, spowodowanej oszczędzaniem na kleju.
+    \n\n- obejrzyj dokładnie tzw. biały montaż (sedes, umywalka, wanna), czy są dobrze i trwale umocowane.
+        Zwróć uwagę, czy sprzęty są podłączone i czy nie są uszkodzone (zarysowane, obtłuczone).
+    \n\n- podłoga nie powinna skrzypieć ani <i>falować</i>, czyli stąpanie po niej nie powinno tworzyć zagłębień i wybrzuszeń.
+    \n\n- łączenia paneli i parkietu powinny być wolne od szczelin.
+    \n\n- ściany powinny mieć jednolity kolor, bez zacieków i przebarwień.
+    \n\n- drzwi powinny się lekko otwierać i zamykać, lecz nie same, czyli powinny zostać w tej pozycji, w której je zatrzymasz.
+    \n\n- sprawdź wszystkie inne prace, które deweloper zobowiązał się wykonać.</string>
+    <string name="zdolnosc_nota">
+        * Prezentowane obliczenia mają charakter jedynie orientacyjny i tylko w przybliżeniu pokazują, na jaki kredyt hipoteczny możesz liczyć.
+    \nTwoją zdolność kredytową we wszystkich bankach, bezpłatnie obliczy doradca kredytowy.</string>
+
+
+    \\ - SŁOWNICZEK- SŁOWNICZEK- SŁOWNICZEK- SŁOWNICZEK- SŁOWNICZEK- SŁOWNICZEK- SŁOWNICZEK-
+    SŁOWNICZEK- SŁOWNICZEK- SŁOWNICZEK- SŁOWNICZEK- SŁOWNICZEK- SŁOWNICZEK- SŁOWNICZEK
+    - SŁOWNICZEK- SŁOWNICZEK- SŁOWNICZEK- SŁOWNICZEK- SŁOWNICZEK- SŁOWNICZEK- SŁOWNICZEK-
+    SŁOWNICZEK- SŁOWNICZEK- SŁOWNICZEK- SŁOWNICZEK- SŁOWNICZEK- SŁOWNICZEK- SŁOWNICZEK- SŁOWNICZEK
+    - SŁOWNICZEK- SŁOWNICZEK- SŁOWNICZEK- SŁOWNICZEK- SŁOWNICZEK- SŁOWNICZEK- SŁOWNICZEK-
+    SŁOWNICZEK- SŁOWNICZEK- SŁOWNICZEK- SŁOWNICZEK- SŁOWNICZEK- SŁOWNICZEK- SŁOWNICZEK- SŁOWNICZEK
+
+
+    <string name="Zdolnosc_kredytowa">
+        W znaczeniu potocznym, jest to maksymalna kwota, w jakiej bank jest gotów udzielić kredytu danej osobie lub grupie osób (gospodarstwu domowemu).
+    \n\nW rozumieniu banków, jest to ocena, czy klient będzie zdolny do spłaty zaciągniętego kredytu wraz z odsetkami w terminach określonych umową.
+    \n\nKażdy bank przed udzieleniem kredytu jest zobowiązany taką ocenę przeprowadzić.
+        \n\nTo znaczy sprawdzić, czy danego klienta po prostu będzie stać na spłatę kredytu.
+        \n\nCzyli, czy z jednej strony dochody, jakie przedstawił do analizy a z drugiej ponoszone przez niego stałe, miesięczne wydatki, pozwolą udźwignąć niemałą przecież ratę kredytu hipotecznego.
+        \n\nKażdy bank liczy zdolność kredytową według sobie tylko znanych wytycznych i polityki kredytowej oraz związanej z nią ryzyka.
+        Jest to bardzo skomplikowany proces i jest zaszyty w rozbudowanych, programowych systemach informatycznych.
+    </string>
+    <string name="Raty_rowne">Raty równe (inaczej annuitetowe) są najczęściej wybieranym sposobem spłaty kredytu.
+    \n\nIch cechą szczególną jest równa wysokość, przez cały okres kredytowania.
+    \n\nNiestety za tę wygodę płaci się cenę, w postaci wyższych odsetek do spłaty.
+    \n\nDzieje się tak dlatego, ponieważ na początku spłacania kredytu, większość raty stanowią odsetki, a tylko niewielka część idzie na spłatę pożyczonego kapitału.
+    \n\nDopiero pod koniec okresu kredytowania, ta tendencja się odwraca.
+    </string>
+    <string name="Raty_malejace">Polegają na tym, że każda następna rata jest mniejsza od poprzedniej.
+    \n\nPowoduje to dużo większe obciążenie finansowe na początku spłaty kredytu, ale z każdym następnym miesiącem, kwota jaką trzeba oddać do banku, jest mniejsza.
+    \n\nRaty malejące w porównaniu do rat stałych, okazują się jednak tańsze z punktu widzenia klienta.</string>
+    <string name="Suma_odsetek">Jest to łączna kwota, jaką trzeba oddać bankowi, przez cały okres kredytowania, w postaci odsetek, naliczanych od pożyczonego kapitału.
+    \n\nNa ich wysokość wpływa długość okresu spłaty i oprocentowanie.
+    \n\nIm dłuższy kredyt i im wyższe oprocentowanie, tym łączna kwota odsetek będzie większa.
+    </string>
+    <string name="KRS">Krajowy Rejestr Sądowy (w skrócie KRS) daje możliwość uzyskania informacji o każdym przedsiębiorcy podlegającemu obowiązkowi wpisu do KRS (spółki prawa handlowego).
+    \n\nKRS jest jawny pod względem formalnym, czyli każdy zainteresowany ma prawo zapoznać się z danymi wpisanymi do rejestru.
+        \n\nKażdy zainteresowany ma prawo przeglądać akta rejestrowe w siedzibie sądu lub przez internet.</string>
+    <string name="Hipoteka">Ograniczone prawo rzeczowe na nieruchomości, służące zabezpieczeniu wierzytelności (np. umowy kredytowej z bankiem), na mocy którego bank może dochodzić zaspokojenia z nieruchomości, od każdoczesnego właściciela nieruchomości.
+        \n\nOznacza to, że nawet jeśli nastąpi sprzedaż nieruchomości przez dłużnika, to i tak bank może dochodzić zaspokojenia od kogokolwiek, kto stanie się nowym właścicielem.</string>
+    <string name="Transza">Część kredytu, wypłacana zgodnie z harmonogramem, przeznaczona na wykonanie następnego etapu budowy M lub domu.</string>
+    <string name="Protokol_odbioru">Dokument podpisywany przez sprzedającego i kupującego podczas przekazania M, potwierdzający dokonanie przejęcia przez nowego właściciela.
+    \n\nKupując nowe M od dewelopera, w dokumencie tym należy zapisać wszystkie znalezione usterki, które chcemy, aby deweloper naprawił.
+    </string>
+    <string name="Umowa_deweloperska">Umowa na mocy której deweloper zobowiązuje się wybudować M i przenieść prawo własności na kupującego po wybudowaniu.</string>
+    <string name="Umowa_ostateczna">Umowa na mocy której zostaje przeniesione prawo własności na kupującego.
+    \n\nZ chwilą złożenia podpisów M zmienia właściciela.</string>
+    <string name="Ksiega_Wieczysta_KW">To swoisty dowód osobisty nieruchomości.
+        Stanowi podstawę informacji o stanie prawnym nieruchomości.
+    \n\nNie można się zasłaniać nieznajomością wpisów w KW, gdyż dostęp do niej jest otwarty dla wszystkich zainteresowanych.</string>
+    <string name="Doradca_finasowy">Osoba, która zawodowo zajmuje się pośrednictwem w sprzedaży kredytów i innych produktów finansowych.
+    \n\nJego praca jest darmowa dla klientów, gdyż doradca zarabia na prowizjach od banków, do których przyprowadzi klientów.
+    \n\nWysokość prowizji waha się od około 1% do 2% wartości udzielonego kredytu, i zależy od aktualnej umowy z danym bankiem.
+    \n\nDoradcy finansowi są w stanie porównać ze sobą jednocześnie bardzo dużo ofert, co bardzo przyspiesza proces wyboru najlepszej oferty i skorzystanie z niej.
+    \n\nPomaga także wypełnić wszystkie wnioski i załączniki, kompletuje wszystkie niezbędne dokumenty i koordynuje cały proces przyznawania kredytu.</string>
+    <string name="BODY_przed_zakupem_6"></string>
+    <string name="szukasz_kredytu">Jeśli chcesz, możemy skontaktować Cię z bezpłatnym doradcą kredytowym w Twoim mieście.</string>
+
+    <string name="rekojmia">W razie niezgodności między stanem prawnym ujawnionym w księdze wieczystej, a rzeczywistym stanem prawnym, wiążąca i uznawana za prawdziwą jest treść księgi.
+    \n\nTo znaczy, że jeśli w księdze jako właściciel zapisany jest Jan Kowalski i od niego kupisz M, to nawet jeśli faktycznie nie był on właścicielem, to i tak umowa jest ważna i M jest w dalszym ciągu Twoje.
+    \n\nNiestety, jeśli w KW widoczne są wzmianki, rękojmia automatycznie zostaje wyłączona!
+    \n\nRękojmia również nie działa na prawo dożywocia, czyli tak zwane \"M z babcią\".
+        \n\nTo znaczy, że nawet jeśli kupisz M z \"czystą\" księgą w dziale III, to i tak może się okazać, że nie została tam ujawniona umowa dożywocia i niestety możesz kupić M \"z babcią\".</string>
+    <string name="ltv">LTV - skrót od angielskiego <i>loan to value</i>.
+        \n\nCzyli dosłownie: kredyt do wartości.
+        \nJest to wyrażony procentowo wskaźnik ekonomiczny, liczony jako stosunek wysokości kredytu do wartości nieruchomości.
+    \n\nOblicza się go poprzez podzielenie wysokości kredytu przez wartość M.</string>
+    <string name="gospodarstwo_domowe">Grupa osób, mieszkających pod tym samym adresem, które utrzymują się ze wspólnych dochodów.</string>
+
+
+    <string name="prospekt_akapit2">Zakup od firmy, która nie ma za sobą żadnego lub tylko jedno małe przedsięwzięcie, to duże ryzyko.
+        \n\n<b>Bank może nie chcieć w ogóle udzielić Ci kredytu na zakup takiego M.</b>
+        \n\nNie da się też sprawdzić dotychczasowej jakości i terminowości dewelopera oraz jego podejścia do reklamacji itp.</string>
+    <string name="prospekt_akapit3">M z kiepskim widokiem, w cieniu wysokiego budynku albo obok głośnej ulicy, to w przyszłości problem ze sprzedażą lub wynajmem.
+        \n\nWarto zapoznać się z <b>Miejscowym Planem Zagospodarowania Przestrzennego</b>, aby dowiedzieć się, co jeszcze może powstać w przyszłości w okolicy.</string>
+    <string name="prospekt_akapit4">Warto samemu rozszerzyć poszukiwania informacji na ten temat najlepiej wśród osób, które już zamieszkują tę okolicę.
+        \n\n<b>Z prospektu bowiem nie dowiesz się</b> np. o planowanej budowie spalarni śmieci w promieniu 1,1 km tuż przy Twojej przyszłej drodze do pracy.
+        \n\nAlbo o niedawno wybudowanym wysypisku śmieci 900 m za lasem, które dopiero czeka na zapełnienie.</string>
+
+    <string name="prospekt_akapit5">Deweloper może powołać się na polskie normy.
+        \nDo wyboru praktycznie są dwie:
+    \n\n<b> - starsza PN -70/B-02365:</b>
+    \ndo powierzchni wlicza się grubość tynków, powierzchnie z sufitem powyżej 2,2m w 100\%%.
+        \n\nZe skośnym sufitem od 1,4m do 2,2m w 50\%% a poniżej 1,4m nie wlicza się.
+    \n\n<b> - nowsza PN-ISO 9836:1997:</b>
+    \ndo powierzchni wlicza się grubość ścianek działowych.
+        \n\nPowierzchnie ze skośnym sufitem tylko od 1,9m.
+        \n\nNie wlicza się grubości tynków (czyli mierzymy ścianę wykończoną bez listew przypodłogowych.
+
+    \n\n<b>W obu normach nie wlicza się otworów drzwiowych.</b>
+        \n\n<i>W praktyce nie wlicza się również powierzchni balkonów, tarasów itp. (teoretycznie, bo M z dużymi tarasami są zwykle sporo droższe).</i></string>
+
+    <string name="prospekt_akapit6">Nie bój się, jeśli w znacznej części deweloper posiłkuje się kredytem.
+       \n\n<b>Jest to dla Ciebie dobra wiadomość!</b>
+        \n\nBank udzielający mu kredytu uznał go za partnera godnego zaufania i z pewnością sprawdził go wcześniej bardzo dokładnie.
+        \n\n<b>Ale UWAGA:</b>
+        \n\n<i>w takim przypadku <u>bezwzględnie</u> musisz zadbać, abyś otrzymał dokument wydany przez kredytujący bank, w którym  bank ten zezwoli na <b>bezobciążeniowe wyodrębnienie</b> Twojego M z Księgi Wieczystej inwestycji.</i>
+        <b>Inaczej kupisz M z milionowym kredytem do spłaty!</b></string>
+
+    <string name="prospekt_akapit7">Najkorzystniejszy dla Ciebie jest <b>rachunek powierniczy zamknięty.</b>
+        \n\nDeweloper dostanie z niego pieniądze dopiero, kiedy zostaniesz właścicielem M.
+        \n\nNatomiast z <b>rachunku powierniczego otwartego</b> deweloper może wybierać pieniądze w miarę postępu prac, kontrolowanych przez bank.
+        \n\nDlatego, jeśli deweloper <u>splajtuje</u> w połowie inwestycji, pieniądze, które wcześniej wpłaciłeś są praktycznie stracone.
+        \n\nBy Cię przed tym uchronić, deweloper może wykupić nieobowiązkową gwarancję, z której możesz otrzymać w takim przypadku pieniądze, tak jak z ubezpieczenia.
+        \n\nJednak są różne gwarancje, dlatego jeśli deweloper nie ma nic do ukrycia, powinien zechcieć Ci ją udostępnić do zapoznania i skonsultowania z prawnikiem.</string>
+
+    <string name="prospekt_akapit8">Powinno Cię zaniepokoić, jeśli deweloper w pierwszych transzach wymaga stosunkowo dużych wpłat.
+       \n\n<u>Transze powinny być w miarę równe i faktycznie odpowiadać ponoszonym kosztom.</u>
+        \n\nUstawa wymaga przynajmniej 4 etapy, ale nic nie stoi na przeszkodzie, aby deweloper rozpisał budowę na więcej kroków.
+        \n\nBezpieczniej i taniej dla Ciebie jest wypłacać deweloperowi częściej ale mniejsze kwoty, szczególnie na początku.</string>
+
+    <string name="prospekt_akapit9">Deweloper może zastrzec, że cena M może wzrosnąć (np. przez podwyżkę cen materiałów lub wzrostu stawki VAT).
+        \n\nJednak w takim przypadku zawsze musisz mieć zagwarantowane prawo bezkarnie rozwiązać taką umowę i żądać zwrotu całości wpłaconych pieniędzy.
+        \n\n<b>Bez płacenia żadnych kar.</b></string>
+
+    <string name="prospekt_akapit10">Zwróć baczną uwagę na sytuacje, w których deweloper daje sobie samemu prawo do rozwiązania umowy i jakie <b>kary</b> wobec Ciebie przewiduje.
+        \n\nRównocześnie sprawdź, czy Ty masz takie same prawa, <u>czy może jednak mniejsze.</u>
+        \n\nNp. jeśli deweloper z jakichś powodów się spóźni z oddaniem M, masz ustawowe prawo <b>odstąpić</b> od takiej umowy i żądać zwrotu pieniędzy, <u>ale wcześniej musisz dać jeszcze deweloperowi 120 dni na wyrobienie się w czasie.</u>
+        \n\nNatomiast <u>jeśli Ty spóźnisz się z zapłatą raty choćby jeden dzień</u>, deweloper może dać sobie prawo żądać zapłaty przez Ciebie wysokich kar umownych.</string>
+
+    <string name="send_to">Podziel się KupujeM poprzez:</string>
+    <string name="uzupelnij_dane">Uzupełnij poniższe pola i kliknij przycisk.
+        \n\nW odpowiedzi otrzymasz kontakt do najlepszego doradcy finansowego w Twoim mieście, który bezpłatnie pomoże Ci zdobyć najlepszy kredyt hipoteczny.</string>
+
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="negocjuj_takse">
+        Prezentowane stawki, to maksymalne jakie notariusz może pobrać.
+        \n\nPowinieneś poznać ich wysokość przed przystąpieniem do umowy.
+        \n\nZawsze możesz negocjować obniżenie ceny lub poszukać innego notariusza.
+        </string>
+    <string name="bezplatna_pomoc_radca_prawny">Pomoc radcy prawnego uratowała sprawę niejednego klienta.
+    \n\nW większości przypadków zawierzamy deweloperom czy nawet notariuszom, bo przecież gdyby oszukiwali klientów, to by wszyscy o tym wiedzieli i nikt by od niech nie kupował M.
+        \n\nPoza tym, oczarowani fantastycznym M i dobrą ceną tracimy po prostu czujność.
+        \n\nPrzez to prawie nikt nie czyta umów które zamierza podpisać. Nie czyta, bo i tak prawdopodobnie ich nie zrozumie.
+    \n\nProblem bierze się stąd, że do umowy z prawnikiem są zmuszeni zajrzeć dopiero Ci, którym los, przypadek, czy nieuczciwość sprzedawcy pokrzyżowała plany.
+    \n\nOczywiście takich przypadków jest znakomita mniejszość, jednak jeśli już się Tobie przydarzy, stracisz masę pieniędzy, czasu i nerwów.
+    \n\nDlatego skonsultowanie umowy z radcą prawnym pozwoli Ci ubezpieczyć się od wszelkich nieporozumień,
+        gdyż to na radcę prawnego przejdzie cała odpowiedzialność za nienależyte sprawdzenie warunków umowy.
+        \n\nOczywiście zrobisz jak zechcesz: zaryzykujesz albo klikniesz poniższy przycisk i porozmawiasz z doświadczonym prawnikiem.
+    </string>
+    <string name="menu_1">o mnie</string>
+    <string name="menu_2">menu 2</string>
+    <string name="przetwarzanie_danych">wyrażam zgodę na przetwarzanie podanych danych w celu skontaktowania mnie z doradcą zgodnie z ustawą z dn.29.08.97r.o ochronie danych osobowych (tekst jedn.Dz.U.z2002r.Nr101poz.926,ze zm).</string>
+    <string name="o_mnie_akapit_5">Z racji mojego doświadczenia zawodowego wiem, jak trudno jest bezpiecznie kupić M w Polsce.
+        \n\nZ zawodu jestem doradcą finansowym i na co dzień pomagam tym, którzy z różnych powodów mają problem z uzyskaniem kredytu.
+    \n\nCzasami chodzi o naprawienie błędów poprzedniego "doradcy" albo wyprostowanie zawiłości prawnych nieruchomości a czasami jest to problem, któremu czoła stawiam pierwszy raz.
+    \n\nA ponieważ uwielbiam uczyć się nowych rzeczy, postanowiłem, że (będąc totalnym laikiem) stworzę aplikację, która dostarczy całą masę cennych informacji na temat kupowania M.
+    \n\nTak oto zrodził się projekt KupujeM</string>
+    <string name="o_mnie_akapit_6">
+        Jak zauważyłeś aplikacja jest dostępna zupełnie za darmo.
+        \n\nAle to nie znaczy, że nie chciałbym na niej zarabiać.
+        \nKiedy aplikacja uzbiera pokaźne grono użytkowników, liczę na to, że odezwą się do mnie reklamodawcy.
+        \n\nZanim to jednak nastąpi, zachęcam Cię do skontaktowania się z doradcą kredytowym za pomocą aplikacji
+        \n\nZ racji doświadczenia mam zbudowaną grupę bardzo zaufanych doradców kredytowych w całej Polsce i zarabiam na kontaktowaniu ich z potencjalnymi Klientami - czyli z Tobą drogi użytkowniku :).
+    </string>
+
+    <string name="o_mnie_akapit_7">Jeśli nie szukasz teraz kredytu, a chcesz mi pomóc, to proszę Cię o podzielenie się aplikacją z Twoimi znajomymi :) Będę Ci bardzo wdzięczny.  I jestem przekonany, że Twoim znajomi również :)</string>
+
+    <string name="negocjacje_nowe_akapit1">Każda obniżka ceny o&#160;1.000&#160;zł, to nawet 2.000&#160;zł mniej kredytu do spłaty!
+        \n\nŚrednio 20% ceny, to czysty zarobek dla budującego.
+        \n\nWięc z&#160;M wartego 240.000&#160;zł deweloper może zejść z ceny nawet poniżej 200.000&#160;zł aby wyjść na \"zero\".</string>
+
+
+    <string name="negocjacje_nowe_akapit2">Pamiętaj, że deweloper jest przygotowany na to, że klienci będą z&#160;nim negocjować cenę.
+        \n\nNawet jeśli uzna Twoją propozycję za zbyt niską, w&#160;zamian, zaproponuje swoją.
+        \n\nW&#160;ten sposób szybko spotkacie się&#160;\"w połowie drogi\".
+        \n\nDlatego w&#160;pierwszej kolejności <u>proponuj cenę jeszcze niższą</u> od tej, którą rzeczywiście uważasz, że jesteś w&#160;stanie wynegocjować.
+        \n\nZbicie ceny o&#160;około 5-10% w&#160;większości przypadków nie powinno stanowić problemu.</string>
+
+
+    <string name="deweloperska_wstep">Umowa ta musi zostać podpisana u notariusza.
+        Podobnie każda zmiana tej umowy (aneksy).
+        \n\nJej koszt pokrywasz po <u>połowie z&#160;deweloperem.</u>
+        Możesz wskazać swojego notariusza, jeśli zrobi to taniej.</string>
+
+
+    <string name="deweloperska_akapit1">Masz prawo poprosić dewelopera, aby z&#160;wyprzedzeniem przesłał Ci <b>wzór umowy.</b>
+        \n\nDzięki temu będziesz mógł na spokojnie ją przeanalizować z&#160;prawnikiem i&#160;zaproponować swoje poprawki.
+        \n\nWprawdzie postanowienia umowy <u>nieuzgodnione indywidualnie z&#160;Tobą,</u> tylko odgórnie narzucone przez dewelopera, <b>nie są wiążące,</b> <u>jeżeli są sprzeczne z&#160;dobrymi obyczajami i&#160;rażąco naruszają Twoje interesy.</u>
+        \n\nJednak \"odkręcenie\" takiej umowy wiąże się z&#160;procesem sądowym, więc lepiej wcześniej skonsultować ją z prawnikiem.
+        \n\nUmowa deweloperska <u>musi być zgodna</u> ze&#160;wszystkimi informacjami, jakie przeczytałeś w prospekcie informacyjnym.
+    </string>
+    <string name="deweloperska_akapit2">Powinieneś już wiedzieć jakie dokładnie koszty związane z&#160;utrzymaniem M będziesz ponosić, kiedy zostaniesz jego właścicielem.</string>
+
+
+    <string name="deweloperska_akapit3">Jeśli deweloper posiłkuje się kredytem, w&#160;dziale IV Księgi Wieczystej z&#160;pewnością jest wpisana hipoteka.
+            \n\nDlatego w&#160;umowie musi znaleźć się zapis, że dany bank <u>nie przepisze tej hipoteki na Twoje M.</u>
+            \n\nOprócz wpisanych już w KW hipotek, w&#160;miarę upływu czasu, <u>mogą pojawić się nowe,</u> np. hipoteki przymusowe albo same <b>wzmianki</b> o&#160;wpisach.
+            \n\n<b>UWAGA!</b> Taka wzmianka to informacja, że <u>za chwilę może być wpisana kolejna hipoteka!</u>
+            \n\nCo ciekawe, <i>Sąd Najwyższy wyrokiem z&#160;19 maja 2016&#160;r., sygn.&#160;akt&#160;IV&#160;CSK&#160;535/15</i> stwierdził, że <b>wzmianka nie jest obciążeniem!</b>
+            \n\nTo znaczy, ze <u>nie wystarczy</u> zapis mówiący o sprzedaży nieobciążonego M.
+            \n\nMusi się znaleźć także zapis aby na dzień podpisania umowy końcowej, nie było <b>żadnych wzmianek w&#160;KW!</b>
+            \n\nInaczej możesz kupić M <b>obciążone milionowym kredytem!</b></string>
+
+
+    <string name="deweloperska_akapit4">Jest to termin, do którego deweloper zobowiązuje się <u>sprzedać Ci finalnie M.</u>
+            \n\nCzyli <u>przenieść na Ciebie jego własność.</u>
+            \n\nMusi to być <b>konkretna data.</b>
+            \n\nNie gódź się na termin zależny od czegokolwiek.
+            \n\nNp. termin do 2 miesięcy po odebraniu pozwolenia na użytkowanie jest niebezpieczny, bo w&#160;praktyce deweloper <u>może ten dzień przeciągać w&#160;nieskończoność.</u>
+            \n\nDodatkowo możesz wynegocjować zapis, mówiący o <b>karze finansowej za każdy dzień zwłoki</b> dewelopera.</string>
+
+
+    <string name="deweloperska_akapit5"><b>Art.&#160;25 u.o.p.n.&#160;</b>niby jasno, ale jednak mało konkretnie stwierdza tylko, że <i>wysokość odsetek zastrzeżonych na rzecz dewelopera, nie może przewyższać kar umownych zastrzeżonych na rzecz nabywcy.</i>
+            \n\nZatem nic nie stoi na przeszkodzie, aby kary nakładane na dewelopera za każdy dzień zwłoki były wyższe, niż ewentualne odsetki jakie będziesz Ty musiał zapłacić, za ewentualną zwłokę w&#160;zapłacie.
+            \n\nJednak zwróć uwagę, ża ustawa mówi o <b>odsetkach</b> a nie <b>karach</b> finansowych.
+        </string>
+
+
+    <string name="deweloperska_akapit6">Nie wystarczy napisać <i>stan deweloperski</i>, czy <i>pod klucz.</i>
+            \n\nTe pojęcia <u>nigdzie nie są sprecyzowane</u> i&#160;mogą oznaczać dla każdego coś innego.
+            \n\nZwróć uwagę, aby standard wykończenia był bardzo precyzyjnie i&#160;obszernie opisany.
+            \n\nJeśli nie dopilnujesz tego punktu, <b>nie będziesz mógł reklamować</b> np. braku kaloryferów, parapetów czy nawet wylewki podłogowej i&#160;innych!</string>
+
+
+    <string name="deweloperska_akapit7">Może się niestety tak zdarzyć, że pomimo usilnych prób, <b>żaden bank nie będzie chciał udzielić Ci kredytu.</b>
+        \n\nWażne, aby umowa taki scenariusz przewidywała i&#160;pozwalała Ci się w takim wypadku <i>wycofać z umowy bez żadnych kar.</i></string>
+
+
+    <string name="deweloperska_akapit8">Zwykle przy podpisaniu umowy deweloperskiej, deweloper życzy sobie przelania na jego konto pewnej sumy pieniędzy, tytułem <b>zadatku</b> lub <b>zaliczki.</b>
+        \n\nPowinno Ci zależeć, aby była to <u>jak najmniejsza kwota.</u>
+        \n\nJeśli <b>z Twojej winy</b> nie dojdzie do podpisania umowy końcowej, <b>zadatek</b> przepadnie, a <b>zaliczkę</b> deweloper będzie musiał Ci zwrócić.</string>
+
+
+    <string name="deweloperska_akapit9">Deweloper nie może nakładać na Ciebie żadnych dodatkowych, nieuzasadnionych obowiązków, np.:
+        \n\n- zawarcia umowy ubezpieczenia wskazanego przez dewelopera
+        \n\n- konieczności wykończenia lokalu w &#160;jakimś terminie
+        \n\n- partycypowania w&#160;kosztach utrzymania nieruchomości należących do dewelopera,
+        \n\n- składania dodatkowych oświadczeń
+        \n\n- ponoszenia kosztów aneksów
+        \n\n- ponoszenia kosztów eksploatacyjnych pomimo nieodebrania M lub garażu</string>
+
+
+    <string name="deweloperska_akapit10">Jeśli mimo wszystko podpisałeś umowę deweloperską, która jest <u>mniej korzystna</u>, niż wskazują na to przepisy prawa, to <u>takie postanowienia są nieważne</u> i&#160;w&#160;ich miejsce stosuje się odpowiednie zapisy ustawy.
+        \n\nJednak pamiętaj, że <i>jest dobrze, jak jest dobrze.</i>
+        \n\nAle kiedy <b>sprawy zaczną się komplikować</b> i&#160;nie pójdą po naszej myśli, wszystko sprowadzi się do tego, co jest <b>zapisane czarno na białym na umowie</b>.
+        \n\nDlatego przyłóż <b>olbrzymią wagę</b> do każdego zdania zapisanego w umowie, a najlepiej przed podpisaniem <b>skonsultuj ją z&#160;prawnikiem,</b> aby byc zabezpieczonym na każdą ewentualność.</string>
+
+
+    <string name="zaliczka">Zaliczka jest zwrotna. \n\nTo znaczy, że jeśli nie dojdzie do podpisania umowy końcowej, sprzedający musi zwrócić Ci wpłaconą wcześniej tym tytułem kwotę pieniędzy.</string>
+
+
+    <string name="zadatek">Zadatek przepada, jeśli z <b>Twojej winy</b> nie dojdzie do podpisania umowy końcowej.
+    \n\nJeśli z winy sprzedającego, to on musi zwrócić Ci zadatek w <b>podwójnej wysokości.</b>
+    \n\n<b>Pytanie zasadnicze:</b>
+        \n\kiedy <b>nie dostaniesz kredytu</b> w banku, to z czyjej winy nie dojdzie do podpisania umowy końcowej?
+        \n\nTwojej czy może jednak banku?
+        \n\nOdpowiedź na to pytanie nie zawsze jest jednoznaczna i możesz się od takiego zapisu <i>wykręcić</i>.
+    \n\nGorzej dla Ciebie, jeśli zapis jest sformułowany w nieco inny sposób i zamiast o <i>Twojej winie</i>, mówi raczej o <i>winie leżącej po Twojej stronie</i>. Bowiem załatwienie kredytu leży jak najbardziej po twojej stronie.</string>
+
+    <string name="skontaktujemy_wstep">Wypełnij formularz a doradca finansowy sprawdzi Twoją zdolność i przedstawi wszystkie oferty 14 banków</string>
+
+    <string name="skontaktujemy">Doradca oddzwoni i umówi się z Tobą na <b>bezpłatne</b> spotkanie, na którym przedstawi Ci oferty wszystkich banków i pomoże wybrać najtańszą!
+        </string>
+
+    <string name="instrukcja_flatUp">Jak pobrać pierwszą ofertę?
+    </string>
+    <string name="samouczek_tytul_1">1. Pobierz i otwórz aplikację z nieruchomościami na sprzedaż</string>
+    <string name="samouczek_akapit_1">Najbardziej popularnymi aplikacjami do wyszukiwania ofert sprzedaży nieruchomości w Polsce, są
+        <a href="https://play.google.com/store/apps/details?id=pl.otodom">Otodom</a>,
+        <a href="https://play.google.com/store/apps/details?id=com.melog.re.droid.domy">Domy.pl</a>,
+        <a href="https://play.google.com/store/apps/details?id=pl.morizon.client">Morizon</a>,
+        <a href="https://play.google.com/store/apps/details?id=pl.polskapresse.dom">Gratka</a>
+
+    </string>
+    <string name="samouczek_tytul_2">2. Znajdź interesującą ofertę</string>
+    <string name="samouczek_akapit_2">Po prostu korzystaj z wybranej aplikacji i znajdź interesujące Cię M. Kiedy klikniesz w konkretną ofertę, znajdź przycisk udostępniania (zwykle symbol połączonych trzech kropek). </string>
+    <string name="samouczek_tytul_3">3. Wybierz z listy KupujeM</string>
+    <string name="samouczek_akapit_3">Na liście dostępnych aplikacji znajdź i kliknij KupujeM. Za pierwszym razem może być konieczne rozwinięcie dodatkowych opcji. W miarę używania KupujeM, powinna pojawiać się na pierwszym miejscu do wyboru. </string>
+    <string name="samouczek_tytul_4">4. Gotowe!</string>
+    <string name="samouczek_akapit_4">Właśnie pobrałeś i zapisałeś swoją pierwszą ofertę!
+        Możesz tu zapisywać wszystkie oferty jakie tylko znajdziesz w jakiejkolwiek aplikacji związanej z wyszukiwaniem ofert sprzedaży M. </string>
+    <string name="asset_statements" translatable="false">[{\n  \"relation\": [\"delegate_permission/common.handle_all_urls\"],\n  \"target\": {\n    \"namespace\": \"web\",\n    \"site\": \"http://middlers.pl\",\n  }\n}]</string>
+    <string name="tile_kredyt_title">Porównaj oferty 14 banków</string>
+
+    <string name="news">Newsy</string>
+    <string name="Powierzchnia_uzytkowa">W polskim prawie <b>nie ma jednej, ogólnej definicji</b> powierzchni użytkowej.
+        \n\nRóżne jej wersje znajdziemy w:
+        \n\n - ustawie o podatkach i opłatach lokalnych
+        \n\n - o podatku od spadków i darowizn
+        \n\n - o ochronie lokatorów, mieszkaniowym zasobie gminy
+        \n\n - Rozporządzeniu Ministra Sprawiedliwości w sprawie zakładania i prowadzenia ksiąg wieczystych
+        \n\n - Polskich Normach
+        \n\n - Standardach międzynarodowych
+
+        \n\nZatem zanim sprawdzimy definicję, zastanówmy się <b>do jakiego celu ją potrzebujemy</b>, ponieważ w każdym z podanych przypadków możemy dojść do różnych wniosków.
+
+        \n\n - Na potrzeby użytkowników KupujeM najczęściej wykorzystywana definicja zawarta jest w <b>Polskich normach</b>, ponieważ to na nie deweloperzy powołują się w umowach o wybudowanie M.
+
+        \n\n<b> - starsza PN -70/B-02365:</b>
+        \ndo powierzchni wlicza się grubość tynków, powierzchnie z sufitem powyżej 2,2m w 100\%.
+        \n\nZe skośnym sufitem od 1,4m do 2,2m w 50\% a poniżej 1,4m nie wlicza się.
+        \n\n<b> - nowsza PN-ISO 9836:1997:</b>
+        \ndo powierzchni wlicza się grubość ścianek działowych.
+        \n\nPowierzchnie ze skośnym sufitem tylko od 1,9m.
+        \n\nNie wlicza się grubości tynków (czyli mierzymy ścianę wykończoną bez listew przypodłogowych.
+
+        \n\n<b>W obu normach nie wlicza się otworów drzwiowych.</b>
+        \n\n<i>W praktyce nie wlicza się również powierzchni balkonów, tarasów itp. (teoretycznie, bo M z dużymi tarasami są zwykle sporo droższe).</i>
+
+
+</string>
+
+
+    <string name="Powierzchnia_calkowita">Całą (i obszerną) definicję powierzchni całkowitej można znaleźć w polskiej normie<b> PN-ISO 9836:1997.</b>
+    \n\nNajważniejsze punkty to:
+    \n\n - Powierzchnia całkowita jest sumą powierzchni całkowitych wszystkich kondygnacji.
+    \n\n - Powierzchnia całkowita każdej kondygnacji mierzona jest na poziomie posadzki po obrysie zewnętrznym budynku z uwzględnieniem tynków, okładzin i balustrad.
+    \n\n - Wnęki i występy dla celów konstrukcyjnych lub estetycznych oraz wyprofilowania nie są wliczane, jeżeli nie zmieniają powierzchni netto kondygnacji.
+    \n\n - Powierzchnia kondygnacji netto jest powierzchnią ograniczoną przez elementy zamykające.
+    \n\n - Do powierzchni kondygnacji netto wliczane są także elementy nadające się do demontażu takie jak: ścianki działowe, rury, kanały.
+    \n\n - Do powierzchni kondygnacji netto nie są wliczane powierzchnie otworów na drzwi i okna oraz nisze w elementach zamykających.
+    \n\n - Powierzchnia kondygnacji netto dzieli się na:
+        \n  - powierzchnię użytkową
+        \n  - powierzchnię usługową
+        \n  - powierzchnię ruchu
+    </string>
+    <string name="wyczerpales_limit_kalkulatory_obliczZdolnosc">Aby dalej korzystać z tej funkcji, wykup pełny dostęp do aplikacji</string>
+    <string name="title_activity_o_aplikacji">O_aplikacji</string>
+    <string name="large_text">
+    Witaj!\n\n
+
+    Dziękuję za zainstalowanie mojej aplikacji!
+
+        \n\nMam głęboką nadzieję, że znajdziesz w niej wiele cennych informacji i narzędzi, dzięki którym bezpiecznie kupisz własne M.
+
+        \n\nPomysł na stworzenie KupujeM zrodził się w mojej głowie już po kilku latach od otwarcia mojej firmy middlers sp. z o.o. we Wrocławiu zajmującej się pośrednictwem w sprzedaży kredytów hipotecznych.
+
+        \n\nZauważyłem, że moi klienci coraz częściej zwracali się do mnie z pytaniami związanymi nie tylko z kredytem, ale również z samym procesem zakupu nieruchomości.
+
+        \n\nInteresowały ich niuanse w umowach oraz sprawdzone sposoby na dokładne sprawdzenie nieruchomości przed i po zakupie.
+
+
+        \n\nA ponieważ jestem otwarty na nowe technologie, szybko wpadłem na pomysł, aby samodzielnie stworzyć aplikację mobilną na Androida :)
+
+        \n\nOczywiście nigdy wcześniej nie miałem styczności z programowaniem i wszystkiego uczyłem się samodzielnie od podstaw. Zatem proszę wybaczyć drobne niedociągnięcia w aplikacji :)
+
+        \n\nCały czas się uczę nowych rzeczy i pomału dodaję różne funkcjonalności do aplikacji.
+
+        \n\nJeszcze raz dziękuję i proszę o pozostawienie opinii w Sklepie Google Play i oczywiście o podzielenie się KupujeM ze swoimi znajomymi!
+
+        \n\nBędę bardzo wdzięczny!
+
+        \n\nMarek Jakubicki / KupujeM app developer
+
+
+
+
+
+
+
+
+
+
+
+    </string>
+    <string name="action_settings">Settings</string>
+
+
+</resources>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

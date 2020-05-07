@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbarSlowniczek"
+        android:elevation="4dp"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        />
+
+    <!-- Editext for Search -->
+
+        <EditText
+            android:backgroundTint="@color/slownik"
+            android:id="@+id/inputSearch"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Wpisz czego szukasz..."
+            android:layout_marginTop="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:selectAllOnFocus="false"
+            android:layout_marginBottom="16dp"
+            android:inputType="text"/>
+
+
+    <View style="@style/Divider" />
+
+    <ListView
+        android:id="@+id/list_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <View style="@style/Divider" />
+
+</LinearLayout>

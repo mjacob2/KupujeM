@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_send_email"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context="pl.middlers.kupujem.SendEmail">
+
+<android.support.constraint.ConstraintLayout
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="0dp"
+        android:layout_height="56dp"
+        android:background="?attr/colorPrimary"
+        android:elevation="4dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light">
+
+    </android.support.v7.widget.Toolbar>
+
+
+
+
+
+    <TextView
+        android:id="@+id/textView66"
+        style="@style/wstep_1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/skontaktujemy_wstep"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar" />
+
+    <TextView
+        android:id="@+id/textView65"
+        style="@style/wstep"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/skontaktujemy"
+        android:textSize="16sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView66"
+        tools:layout_conversion_absoluteHeight="57dp"
+        tools:layout_conversion_absoluteWidth="328dp"
+        tools:layout_conversion_absoluteX="16dp"
+        tools:layout_conversion_absoluteY="141dp" />
+
+
+    <ImageView
+        android:id="@+id/formularz_icon"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:padding="8dp"
+        android:src="@drawable/formularz_icon_3"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView65"
+        tools:layout_conversion_absoluteHeight="48dp"
+        tools:layout_conversion_absoluteWidth="48dp"
+        tools:layout_conversion_absoluteX="8dp"
+        tools:layout_conversion_absoluteY="215dp" />
+
+
+    <EditText
+        android:id="@+id/preferowany_czas_kontaktu_editText"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="@color/pomoc"
+        android:hint="wstępna kwota kredytu"
+        android:inputType="number"
+        android:maxLength="10"
+        android:maxLines="1"
+        app:layout_constraintLeft_toRightOf="@+id/formularz_icon"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView65"
+        tools:layout_conversion_absoluteHeight="42dp"
+        tools:layout_conversion_absoluteWidth="288dp"
+        tools:layout_conversion_absoluteX="72dp"
+        tools:layout_conversion_absoluteY="219dp" />
+
+
+    <EditText
+        android:id="@+id/imie_i_nazwisko_editText"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="@color/pomoc"
+        android:hint="imię i nazwisko"
+        android:inputType="textCapWords"
+        android:maxLength="50"
+        android:maxLines="1"
+        app:layout_constraintLeft_toRightOf="@+id/formularz_icon"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/preferowany_czas_kontaktu_editText"
+        tools:layout_conversion_absoluteHeight="42dp"
+        tools:layout_conversion_absoluteWidth="288dp"
+        tools:layout_conversion_absoluteX="72dp"
+        tools:layout_conversion_absoluteY="275dp" />
+
+
+    <EditText
+        android:id="@+id/miasto_editText"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="@color/pomoc"
+        android:hint="miasto"
+        android:inputType="textCapWords"
+        android:maxLength="20"
+        android:maxLines="1"
+        app:layout_constraintLeft_toRightOf="@+id/formularz_icon"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imie_i_nazwisko_editText"
+        tools:layout_conversion_absoluteHeight="42dp"
+        tools:layout_conversion_absoluteWidth="288dp"
+        tools:layout_conversion_absoluteX="72dp"
+        tools:layout_conversion_absoluteY="329dp" />
+
+
+    <EditText
+        android:id="@+id/nr_telefonu_editText"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="@color/pomoc"
+        android:hint="nr. telefonu"
+        android:inputType="phone"
+        android:maxLength="15"
+        android:maxLines="1"
+        app:layout_constraintLeft_toRightOf="@+id/formularz_icon"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/miasto_editText"
+        tools:layout_conversion_absoluteHeight="42dp"
+        tools:layout_conversion_absoluteWidth="288dp"
+        tools:layout_conversion_absoluteX="72dp"
+        tools:layout_conversion_absoluteY="383dp" />
+
+
+    <CheckBox
+        android:id="@+id/checkbox_przetwarzanie_danych"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/przetwarzanie_danych"
+        android:textSize="10sp"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toRightOf="@+id/formularz_icon"
+        app:layout_constraintRight_toRightOf="@+id/nr_telefonu_editText"
+        app:layout_constraintTop_toBottomOf="@+id/nr_telefonu_editText"
+        tools:layout_conversion_absoluteHeight="48dp"
+        tools:layout_conversion_absoluteWidth="272dp"
+        tools:layout_conversion_absoluteX="72dp"
+        tools:layout_conversion_absoluteY="431dp" />
+
+    <Button
+        android:id="@+id/emailSend_button"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="@color/pomoc"
+        android:text="wyślij"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/checkbox_przetwarzanie_danych"
+        tools:layout_conversion_absoluteHeight="48dp"
+        tools:layout_conversion_absoluteWidth="88dp"
+        tools:layout_conversion_absoluteX="16dp"
+        tools:layout_conversion_absoluteY="493dp" />
+
+
+</android.support.constraint.ConstraintLayout>
+
+
+    </ScrollView>

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "883650648145",
+    "firebase_url": "https://kupujem-ec6bb.firebaseio.com",
+    "project_id": "kupujem-ec6bb",
+    "storage_bucket": "kupujem-ec6bb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:883650648145:android:7e9dc3072f49de60",
+        "android_client_info": {
+          "package_name": "pl.middlers.kupujem"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "883650648145-st621uogfr60s1lnb1qd5kcigfqn6v4v.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "pl.middlers.kupujem",
+            "certificate_hash": "2e8dfe7dc5078d7ed6d429cb72140c0741d2d85f"
+          }
+        },
+        {
+          "client_id": "883650648145-ebngqlidtvkoccmof60mo4one4h7i5mr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCSylCMDPqkIYdrKAjEBsux5UycorPycNI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "883650648145-ebngqlidtvkoccmof60mo4one4h7i5mr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

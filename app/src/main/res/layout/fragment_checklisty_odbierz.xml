@@ -1,0 +1,445 @@
+
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:id="@+id/activity_checklist_obior"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+tools:context="pl.middlers.kupujem.Fragment_Checklisty_Odbierz">
+<LinearLayout
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin">
+
+    <View style="@style/Divider" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:background="?attr/selectableItemBackground"
+        android:clickable="true"
+        android:gravity="center_vertical"
+        android:onClick="start"
+        android:orientation="horizontal">
+
+        <CheckBox
+            android:theme="@style/checkBoxStyle"
+            android:id="@+id/checkboxTABodbierz01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp" />
+
+        <TextView
+            android:id="@+id/napisTABodbierz01"
+            style="@style/Title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:layout_toRightOf="@id/checkboxTABodbierz01"
+            android:layout_weight="2"
+            android:text="@string/TITLE_odbior_0"
+            android:textColor="@android:color/black" />
+
+        <ImageView
+            android:layout_width="20sp"
+            android:layout_height="30sp"
+            android:layout_alignParentRight="true"
+            android:layout_centerInParent="true"
+            android:layout_marginRight="8sp"
+            android:src="@drawable/strzalka_w_dol_hires" />
+
+
+    </RelativeLayout>
+    <View style="@style/Divider" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:background="?attr/selectableItemBackground"
+        android:clickable="true"
+        android:gravity="center_vertical"
+        android:onClick="powierzchnia"
+        android:orientation="horizontal">
+
+        <CheckBox
+            android:theme="@style/checkBoxStyle"
+            android:id="@+id/checkboxTABodbierz02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp" />
+
+        <TextView
+            android:id="@+id/napisTABodbierz02"
+            style="@style/Title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:layout_toRightOf="@id/checkboxTABodbierz02"
+            android:layout_weight="2"
+            android:text="@string/TITLE_odbior_1"
+            android:textColor="@android:color/black" />
+
+        <ImageView
+            android:layout_width="20sp"
+            android:layout_height="30sp"
+            android:layout_alignParentRight="true"
+            android:layout_centerInParent="true"
+            android:layout_marginRight="8sp"
+            android:src="@drawable/strzalka_w_dol_hires" />
+
+
+    </RelativeLayout>
+
+    <View style="@style/Divider" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:background="?attr/selectableItemBackground"
+        android:clickable="true"
+        android:onClick="podlogi">
+
+        <CheckBox
+            android:theme="@style/checkBoxStyle"
+            android:id="@+id/checkboxTABodbierz03"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+
+            />
+
+        <TextView
+            android:id="@+id/napisTABodbierz03"
+            style="@style/Title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:layout_toRightOf="@id/checkboxTABodbierz03"
+            android:text="@string/TITLE_odbior_2"
+            android:textColor="@android:color/black" />
+
+        <ImageView
+            android:layout_width="20sp"
+            android:layout_height="30sp"
+            android:layout_alignParentRight="true"
+            android:layout_centerInParent="true"
+            android:layout_marginRight="8sp"
+            android:src="@drawable/strzalka_w_dol_hires" />
+    </RelativeLayout>
+
+    <View style="@style/Divider" />
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:background="?attr/selectableItemBackground"
+        android:clickable="true"
+        android:onClick="sciany_katy">
+
+        <CheckBox
+            android:theme="@style/checkBoxStyle"
+            android:id="@+id/checkboxTABodbierz04"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp" />
+
+        <TextView
+            android:id="@+id/napisTABodbierz04"
+            style="@style/Title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:layout_toRightOf="@id/checkboxTABodbierz04"
+            android:text="@string/TITLE_odbior_3"
+            android:textColor="@android:color/black" />
+
+        <ImageView
+            android:layout_width="20sp"
+            android:layout_height="30sp"
+            android:layout_alignParentRight="true"
+            android:layout_centerInParent="true"
+            android:layout_marginRight="8sp"
+            android:src="@drawable/strzalka_w_dol_hires" />
+    </RelativeLayout>
+
+    <View style="@style/Divider" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:background="?attr/selectableItemBackground"
+        android:clickable="true"
+        android:onClick="sciany_powierzchnia">
+
+        <CheckBox
+            android:theme="@style/checkBoxStyle"
+            android:id="@+id/checkboxTABodbierz05"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp" />
+
+        <TextView
+            android:id="@+id/napisTABodbierz05"
+            style="@style/Title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:layout_toRightOf="@id/checkboxTABodbierz05"
+            android:text="@string/TITLE_odbior_4"
+            android:textColor="@android:color/black" />
+
+        <ImageView
+            android:layout_width="20sp"
+            android:layout_height="30sp"
+            android:layout_alignParentRight="true"
+            android:layout_centerInParent="true"
+            android:layout_marginRight="8sp"
+            android:src="@drawable/strzalka_w_dol_hires" />
+    </RelativeLayout>
+
+    <View style="@style/Divider" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:background="?attr/selectableItemBackground"
+        android:clickable="true"
+        android:onClick="sciany_rysy">
+
+        <CheckBox
+            android:theme="@style/checkBoxStyle"
+            android:id="@+id/checkboxTABodbierz06"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp" />
+
+        <ImageView
+            android:layout_width="20sp"
+            android:layout_height="30sp"
+            android:layout_alignParentRight="true"
+            android:layout_centerInParent="true"
+            android:layout_marginRight="8sp"
+            android:src="@drawable/strzalka_w_dol_hires" />
+
+        <TextView
+            android:id="@+id/napisTABodbierz06"
+            style="@style/Title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="19dp"
+            android:text="@string/TITLE_odbior_5"
+            android:textColor="@android:color/black"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/checkboxTABodbierz06"
+            android:layout_toEndOf="@+id/checkboxTABodbierz06"
+            android:layout_marginStart="19dp" />
+    </RelativeLayout>
+
+    <View style="@style/Divider" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:background="?attr/selectableItemBackground"
+        android:clickable="true"
+        android:onClick="wentylacja">
+
+        <CheckBox
+            android:theme="@style/checkBoxStyle"
+            android:id="@+id/checkboxTABodbierz07"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp" />
+
+        <TextView
+            android:id="@+id/napisTABodbierz07"
+            style="@style/Title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:layout_toRightOf="@id/checkboxTABodbierz07"
+            android:text="@string/TITLE_odbior_6"
+            android:textColor="@android:color/black" />
+
+        <ImageView
+            android:layout_width="20sp"
+            android:layout_height="30sp"
+            android:layout_alignParentRight="true"
+            android:layout_centerInParent="true"
+            android:layout_marginRight="8sp"
+            android:src="@drawable/strzalka_w_dol_hires" />
+    </RelativeLayout>
+
+    <View style="@style/Divider" />
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:background="?attr/selectableItemBackground"
+        android:clickable="true"
+        android:onClick="okna">
+
+        <CheckBox
+            android:theme="@style/checkBoxStyle"
+            android:id="@+id/checkboxTABodbierz08"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp" />
+
+        <TextView
+            android:id="@+id/napisTABodbierz08"
+            style="@style/Title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:layout_toRightOf="@id/checkboxTABodbierz08"
+            android:text="@string/TITLE_odbior_7"
+            android:textColor="@android:color/black" />
+
+        <ImageView
+            android:layout_width="20sp"
+            android:layout_height="30sp"
+            android:layout_alignParentRight="true"
+            android:layout_centerInParent="true"
+            android:layout_marginRight="8sp"
+            android:src="@drawable/strzalka_w_dol_hires" />
+    </RelativeLayout>
+
+    <View style="@style/Divider" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:background="?attr/selectableItemBackground"
+        android:clickable="true"
+        android:onClick="woda">
+
+        <CheckBox
+            android:theme="@style/checkBoxStyle"
+            android:id="@+id/checkboxTABodbierz09"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp" />
+
+        <TextView
+            android:id="@+id/napisTABodbierz09"
+            style="@style/Title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:layout_toRightOf="@id/checkboxTABodbierz09"
+            android:text="@string/TITLE_odbior_8"
+            android:textColor="@android:color/black" />
+
+        <ImageView
+            android:layout_width="20sp"
+            android:layout_height="30sp"
+            android:layout_alignParentRight="true"
+            android:layout_centerInParent="true"
+            android:layout_marginRight="8sp"
+            android:src="@drawable/strzalka_w_dol_hires" />
+    </RelativeLayout>
+
+    <View style="@style/Divider" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:background="?attr/selectableItemBackground"
+        android:clickable="true"
+        android:onClick="garaz_piwnica">
+
+        <CheckBox
+            android:theme="@style/checkBoxStyle"
+            android:id="@+id/checkboxTABodbierz10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp" />
+
+        <TextView
+            android:id="@+id/napisTABodbierz10"
+            style="@style/Title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:layout_toRightOf="@id/checkboxTABodbierz10"
+            android:text="@string/TITLE_odbior_9"
+            android:textColor="@android:color/black" />
+
+        <ImageView
+            android:layout_width="20sp"
+            android:layout_height="30sp"
+            android:layout_alignParentRight="true"
+            android:layout_centerInParent="true"
+            android:layout_marginRight="8sp"
+            android:src="@drawable/strzalka_w_dol_hires" />
+    </RelativeLayout>
+
+    <View style="@style/Divider" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:background="?attr/selectableItemBackground"
+        android:clickable="true"
+        android:onClick="wykonczenie">
+
+        <CheckBox
+            android:theme="@style/checkBoxStyle"
+            android:id="@+id/checkboxTABodbierz11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp" />
+
+        <TextView
+            android:id="@+id/napisTABodbierz11"
+            style="@style/Title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:layout_toRightOf="@id/checkboxTABodbierz11"
+            android:text="@string/TITLE_odbior_10"
+            android:textColor="@android:color/black" />
+
+        <ImageView
+            android:layout_width="20sp"
+            android:layout_height="30sp"
+            android:layout_alignParentRight="true"
+            android:layout_centerInParent="true"
+            android:layout_marginRight="8sp"
+            android:src="@drawable/strzalka_w_dol_hires" />
+    </RelativeLayout>
+
+    <View style="@style/Divider" />
+
+
+</LinearLayout>
+
+
+
+</ScrollView>

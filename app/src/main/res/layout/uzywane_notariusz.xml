@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_wtorny_przedwstepna"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context="pl.middlers.kupujem.Nowe_kredyt">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:elevation="4dp"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light">
+
+    </android.support.v7.widget.Toolbar>
+
+    <ScrollView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin">
+
+
+        <TextView
+            style="@style/wstep"
+            android:text="@string/wtorny_notariusz_akapit1" />
+
+        <TextView
+            style="@style/podtytul"
+            android:text="ZADŁUŻONE M" />
+
+        <TextView
+            style="@style/akapit"
+            android:text="@string/wtorny_notariusz_akapit2" />
+
+        <TextView
+            android:id="@+id/textView4"
+            style="@style/podtytul"
+            android:text="KTO ZAMELDOWANY" />
+
+        <TextView
+            style="@style/akapit"
+            android:text="@string/wtorny_notariusz_akapit3" />
+
+        <TextView
+            style="@style/podtytul"
+            android:text="DZIKI LOKATOR" />
+
+        <TextView
+            style="@style/akapit"
+            android:text="@string/wtorny_notariusz_akapit4" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="16dp"
+            android:backgroundTint="@color/colorAccent"
+            android:elevation="2dp"
+            android:onClick="pomoc_click_radca_prawny"
+            android:text="skonsultuj umowę z prawnikiem"
+            android:textColor="@color/white"
+            android:textSize="14sp" />
+
+    </LinearLayout>
+</ScrollView>
+</LinearLayout>

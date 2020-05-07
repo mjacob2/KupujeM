@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_wtorny_przedwstepna"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:elevation="4dp"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light">
+
+    </android.support.v7.widget.Toolbar>
+
+    <ScrollView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin">
+
+
+        <TextView
+            style="@style/wstep"
+            android:text="@string/deweloperska_wstep" />
+
+        <TextView
+            style="@style/podtytul"
+            android:text="WZÓR UMOWY" />
+
+        <TextView
+            style="@style/akapit"
+            android:text="@string/deweloperska_akapit1" />
+
+        <TextView
+            style="@style/podtytul"
+            android:text="KOSZTY ZWIĄZANE Z UTRZYMANIEM" />
+
+        <TextView
+            style="@style/akapit"
+            android:text="@string/deweloperska_akapit2" />
+
+        <TextView
+            style="@style/podtytul"
+            android:text="BEZOBCIĄŻENIOWE WYODRĘBNIENIE" />
+
+        <TextView
+            style="@style/akapit"
+            android:text="@string/deweloperska_akapit3" />
+
+        <TextView
+            style="@style/podtytul"
+            android:text="TERMIN UMOWY KOŃCOWEJ" />
+
+        <TextView
+            style="@style/akapit"
+            android:text="@string/deweloperska_akapit4" />
+
+        <TextView
+            style="@style/podtytul"
+            android:text="KARY UMOWNE" />
+
+        <TextView
+            style="@style/akapit"
+            android:text="@string/deweloperska_akapit5" />
+
+        <TextView
+            style="@style/podtytul"
+            android:text="STANDARD WYKOŃCZENIA" />
+
+        <TextView
+            style="@style/akapit"
+            android:text="@string/deweloperska_akapit6" />
+
+        <TextView
+            style="@style/podtytul"
+            android:text="ROZWIĄZANIE UMOWY" />
+
+        <TextView
+            style="@style/akapit"
+            android:text="@string/deweloperska_akapit7" />
+
+        <TextView
+            style="@style/podtytul"
+            android:text="ZADATEK / ZALICZKA" />
+
+        <TextView
+            style="@style/akapit"
+            android:text="@string/deweloperska_akapit8" />
+
+        <TextView
+            style="@style/podtytul"
+            android:text="INNE" />
+
+        <TextView
+            style="@style/akapit"
+            android:text="@string/deweloperska_akapit9" />
+
+        <TextView
+            style="@style/podtytul"
+            android:text="PODSUMOWANIE" />
+
+        <TextView
+            style="@style/akapit"
+            android:text="@string/deweloperska_akapit10" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="napisz e-mail do prawnika"
+            android:textSize="14sp"
+            android:elevation="2dp"
+            android:backgroundTint="@color/colorAccent"
+            android:textColor="@color/white"
+            android:layout_gravity="end"
+            android:onClick="pomoc_click_radca_prawny"
+            android:layout_marginBottom="26dp"/>
+
+
+    </LinearLayout>
+</ScrollView>
+</LinearLayout>

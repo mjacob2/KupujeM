@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_wtorny_przedwstepna"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:elevation="4dp"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light">
+
+    </android.support.v7.widget.Toolbar>
+
+    <ScrollView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingTop="@dimen/activity_vertical_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:paddingBottom="@dimen/activity_vertical_margin"
+            android:weightSum="1">
+
+
+            <TextView
+                style="@style/wstep"
+                android:text="@string/Sprawdz_dewelopera_akapit1" />
+
+            <TextView
+                style="@style/podtytul"
+                android:text="POLSKI ZWIĄZEK FIRM DEWELOPERSKICH:" />
+
+            <TextView
+                android:id="@+id/sprawdz_dewelopera_akapit2"
+                style="@style/akapit"
+                android:text="@string/Sprawdz_dewelopera_akapit2" />
+
+            <TextView
+                style="@style/podtytul"
+                android:text="FORMA PROWADZENIA DZIAŁALNOŚCI:" />
+
+            <TextView
+                android:id="@+id/sprawdz_dewelopera_akapit3"
+                style="@style/akapit"
+                android:text="@string/Sprawdz_dewelopera_akapit3" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="28dp"
+                android:adjustViewBounds="true"
+                android:cropToPadding="false"
+                android:scaleType="fitStart"
+                android:src="@drawable/krs1" />
+
+            <TextView
+                android:id="@+id/sprawdz_dewelopera_akapit4"
+                style="@style/akapit"
+                android:text="@string/Sprawdz_dewelopera_akapit4" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="28dp"
+                android:adjustViewBounds="true"
+                android:cropToPadding="false"
+                android:scaleType="fitStart"
+                android:src="@drawable/krs3" />
+
+            <TextView
+                android:id="@+id/sprawdz_dewelopera_akapit5"
+                style="@style/akapit"
+                android:text="@string/Sprawdz_dewelopera_akapit5" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="28dp"
+                android:adjustViewBounds="true"
+                android:cropToPadding="false"
+                android:scaleType="fitStart"
+                android:src="@drawable/krs4" />
+
+            <TextView
+                android:id="@+id/sprawdz_dewelopera_akapit6"
+                style="@style/akapit"
+                android:text="@string/Sprawdz_dewelopera_akapit6" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="28dp"
+                android:adjustViewBounds="true"
+                android:cropToPadding="false"
+                android:scaleType="fitStart"
+                android:src="@drawable/krs5" />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

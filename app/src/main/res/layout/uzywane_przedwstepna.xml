@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_wtorny_przedwstepna"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context="pl.middlers.kupujem.Uzywane_przedwstepna">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:elevation="4dp"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light">
+    </android.support.v7.widget.Toolbar>
+
+    <ScrollView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingBottom="@dimen/activity_vertical_margin"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:paddingTop="@dimen/activity_vertical_margin">
+
+
+            <TextView
+                style="@style/wstep"
+                android:text="@string/wtorny_przedwstepna_akapit1" />
+
+            <TextView
+                style="@style/podtytul"
+                android:text="UMOWA W FORMIE ZWYKŁEJ" />
+
+            <TextView
+                style="@style/akapit"
+                android:id="@+id/wtorny_przedwstepna_akapit2"
+                android:text="@string/wtorny_przedwstepna_akapit2" />
+
+            <TextView
+                style="@style/podtytul"
+                android:text="UMOWA W FORMIE AKTU NOTARIALNEGO" />
+
+            <TextView
+                style="@style/akapit"
+                android:id="@+id/wtorny_przedwstepna_akapit3"
+                android:text="@string/wtorny_przedwstepna_akapit3" />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="skonsultuj umowę z prawnikiem"
+                android:textSize="14sp"
+                android:elevation="2dp"
+                android:backgroundTint="@color/colorAccent"
+                android:textColor="@color/white"
+                android:layout_gravity="center"
+                android:onClick="pomoc_click_radca_prawny"
+                android:layout_marginBottom="16dp"/>
+
+
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+    </LinearLayout>
+
+

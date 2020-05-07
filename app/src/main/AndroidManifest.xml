@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="pl.middlers.kupujem">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="com.android.vending.BILLING" />
+    <uses-permission android:name="com.android.vending.CHECK_LICENSE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo_7"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <meta-data
+            android:name="asset_statements"
+            android:resource="@string/asset_statements" />
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id" />
+
+        <activity android:name=".Home">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            \Filtr intentu wysyłającego e-mail
+            <intent-filter>
+                <action android:name="android.intent.action.SENDTO" />
+
+                <data android:scheme="mailto" />
+
+                <category android:name="android.intent.category.APP_EMAIL" />
+            </intent-filter>
+            <intent-filter android:autoVerify="true">
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host="middlers.pl"
+                    android:path="/kupujem"
+                    android:scheme="http" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Nowe_prospekt"
+            android:parentActivityName=".Tabs_Kroki">
+            <intent-filter android:autoVerify="true">
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host="middlers.pl"
+                    android:path="/prospekt-informacyjny"
+                    android:scheme="http" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Nowe_negocjacje"
+            android:parentActivityName=".Tabs_Kroki" />
+        <activity
+            android:name=".Nowe_deweloperska"
+            android:parentActivityName=".Tabs_Kroki" />
+        <activity
+            android:name=".Nowe_kredyt"
+            android:parentActivityName=".Tabs_Kroki" />
+        <activity
+            android:name=".Nowe_zaplac"
+            android:parentActivityName=".Tabs_Kroki" />
+        <activity
+            android:name=".Nowe_odbior"
+            android:parentActivityName=".Tabs_Kroki" />
+        <activity
+            android:name=".Nowe_notariusz"
+            android:parentActivityName=".Tabs_Kroki" />
+        <activity
+            android:name=".Nowe_ubezpiecz"
+            android:parentActivityName=".Tabs_Kroki" />
+        <activity
+            android:name=".Nowe_prawdz_dewelopera"
+            android:parentActivityName=".Tabs_Kroki">
+            <intent-filter android:autoVerify="true">
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host="middlers.pl"
+                    android:path="/jaksprawdzicdewelopera"
+                    android:scheme="http" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Nowe_media"
+            android:parentActivityName=".Tabs_Kroki" />
+        <activity
+            android:name=".Nowe_hipoteka"
+            android:parentActivityName=".Tabs_Kroki" />
+        <activity
+            android:name=".Nowe_urzad"
+            android:parentActivityName=".Tabs_Kroki" />
+        <activity
+            android:name=".Uzywane_sprawdz_sprzedajacego"
+            android:parentActivityName=".Tabs_Kroki" />
+        <activity
+            android:name=".Uzywane_negocjacje"
+            android:parentActivityName=".Tabs_Kroki" />
+        <activity
+            android:name=".Uzywane_przedwstepna"
+            android:parentActivityName=".Tabs_Kroki" />
+        <activity
+            android:name=".Uzywane_zaplac"
+            android:parentActivityName=".Tabs_Kroki" />
+        <activity
+            android:name=".Uzywane_odbior"
+            android:parentActivityName=".Tabs_Kroki" />
+        <activity
+            android:name=".Uzywane_notariusz"
+            android:parentActivityName=".Tabs_Kroki" />
+        <activity
+            android:name=".Uzywane_media"
+            android:parentActivityName=".Tabs_Kroki" />
+        <activity
+            android:name=".Slowniczek"
+            android:parentActivityName=".Home" />
+        <activity
+            android:name=".Tabs_Kalkulatory"
+            android:parentActivityName=".Home" />
+        <activity
+            android:name=".Tabs_Checklisty"
+            android:parentActivityName=".Home" />
+        <activity
+            android:name=".Tabs_Kroki"
+            android:launchMode="singleTop"
+            android:parentActivityName=".Home" />
+        <activity
+            android:name=".Tabs_Pomoc"
+            android:parentActivityName=".Home" />
+        <activity
+            android:name=".SendEmail"
+            android:parentActivityName=".Home" />
+        <activity
+            android:name=".flatUp_MainActivity"
+            android:parentActivityName=".Home">
+            //żeby KupujeM podstawiała się jako aplikacja do wyboru do SHARE intent
+            <intent-filter>
+                <action android:name="android.intent.action.SEND" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:mimeType="text/plain" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Samouczek"
+            android:parentActivityName=".flatUp_MainActivity" />
+        <activity
+            android:name=".WebView"
+            android:parentActivityName=".News" />
+        <activity
+            android:name=".News"
+            android:parentActivityName=".Home" />
+        <activity
+            android:name=".O_aplikacji"
+            android:label="@string/title_activity_o_aplikacji"
+            android:parentActivityName=".Home"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="pl.middlers.kupujem.Home" />
+        </activity>
+        <activity android:name=".Formularz"
+            android:parentActivityName=".Home">
+
+        </activity>
+    </application>
+
+</manifest>

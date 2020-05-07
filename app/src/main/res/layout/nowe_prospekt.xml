@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_wtorny_przedwstepna"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:elevation="4dp"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light">
+
+    </android.support.v7.widget.Toolbar>
+
+    <ScrollView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingBottom="@dimen/activity_vertical_margin"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:paddingTop="@dimen/activity_vertical_margin">
+
+
+            <TextView
+                style="@style/wstep"
+                android:text="@string/prospekt_akapit1" />
+
+            <TextView
+                style="@style/podtytul"
+                android:text="DOŚWIADCZENIE DEWELOPERA:" />
+
+            <TextView
+                style="@style/akapit"
+                android:text="@string/prospekt_akapit2" />
+
+            <TextView
+                style="@style/podtytul"
+                android:text="ZAGOSPODAROWANIE DZIAŁEK OBOK:" />
+
+            <TextView
+                style="@style/akapit"
+                android:text="@string/prospekt_akapit3" />
+
+            <TextView
+                style="@style/podtytul"
+                android:text="CO W PROMIENIU 1 KM:" />
+
+
+            <TextView
+                style="@style/akapit"
+                android:text="@string/prospekt_akapit4" />
+
+            <TextView
+                style="@style/podtytul"
+                android:text="SPOSÓB POMIARU POWIERZCHNI:" />
+
+            <TextView
+                style="@style/akapit"
+                android:text="@string/prospekt_akapit5" />
+
+
+            <TextView
+                style="@style/podtytul"
+                android:text="ŹRÓDŁA FINANSOWANIA:" />
+
+            <TextView
+                style="@style/akapit"
+                android:text="@string/prospekt_akapit6" />
+
+            <TextView
+                style="@style/podtytul"
+                android:text="ŚRODKI OCHRONY NABYWCY:" />
+
+            <TextView
+                style="@style/akapit"
+                android:text="@string/prospekt_akapit7" />
+
+            <TextView
+                style="@style/podtytul"
+                android:text="HARMONOGRAM BUDOWY:" />
+
+            <TextView
+                style="@style/akapit"
+                android:text="@string/prospekt_akapit8" />
+
+            <TextView
+                style="@style/podtytul"
+                android:text="WALORYZACJA CENY:" />
+
+            <TextView
+                style="@style/akapit"
+                android:text="@string/prospekt_akapit9" />
+
+            <TextView
+                style="@style/podtytul"
+                android:text="ODSTĄPIENIE OD UMOWY:" />
+
+            <TextView
+                style="@style/akapit"
+                android:text="@string/prospekt_akapit10" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
