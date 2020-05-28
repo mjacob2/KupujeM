@@ -108,9 +108,9 @@ public class Tabs_Kalkulatory extends AppCompatActivity implements BillingProces
         getWindow().setSoftInputMode(WindowManager.LayoutParams.SOFT_INPUT_STATE_HIDDEN);
 
         //Pokoloruj navigation bar na biało
-        if (android.os.Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
-            getWindow().setNavigationBarColor(getResources().getColor(R.color.fafafa));
-        }
+       // if (android.os.Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
+       //     getWindow().setNavigationBarColor(getResources().getColor(R.color.fafafa));
+       // }
 
 
         /**

@@ -42,9 +42,9 @@ public class Tabs_Checklisty extends AppCompatActivity {
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
         //Pokoloruj navigation bar na biało
-        if (android.os.Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
-            getWindow().setNavigationBarColor(getResources().getColor(R.color.fafafa));
-        }
+     //   if (android.os.Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
+      //      getWindow().setNavigationBarColor(getResources().getColor(R.color.fafafa));
+      //  }
 
         viewPager = (ViewPager) findViewById(R.id.viewpager);
         setupViewPager(viewPager);

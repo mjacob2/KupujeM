@@ -51,9 +51,9 @@ public class Slowniczek extends AppCompatActivity {
 
 
         //Pokoloruj navigation bar na biało
-        if (android.os.Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
-            getWindow().setNavigationBarColor(getResources().getColor(R.color.fafafa));
-        }
+      //  if (android.os.Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
+       //     getWindow().setNavigationBarColor(getResources().getColor(R.color.fafafa));
+       // }
 
 
 

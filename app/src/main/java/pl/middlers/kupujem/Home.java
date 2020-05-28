@@ -39,9 +39,9 @@ public class Home extends AppCompatActivity {
 
 
         //Pokoloruj navigation bar na biało
-        if (android.os.Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
-            getWindow().setNavigationBarColor(getResources().getColor(R.color.fafafa));
-        }
+       // if (android.os.Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
+      //      getWindow().setNavigationBarColor(getResources().getColor(R.color.fafafa));
+      //  }
 
         //złap intent, kiedy ktoś sheruje link do tej aplikacji
         //       if (getIntent().getExtras() != null) {
@@ -194,6 +194,15 @@ public class Home extends AppCompatActivity {
         startActivity(intents);
 
     }
+
+
+    /**Mówi co robić, kiedy kliknie się w PORÓWNYWARKA OFERT */
+
+    public void click_porownywarka(View view){
+        startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("https://ohipo.pl")));
+
+    }
+
     /** Mówi co robić, kiedy kliknie się z KALKULATORY */
     public void click_kalkulatory (View view){
 

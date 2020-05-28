@@ -21,9 +21,9 @@ public class O_aplikacji extends AppCompatActivity {
         getSupportActionBar().setTitle("o aplikacji");
 
         //Pokoloruj navigation bar na biało
-        if (android.os.Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
-            getWindow().setNavigationBarColor(getResources().getColor(R.color.fafafa));
-        }
+      //  if (android.os.Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
+       //     getWindow().setNavigationBarColor(getResources().getColor(R.color.fafafa));
+      //  }
 
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
