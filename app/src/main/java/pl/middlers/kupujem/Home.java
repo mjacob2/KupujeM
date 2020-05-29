@@ -199,7 +199,7 @@ public class Home extends AppCompatActivity {
     /**Mówi co robić, kiedy kliknie się w PORÓWNYWARKA OFERT */
 
     public void click_porownywarka(View view){
-        startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("https://ohipo.pl")));
+        startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("https://ohipo.pl/?utm_source=Aplikacja%20Mobilna&utm_medium=Android&utm_campaign=KupujeM")));
 
     }
 
