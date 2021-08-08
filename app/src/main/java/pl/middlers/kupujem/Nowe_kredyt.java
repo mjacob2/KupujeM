@@ -26,9 +26,7 @@ public class Nowe_kredyt extends AppCompatActivity {
 
     // kiedy klikniesz żeby wysłać email
     public void pomoc_click_doradca(View view) {
-
-        Intent intents = new Intent(this, SendEmail.class);
-        startActivity(intents);
+        startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("https://middlers.pl/kontakt/")));
     }
 
     // kiedy klikniesz żeby wysłać email
