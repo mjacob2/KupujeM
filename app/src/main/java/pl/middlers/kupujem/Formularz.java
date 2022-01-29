@@ -48,17 +48,20 @@ public class Formularz extends AppCompatActivity {
         WebSettings webSettings = webview.getSettings();
         //włącz obsługę JAvaScriptu na stronie
         webSettings.setJavaScriptEnabled(true);
+        toolbar = findViewById(R.id.toolbar2);
+        toolbar.setVisibility(View.GONE);
 
 
 
         // mProgressBar = (ProgressBar) findViewById(R.id.progressBar);
 
 
-        toolbar = findViewById(R.id.toolbar2);
-        setSupportActionBar(toolbar);
-        getSupportActionBar().setHomeAsUpIndicator(R.drawable.ic_close);
-        getSupportActionBar().setTitle(value2);
-        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+      //  toolbar = findViewById(R.id.toolbar2);
+      //  setSupportActionBar(toolbar);
+      //  getSupportActionBar().setHomeAsUpIndicator(R.drawable.ic_close);
+      //  getSupportActionBar().setTitle(value2);
+      //  getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+
 
         mFirebaseAnalytics = FirebaseAnalytics.getInstance(this);
         Bundle params = new Bundle();

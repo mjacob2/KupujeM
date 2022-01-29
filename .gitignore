@@ -6,3 +6,7 @@
 .DS_Store
 /build
 /captures
+app/release/output.json
+app/release/app.aab
+app/release/app-release.apk
+.idea/caches/build_file_checksums.ser

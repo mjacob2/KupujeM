@@ -9,40 +9,55 @@ import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
+import android.webkit.WebSettings;
+import android.widget.ProgressBar;
+
+import com.google.firebase.analytics.FirebaseAnalytics;
 
 public class O_aplikacji extends AppCompatActivity {
+
+    android.webkit.WebView webview;
+    private Toolbar toolbar;
+
+
+    //do Firebase
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.o_aplikacji);
-        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
-        setSupportActionBar(toolbar);
-        getSupportActionBar().setTitle("o aplikacji");
-
-        //Pokoloruj navigation bar na biało
-      //  if (android.os.Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
-       //     getWindow().setNavigationBarColor(getResources().getColor(R.color.fafafa));
-      //  }
-
-        FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
-        fab.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-
-                Intent intent = new Intent(Intent.ACTION_SENDTO);
-                intent.setData(Uri.parse("mailto:kupujem.app@gmail.com")); // only email apps should handle this
-               // intent.putExtra(Intent.EXTRA_SUBJECT, "Moja sugestia dla rozwoju KupujeM");
-               // intent.putExtra(Intent.EXTRA_TEXT, "Proponuję, aby: \n\n");
-                if (intent.resolveActivity(getPackageManager()) != null) {
-                    startActivity(intent);
-                }
+        setContentView(R.layout.activity_web_view);
 
 
-              //  Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                    //    .setAction("Action", null).show();
-            }
-        });
-        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+
+        // Intent intent = getIntent();
+        String value = "https://middlers.pl/o-mnie.html";
+        String value2 = getResources().getString(R.string.tile_kredyt_title);
+
+
+
+
+        webview = findViewById(R.id.webview);
+        WebSettings webSettings = webview.getSettings();
+        //włącz obsługę JAvaScriptu na stronie
+        webSettings.setJavaScriptEnabled(true);
+
+
+
+
+        // mProgressBar = (ProgressBar) findViewById(R.id.progressBar);
+
+
+          toolbar = findViewById(R.id.toolbar2);
+          setSupportActionBar(toolbar);
+          getSupportActionBar().setHomeAsUpIndicator(R.drawable.ic_close);
+          getSupportActionBar().setTitle("O autorze aplikacji");
+          getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+
+
+
+
+
+        webview.loadUrl(value);
     }
 }

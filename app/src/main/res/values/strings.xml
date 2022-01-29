@@ -1100,7 +1100,7 @@
     <string name="samouczek_akapit_4">Właśnie pobrałeś i zapisałeś swoją pierwszą ofertę!
         Możesz tu zapisywać wszystkie oferty jakie tylko znajdziesz w jakiejkolwiek aplikacji związanej z wyszukiwaniem ofert sprzedaży M. </string>
     <string name="asset_statements" translatable="false">[{\n  \"relation\": [\"delegate_permission/common.handle_all_urls\"],\n  \"target\": {\n    \"namespace\": \"web\",\n    \"site\": \"http://middlers.pl\",\n  }\n}]</string>
-    <string name="tile_kredyt_title">Porównaj oferty 14 banków</string>
+    <string name="tile_kredyt_title">Sprawdż zdolność \nw 14 bankach</string>
 
     <string name="news">Newsy</string>
     <string name="Powierzchnia_uzytkowa">W polskim prawie <b>nie ma jednej, ogólnej definicji</b> powierzchni użytkowej.

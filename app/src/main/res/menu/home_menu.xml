@@ -15,7 +15,7 @@
         app:showAsAction="always"/>
 
     <item
-        android:title="o aplikacji"
+        android:title="o autorze"
         android:id="@+id/action_o_aplikacji"
         app:showAsAction="never"/>
 

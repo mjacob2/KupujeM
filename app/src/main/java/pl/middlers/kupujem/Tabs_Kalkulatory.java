@@ -4,11 +4,11 @@ import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.SharedPreferences;
-import android.os.Build;
+//import android.os.Build;
 import android.os.Bundle;
 import android.preference.PreferenceManager;
-import android.support.annotation.NonNull;
-import android.support.annotation.Nullable;
+//import android.support.annotation.NonNull;
+//import android.support.annotation.Nullable;
 import android.support.design.widget.TabLayout;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
@@ -26,8 +26,8 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 
-import com.anjlab.android.iab.v3.BillingProcessor;
-import com.anjlab.android.iab.v3.TransactionDetails;
+//import com.anjlab.android.iab.v3.BillingProcessor;
+//import com.anjlab.android.iab.v3.TransactionDetails;
 
 import com.google.firebase.analytics.FirebaseAnalytics;
 
@@ -39,7 +39,8 @@ import static pl.middlers.kupujem.R.id.oprocentowanie;
 //import static pl.middlers.kupujem.R.id.wysokosc_podatku;
 //import static pl.middlers.kupujem.R.id.wysokosc_taksy_brutto;
 
-public class Tabs_Kalkulatory extends AppCompatActivity implements BillingProcessor.IBillingHandler{
+public class Tabs_Kalkulatory extends AppCompatActivity {
+    //implements BillingProcessor.IBillingHandler
     //do komendy oblicz zdolnosc
     private EditText dochod, raty, karty, debety, wnioskujacych, wkladWlasnyProcent;
     private TextView maxKredyt, wkladWlasnyKwota, cenaM, rataTania, rataDroga, roznicaDoSplatyMiesiecznie, roznicaDoSplatyRocznie, roznicaDoSplaty30lat;
@@ -73,7 +74,7 @@ public class Tabs_Kalkulatory extends AppCompatActivity implements BillingProces
     private FirebaseAnalytics mFirebaseAnalytics;
 
     //do zakupu subskrypcji
-    BillingProcessor bp;
+    //BillingProcessor bp;
 
     //do sprawdzania, czy jest zakupiona subskrypcja
    // public boolean mIsSubscribed = false;
@@ -116,15 +117,15 @@ public class Tabs_Kalkulatory extends AppCompatActivity implements BillingProces
         /**
          * załaduj procesor zakupów w aplikacji
          */
-        bp = new BillingProcessor(this, "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEApS4vZ9XdOBwy3zkK66qVzx+9ZFIC3UB8+ryHwjY3ZHBuwOQXpMP7hx3tGO0zQKH1moumQHU1hrLJlZivBl233h7+n9G5ruDx8hZ9jGgiiVRbifJ8S2uVXRTwI+W9c4jGguMtL9tjZeSZ7f2+WEVR5WlRZeTCgWy/xaHav4xyfwDE7iEveLyn+lKr6gA/n4RH+RC4uYwgTff6p6T+lRezQ+uqXzh5OhGecnSvavmPWoo8PYyMgEBLNQl//vX9Gr2ghc3UCGCTeLMFN8vacI412ZD8KmnDmDAJQZ0z8Wfgi/7BgPxNZWeIwq5466Lp6FBDl5ahJzxjNhfEwC4QuJ2YvwIDAQAB", this);
+    //    bp = new BillingProcessor(this, "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEApS4vZ9XdOBwy3zkK66qVzx+9ZFIC3UB8+ryHwjY3ZHBuwOQXpMP7hx3tGO0zQKH1moumQHU1hrLJlZivBl233h7+n9G5ruDx8hZ9jGgiiVRbifJ8S2uVXRTwI+W9c4jGguMtL9tjZeSZ7f2+WEVR5WlRZeTCgWy/xaHav4xyfwDE7iEveLyn+lKr6gA/n4RH+RC4uYwgTff6p6T+lRezQ+uqXzh5OhGecnSvavmPWoo8PYyMgEBLNQl//vX9Gr2ghc3UCGCTeLMFN8vacI412ZD8KmnDmDAJQZ0z8Wfgi/7BgPxNZWeIwq5466Lp6FBDl5ahJzxjNhfEwC4QuJ2YvwIDAQAB", this);
 
                     //testowy procesor
                 // bp = new BillingProcessor(this, null, this);
 
         //załaduj zakupioną subskrypcję z pamięci
-        LoadBoolean();
+     //   LoadBoolean();
         // mIsSubscribed = savedIsSubscribed;
-        mIsSubscribed = savedIsSubscribed;
+    //    mIsSubscribed = savedIsSubscribed;
 
 
        // oblicz_zdolnosc1();
@@ -135,15 +136,30 @@ public class Tabs_Kalkulatory extends AppCompatActivity implements BillingProces
 
     public void oblicz_zdolnosc_button_click (View view) {
 
+        //Pokaż dialog, który ostrzega przed wysokimi stopami dzisiaj
+        AlertDialog.Builder builder = new AlertDialog.Builder(this);
+        builder.setTitle("Uwaga!");
+        builder.setMessage("Z powodu ostatnich znacznych podwyżek stóp procentowych, zdolność kredytowa w bankach znacznie się zmieniła. Ten kalkulator dostarcza tylko poglądowych informacji! Aby sprawdzić dokładnie swoją prawdziwą zdolność kredytową, skontaktuj się proszę z ekspertem kredytowym, korzystajac z przycisku na dole tej strony.");
+        builder.setPositiveButton("Rozumiem", new DialogInterface.OnClickListener() {
+            public void onClick(DialogInterface dialog, int id) {
+                dialog.cancel();
+            }
+        });
+        AlertDialog alert = builder.create();
+        alert.show();
+
+
+
+
         //Załaduj SharedPreferences
-        LoadInt();
-        mClickCount = savedValue;
+    //    LoadInt();
+    //    mClickCount = savedValue;
 
         //Dodaj kliknięcie
-        mClickCount = mClickCount + 1;
+   //     mClickCount = mClickCount + 1;
 
         //Zapisz kliknięcie w Shared Preferences
-        SaveInt("key", mClickCount);
+   //     SaveInt("key", mClickCount);
 
 
 
@@ -151,48 +167,48 @@ public class Tabs_Kalkulatory extends AppCompatActivity implements BillingProces
 
         //jeśli jest zapisana wykupiona subskrypcja to oblicz zdolność normalnie
 
-        if (mIsSubscribed == true) {
+    //    if (mIsSubscribed == true) {
 
             oblicz_zdolnosc1();
 
 
             // Jesli nie ma zapisanej subskrypcji, sprawdź ile razy było już kliknięte oblicz zdolność
-        } else if (mClickCount >= limit) {
-            show_dialog_wyczerpales_limit();
+   //     } else if (mClickCount >= limit) {
+   //         show_dialog_wyczerpales_limit();
 
 
-        } else {
+    //    } else {
 
-            oblicz_zdolnosc1();
+   //         oblicz_zdolnosc1();
 
 
-        }
+   //     }
     }
 
 
 
-    private void show_dialog_wyczerpales_limit() {
-        AlertDialog.Builder builder = new AlertDialog.Builder(this);
-        builder.setTitle("Wyczerpałeś bezpłatny limit: " + limit);
-        builder.setCancelable(true);
-        builder.setMessage(R.string.wyczerpales_limit_kalkulatory_obliczZdolnosc);
-        builder.setNegativeButton("anuluj", new DialogInterface.OnClickListener() {
-            @Override
-            public void onClick(DialogInterface dialog, int which) {
-                dialog.dismiss();
-            }
-        });
-        builder.setPositiveButton("dalej", new DialogInterface.OnClickListener() {
-            public void onClick(DialogInterface dialog, int id) {
+ //   private void show_dialog_wyczerpales_limit() {
+ //       AlertDialog.Builder builder = new AlertDialog.Builder(this);
+ //       builder.setTitle("Wyczerpałeś bezpłatny limit: " + limit);
+ //       builder.setCancelable(true);
+ //       builder.setMessage(R.string.wyczerpales_limit_kalkulatory_obliczZdolnosc);
+ //       builder.setNegativeButton("anuluj", new DialogInterface.OnClickListener() {
+ //           @Override
+  //          public void onClick(DialogInterface dialog, int which) {
+  //              dialog.dismiss();
+  //          }
+  //      });
+  //      builder.setPositiveButton("dalej", new DialogInterface.OnClickListener() {
+  //          public void onClick(DialogInterface dialog, int id) {
 
 
                 //metoda zamawiania subskrypcji
-                bp.subscribe(Tabs_Kalkulatory.this, "kupujem_premium1");
-            }
+  //              bp.subscribe(Tabs_Kalkulatory.this, "kupujem_premium1");
+   //         }
 
 
 
-        });
+   //     });
 
         //   builder.setNegativeButton("Zamknij", new DialogInterface.OnClickListener() {
         //        public void onClick(DialogInterface dialog, int id) {
@@ -201,15 +217,15 @@ public class Tabs_Kalkulatory extends AppCompatActivity implements BillingProces
 
         //    });
 
-        AlertDialog alert = builder.create();
-        alert.show();
+    //    AlertDialog alert = builder.create();
+   //     alert.show();
 
 
         //Firebase Event
-        mFirebaseAnalytics = FirebaseAnalytics.getInstance(this);
-        Bundle params = new Bundle();
-        mFirebaseAnalytics.logEvent("SUB_dialog_show_zdoln", params);
-    }
+   //     mFirebaseAnalytics = FirebaseAnalytics.getInstance(this);
+   //     Bundle params = new Bundle();
+   //     mFirebaseAnalytics.logEvent("SUB_dialog_show_zdoln", params);
+  //  }
 
 
 
@@ -899,59 +915,59 @@ public class Tabs_Kalkulatory extends AppCompatActivity implements BillingProces
 
 
 
-    @Override
-    public void onProductPurchased(@NonNull String productId, @Nullable TransactionDetails details) {
-        Toast.makeText(this, "Dziękuję za zakup:  " + productId, Toast.LENGTH_LONG).show();
+  //  @Override
+  //  public void onProductPurchased(@NonNull String productId, @Nullable TransactionDetails details) {
+  //      Toast.makeText(this, "Dziękuję za zakup:  " + productId, Toast.LENGTH_LONG).show();
 
 
-        mIsSubscribed = true;
+  //      mIsSubscribed = true;
         //Zapisz subskrybcję w Shared Preferences
-        SaveBoolean("isSubscribed", mIsSubscribed);
+   //     SaveBoolean("isSubscribed", mIsSubscribed);
 
         //Firebase Event
-        mFirebaseAnalytics = FirebaseAnalytics.getInstance(this);
-        Bundle params = new Bundle();
-        mFirebaseAnalytics.logEvent("Subskrypcja_zakup_zdolnosc", params);
+   //     mFirebaseAnalytics = FirebaseAnalytics.getInstance(this);
+  //      Bundle params = new Bundle();
+   //     mFirebaseAnalytics.logEvent("Subskrypcja_zakup_zdolnosc", params);
 
 
-    }
+   // }
 
 
-    @Override
-    public void onPurchaseHistoryRestored() {
+  //  @Override
+  //  public void onPurchaseHistoryRestored() {
 
-    }
+  //  }
 
-    @Override
-    public void onBillingError(int errorCode, @Nullable Throwable error) {
-        Toast.makeText(this, "Błąd nr: " + errorCode, Toast.LENGTH_LONG).show();
-        if (errorCode != 7) {
-            Toast.makeText(this, "Wystapił błąd nr " + errorCode +". Spróbuj ponownie", Toast.LENGTH_LONG).show();
+ //   @Override
+ //   public void onBillingError(int errorCode, @Nullable Throwable error) {
+  //      Toast.makeText(this, "Błąd nr: " + errorCode, Toast.LENGTH_LONG).show();
+ //       if (errorCode != 7) {
+ //           Toast.makeText(this, "Wystapił błąd nr " + errorCode +". Spróbuj ponownie", Toast.LENGTH_LONG).show();
 
             //Firebase Event
-            mFirebaseAnalytics = FirebaseAnalytics.getInstance(this);
-            Bundle params = new Bundle();
-            mFirebaseAnalytics.logEvent("SUB_zakup_zdol_error_" + errorCode, params);
+ //           mFirebaseAnalytics = FirebaseAnalytics.getInstance(this);
+ //           Bundle params = new Bundle();
+ //           mFirebaseAnalytics.logEvent("SUB_zakup_zdol_error_" + errorCode, params);
 
-        }else{
-            mIsSubscribed = true;
-            Toast.makeText(this, "Dziękuję za subskrypcję :)", Toast.LENGTH_LONG).show();
+ //       }else{
+ //           mIsSubscribed = true;
+ //           Toast.makeText(this, "Dziękuję za subskrypcję :)", Toast.LENGTH_LONG).show();
             //Zapisz subskrybcję w Shared Preferences
-            SaveBoolean("isSubscribed", mIsSubscribed);
+ //           SaveBoolean("isSubscribed", mIsSubscribed);
 
             //Firebase Event
-            mFirebaseAnalytics = FirebaseAnalytics.getInstance(this);
-            Bundle params = new Bundle();
-            mFirebaseAnalytics.logEvent("SUB_zakup_juz_byl_zdolnosc", params);
-        }
+ //           mFirebaseAnalytics = FirebaseAnalytics.getInstance(this);
+ //           Bundle params = new Bundle();
+ //           mFirebaseAnalytics.logEvent("SUB_zakup_juz_byl_zdolnosc", params);
+  //      }
 
 
-    }
+ //   }
 
-    @Override
-    public void onBillingInitialized() {
+  //  @Override
+  //  public void onBillingInitialized() {
 
-    }
+  //  }
 
     @Override
     public void onPointerCaptureChanged(boolean hasCapture) {
@@ -1022,21 +1038,21 @@ public class Tabs_Kalkulatory extends AppCompatActivity implements BillingProces
 
 
 
-    @Override
-    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
-        if (!bp.handleActivityResult(requestCode, resultCode, data)) {
-            super.onActivityResult(requestCode, resultCode, data);
-        }
-    }
+ //   @Override
+ //   protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+ //       if (!bp.handleActivityResult(requestCode, resultCode, data)) {
+ //           super.onActivityResult(requestCode, resultCode, data);
+  //      }
+  //  }
 
 
 
 
     //Wykiluj bilingprocessor on Distroy
-    @Override
-    public void onDestroy() { if (bp != null) {
-            bp.release();
-    }
-        super.onDestroy();
-    }
+ //   @Override
+ //   public void onDestroy() { if (bp != null) {
+ //           bp.release();
+  //  }
+  //      super.onDestroy();
+  //  }
 }

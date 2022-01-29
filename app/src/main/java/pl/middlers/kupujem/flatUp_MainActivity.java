@@ -10,11 +10,8 @@ import android.content.Intent;
 import android.content.SharedPreferences;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
-import android.os.Build;
 import android.os.Bundle;
 import android.preference.PreferenceManager;
-import android.support.annotation.NonNull;
-import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
@@ -30,8 +27,6 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.anjlab.android.iab.v3.BillingProcessor;
-import com.anjlab.android.iab.v3.TransactionDetails;
 import com.google.firebase.analytics.FirebaseAnalytics;
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
@@ -48,7 +43,7 @@ import java.util.ArrayList;
 import static android.content.ClipDescription.MIMETYPE_TEXT_PLAIN;
 
 
-public class flatUp_MainActivity extends AppCompatActivity implements BillingProcessor.IBillingHandler {
+public class flatUp_MainActivity extends AppCompatActivity {
 
 
     public boolean savedIsSubscribed;
@@ -97,11 +92,11 @@ public class flatUp_MainActivity extends AppCompatActivity implements BillingPro
 
 
     //do zakupu subskrypcji
-    BillingProcessor bp;
+  //  BillingProcessor bp;
 
 
     //limit darmowych klików
-    int limit = 100;
+    int limit = 100000;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -167,12 +162,12 @@ public class flatUp_MainActivity extends AppCompatActivity implements BillingPro
 /**
  * załaduj procesor zakupów w aplikacji
  */
-        bp = new BillingProcessor(this, "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEApS4vZ9XdOBwy3zkK66qVzx+9ZFIC3UB8+ryHwjY3ZHBuwOQXpMP7hx3tGO0zQKH1moumQHU1hrLJlZivBl233h7+n9G5ruDx8hZ9jGgiiVRbifJ8S2uVXRTwI+W9c4jGguMtL9tjZeSZ7f2+WEVR5WlRZeTCgWy/xaHav4xyfwDE7iEveLyn+lKr6gA/n4RH+RC4uYwgTff6p6T+lRezQ+uqXzh5OhGecnSvavmPWoo8PYyMgEBLNQl//vX9Gr2ghc3UCGCTeLMFN8vacI412ZD8KmnDmDAJQZ0z8Wfgi/7BgPxNZWeIwq5466Lp6FBDl5ahJzxjNhfEwC4QuJ2YvwIDAQAB", this);
+  //      bp = new BillingProcessor(this, "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEApS4vZ9XdOBwy3zkK66qVzx+9ZFIC3UB8+ryHwjY3ZHBuwOQXpMP7hx3tGO0zQKH1moumQHU1hrLJlZivBl233h7+n9G5ruDx8hZ9jGgiiVRbifJ8S2uVXRTwI+W9c4jGguMtL9tjZeSZ7f2+WEVR5WlRZeTCgWy/xaHav4xyfwDE7iEveLyn+lKr6gA/n4RH+RC4uYwgTff6p6T+lRezQ+uqXzh5OhGecnSvavmPWoo8PYyMgEBLNQl//vX9Gr2ghc3UCGCTeLMFN8vacI412ZD8KmnDmDAJQZ0z8Wfgi/7BgPxNZWeIwq5466Lp6FBDl5ahJzxjNhfEwC4QuJ2YvwIDAQAB", this);
 
         //załaduj zakupioną subskrypcję z pamięci
-        LoadBoolean();
+    //    LoadBoolean();
         // mIsSubscribed = savedIsSubscribed;
-        mIsSubscribed = savedIsSubscribed;
+    //    mIsSubscribed = savedIsSubscribed;
 
 
         //ukryj FAB kiedy scroll down i kiedy jest na samym dole
@@ -462,7 +457,7 @@ public class flatUp_MainActivity extends AppCompatActivity implements BillingPro
                 mProgressDialog.dismiss();
 
                 //pokaż okno dialogowe, ze wyczerpany limit
-                show_dialog_wyczerpales_limit();
+              //  show_dialog_wyczerpales_limit();
 
 
 
@@ -640,23 +635,23 @@ public class flatUp_MainActivity extends AppCompatActivity implements BillingPro
 
     }
 
-    private void show_dialog_wyczerpales_limit() {
-        android.support.v7.app.AlertDialog.Builder builder = new android.support.v7.app.AlertDialog.Builder(this);
-        builder.setTitle("Wyczerpałeś bezpłatny limit: " + limit);
-        builder.setCancelable(true);
-        builder.setMessage(R.string.wyczerpales_limit_kalkulatory_obliczZdolnosc);
-        builder.setPositiveButton("dalej", new DialogInterface.OnClickListener() {
-            public void onClick(DialogInterface dialog, int id) {
+  //  private void show_dialog_wyczerpales_limit() {
+  //      android.support.v7.app.AlertDialog.Builder builder = new android.support.v7.app.AlertDialog.Builder(this);
+  //      builder.setTitle("Wyczerpałeś bezpłatny limit: " + limit);
+   //     builder.setCancelable(true);
+  //      builder.setMessage(R.string.wyczerpales_limit_kalkulatory_obliczZdolnosc);
+   //     builder.setPositiveButton("dalej", new DialogInterface.OnClickListener() {
+   //         public void onClick(DialogInterface dialog, int id) {
 
 
                 //metoda zamawiania subskrypcji
-                bp.subscribe(flatUp_MainActivity.this, "kupujem_premium1");
+       //         bp.subscribe(flatUp_MainActivity.this, "kupujem_premium1");
 
-            }
+      //      }
 
-        }
+   //     }
 
-        );
+    //    );
 
         //   builder.setNegativeButton("Zamknij", new DialogInterface.OnClickListener() {
         //        public void onClick(DialogInterface dialog, int id) {
@@ -665,15 +660,15 @@ public class flatUp_MainActivity extends AppCompatActivity implements BillingPro
 
         //    });
 
-        android.support.v7.app.AlertDialog alert = builder.create();
-        alert.show();
+   //     android.support.v7.app.AlertDialog alert = builder.create();
+    //    alert.show();
 
 
         //Firebase Event
-        mFirebaseAnalytics = FirebaseAnalytics.getInstance(this);
-        Bundle params = new Bundle();
-        mFirebaseAnalytics.logEvent("SUB_dialog_show_flatup", params);
-    }
+    //    mFirebaseAnalytics = FirebaseAnalytics.getInstance(this);
+    //    Bundle params = new Bundle();
+    //    mFirebaseAnalytics.logEvent("SUB_dialog_show_flatup", params);
+   // }
 
     public  void save_ArrayList (){
 
@@ -729,88 +724,88 @@ public class flatUp_MainActivity extends AppCompatActivity implements BillingPro
     }
 
 
-    @Override
-    public void onProductPurchased(@NonNull String productId, @Nullable TransactionDetails details) {
-        Toast.makeText(this, "Dziękuję za zakup:  " + productId, Toast.LENGTH_LONG).show();
+  //  @Override
+ //   public void onProductPurchased(@NonNull String productId, @Nullable TransactionDetails details) {
+  //      Toast.makeText(this, "Dziękuję za zakup:  " + productId, Toast.LENGTH_LONG).show();
 
 
-        mIsSubscribed = true;
+   //     mIsSubscribed = true;
         //Zapisz subskrybcję w Shared Preferences
-        SaveBoolean("isSubscribed", mIsSubscribed);
+   //     SaveBoolean("isSubscribed", mIsSubscribed);
 
 
         //Firebase Event
-        mFirebaseAnalytics = FirebaseAnalytics.getInstance(this);
-        Bundle params = new Bundle();
-        mFirebaseAnalytics.logEvent("Subskrypcja_zakup_flatup", params);
-    }
+   //     mFirebaseAnalytics = FirebaseAnalytics.getInstance(this);
+   //     Bundle params = new Bundle();
+   //     mFirebaseAnalytics.logEvent("Subskrypcja_zakup_flatup", params);
+  //  }
 
-    @Override
-    public void onPurchaseHistoryRestored() {
+  //  @Override
+  //  public void onPurchaseHistoryRestored() {
 
-    }
+  //  }
 
-    @Override
-    public void onBillingError(int errorCode, @Nullable Throwable error) {
-        Toast.makeText(this, "Błąd nr: " + errorCode, Toast.LENGTH_LONG).show();
-        if (errorCode != 7) {
-            Toast.makeText(this, "Wystapił błąd nr " + errorCode +". Spróbuj ponownie", Toast.LENGTH_LONG).show();
+  //  @Override
+  //  public void onBillingError(int errorCode, @Nullable Throwable error) {
+  //      Toast.makeText(this, "Błąd nr: " + errorCode, Toast.LENGTH_LONG).show();
+  //      if (errorCode != 7) {
+   //         Toast.makeText(this, "Wystapił błąd nr " + errorCode +". Spróbuj ponownie", Toast.LENGTH_LONG).show();
 
             //Firebase Event
-            mFirebaseAnalytics = FirebaseAnalytics.getInstance(this);
-            Bundle params = new Bundle();
-            mFirebaseAnalytics.logEvent("SUB_zakup_flatup_error_" + errorCode, params);
+  //          mFirebaseAnalytics = FirebaseAnalytics.getInstance(this);
+  //          Bundle params = new Bundle();
+  //          mFirebaseAnalytics.logEvent("SUB_zakup_flatup_error_" + errorCode, params);
 
-        }else{
-            mIsSubscribed = true;
-            Toast.makeText(this, "Dziękuję za subskrypcję :)", Toast.LENGTH_LONG).show();
+  //      }else{
+   //         mIsSubscribed = true;
+   //         Toast.makeText(this, "Dziękuję za subskrypcję :)", Toast.LENGTH_LONG).show();
             //Zapisz subskrybcję w Shared Preferences
-            SaveBoolean("isSubscribed", mIsSubscribed);
+   //         SaveBoolean("isSubscribed", mIsSubscribed);
 
 
             //Firebase Event
-            mFirebaseAnalytics = FirebaseAnalytics.getInstance(this);
-            Bundle params = new Bundle();
-            mFirebaseAnalytics.logEvent("SUB_zakup_juz_byl_flatup", params);
-        }
-    }
+   //         mFirebaseAnalytics = FirebaseAnalytics.getInstance(this);
+  //          Bundle params = new Bundle();
+   //         mFirebaseAnalytics.logEvent("SUB_zakup_juz_byl_flatup", params);
+   //     }
+  //  }
 
-    @Override
-    public void onBillingInitialized() {
+ //   @Override
+ //   public void onBillingInitialized() {
 
-        }
+  //      }
 
 
     //metoda odczytu SharedPreferences
-    public void LoadBoolean(){
-        SharedPreferences sharedPreferences = PreferenceManager.getDefaultSharedPreferences(getApplicationContext());
-        savedIsSubscribed = sharedPreferences.getBoolean("isSubscribed", false);
-    }
+  //  public void LoadBoolean(){
+  //      SharedPreferences sharedPreferences = PreferenceManager.getDefaultSharedPreferences(getApplicationContext());
+  //      savedIsSubscribed = sharedPreferences.getBoolean("isSubscribed", false);
+   // }
 
     //metoda zapisu BOOLEAN do SharedPreferences
-    public void SaveBoolean(String key, boolean value){
+  //  public void SaveBoolean(String key, boolean value){
 
-        SharedPreferences  sharedPreferences = PreferenceManager.getDefaultSharedPreferences(getApplicationContext());
-        SharedPreferences.Editor editor = sharedPreferences.edit();
-        editor.putBoolean(key, value);
-        editor.apply();
+   //     SharedPreferences  sharedPreferences = PreferenceManager.getDefaultSharedPreferences(getApplicationContext());
+   //     SharedPreferences.Editor editor = sharedPreferences.edit();
+   //     editor.putBoolean(key, value);
+   //     editor.apply();
     }
-
-    @Override
-    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
-        if (!bp.handleActivityResult(requestCode, resultCode, data)) {
-            super.onActivityResult(requestCode, resultCode, data);
-        }
-    }
+//
+   // @Override
+  //  protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+   //     if (!bp.handleActivityResult(requestCode, resultCode, data)) {
+   //         super.onActivityResult(requestCode, resultCode, data);
+   //     }
+   // }
 
     //Wykiluj bilingprocessor on Distroy
-    @Override
-    public void onDestroy() { if (bp != null) {
-        bp.release();
-    }
-        super.onDestroy();
-    }
+   // @Override
+  //  public void onDestroy() { if (bp != null) {
+  //      bp.release();
+   // }
+  //      super.onDestroy();
+   // }
 
 
 
-}
+

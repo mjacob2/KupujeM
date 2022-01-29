@@ -19,13 +19,13 @@ android {
             storePassword 'KOnefka$3101'
         }
     }
-    compileSdkVersion 29
+    compileSdkVersion 30
     defaultConfig {
         applicationId "pl.middlers.kupujem"
         minSdkVersion 16
-        targetSdkVersion 29
-        versionCode 67
-        versionName "9.2"
+        targetSdkVersion 30
+        versionCode 73
+        versionName "9.2.5"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
 
         multiDexEnabled true //important
@@ -89,7 +89,8 @@ dependencies {
     implementation 'com.google.firebase:firebase-firestore:11.8.0'
     implementation 'com.firebaseui:firebase-ui-firestore:3.0.0'
     implementation 'com.google.firebase:firebase-core:11.8.0'
-    // compile 'com.android.billingclient:billing:1.0'
+    implementation 'com.android.billingclient:billing:4.0.0'
+
     compile 'com.anjlab.android.iab.v3:library:1.0.+'
 }
 
