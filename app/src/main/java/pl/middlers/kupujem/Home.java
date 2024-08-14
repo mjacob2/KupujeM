@@ -1,21 +1,17 @@
 package pl.middlers.kupujem;
 
-import android.os.Build;
-import android.support.v7.app.AppCompatActivity;
-
 import android.content.ActivityNotFoundException;
 import android.content.Context;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
-import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
-
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
 import com.google.firebase.analytics.FirebaseAnalytics;
 import com.google.firebase.appindexing.Action;
-import com.google.firebase.appindexing.FirebaseUserActions;
 import com.google.firebase.appindexing.builders.Actions;
 
 
@@ -82,67 +78,54 @@ public class Home extends AppCompatActivity {
 
     }
 
-
     @Override
-
     public boolean onOptionsItemSelected(MenuItem item) {
+        int id = item.getItemId();
 
-        switch (item.getItemId()) {
+        if (id == R.id.action_share) {
+            // Firebase Event
+            mFirebaseAnalytics = FirebaseAnalytics.getInstance(this);
+            Bundle params = new Bundle();
+            mFirebaseAnalytics.logEvent("share_click", params);
 
-            case R.id.action_share:
+            // Start share intent
+            Intent sendIntent = new Intent();
+            sendIntent.setAction(Intent.ACTION_SEND);
+            sendIntent.putExtra(Intent.EXTRA_TEXT, "Pobierz aplikację KupujeM! Bardzo pomaga bezpiecznie kupić własne M.\n\n" + "https://play.google.com/store/apps/details?id=pl.middlers.kupujem");
+            sendIntent.setType("text/plain");
+            startActivity(Intent.createChooser(sendIntent, getResources().getText(R.string.send_to)));
+            return true;
 
-                //Firebase Event
-                mFirebaseAnalytics = FirebaseAnalytics.getInstance(this);
-                Bundle params = new Bundle();
-                mFirebaseAnalytics.logEvent("share_click", params);
+        } else if (id == R.id.action_rate) {
+            // Firebase Event
+            mFirebaseAnalytics = FirebaseAnalytics.getInstance(this);
+            Bundle params2 = new Bundle();
+            mFirebaseAnalytics.logEvent("rate_click", params2);
 
-                //Start share intent
-                Intent sendIntent = new Intent();
-                sendIntent.setAction(Intent.ACTION_SEND);
-                sendIntent.putExtra(Intent.EXTRA_TEXT, "Pobierz aplikację KupujeM! Bardzo pomaga bezpiecznie kupić własne M.\n\n" + "https://play.google.com/store/apps/details?id=pl.middlers.kupujem");
-                sendIntent.setType("text/plain");
-                startActivity(Intent.createChooser(sendIntent, getResources().getText(R.string.send_to)));
-                break;
+            Uri uri = Uri.parse("market://details?id=" + getPackageName());
+            Intent goToMarket = new Intent(Intent.ACTION_VIEW, uri);
+            goToMarket.addFlags(Intent.FLAG_ACTIVITY_NO_HISTORY |
+                    Intent.FLAG_ACTIVITY_NEW_DOCUMENT |
+                    Intent.FLAG_ACTIVITY_MULTIPLE_TASK);
+            try {
+                startActivity(goToMarket);
+            } catch (ActivityNotFoundException e) {
+                startActivity(new Intent(Intent.ACTION_VIEW,
+                        Uri.parse("http://play.google.com/store/apps/details?id=" + getPackageName())));
+            }
+            return true;
 
-            case R.id.action_rate:
-
-                //Firebase Event
-                mFirebaseAnalytics = FirebaseAnalytics.getInstance(this);
-                Bundle params2 = new Bundle();
-                mFirebaseAnalytics.logEvent("rate_click", params2);
-
-
-                Uri uri = Uri.parse("market://details?id=" + context.getPackageName());
-                Intent goToMarket = new Intent(Intent.ACTION_VIEW, uri);
-                // To count with Play market backstack, After pressing back button,
-                // to taken back to our application, we need to add following flags to intent.
-                goToMarket.addFlags(Intent.FLAG_ACTIVITY_NO_HISTORY |
-                        Intent.FLAG_ACTIVITY_NEW_DOCUMENT |
-                        Intent.FLAG_ACTIVITY_MULTIPLE_TASK);
-                try {
-                    startActivity(goToMarket);
-                } catch (ActivityNotFoundException e) {
-                    startActivity(new Intent(Intent.ACTION_VIEW,
-                            Uri.parse("http://play.google.com/store/apps/details?id=" + context.getPackageName())));
-                }
-
-
-                break;
-
-                //kiedy klikniesz w menu "o aplikacji" zrób to:
-            case R.id.action_o_aplikacji:
-
-                //otwórz activity
-                Intent intent = new Intent(this, O_aplikacji.class);
-                startActivity(intent);
-
-
-                break;
-
+        } else if (id == R.id.action_o_aplikacji) {
+            // Open activity
+            Intent intent = new Intent(this, O_aplikacji.class);
+            startActivity(intent);
+            return true;
         }
 
         return super.onOptionsItemSelected(item);
     }
+
+
 
 
 
@@ -250,23 +233,6 @@ public class Home extends AppCompatActivity {
         return Actions.newView("Home", "http://middlers.pl/kupujem");
     }
 
-    @Override
-    public void onStart() {
-        super.onStart();
-
-        // ATTENTION: This was auto-generated to implement the App Indexing API.
-        // See https://g.co/AppIndexing/AndroidStudio for more information.
-        FirebaseUserActions.getInstance().start(getIndexApiAction());
-    }
-
-    @Override
-    public void onStop() {
-
-        // ATTENTION: This was auto-generated to implement the App Indexing API.
-        // See https://g.co/AppIndexing/AndroidStudio for more information.
-        FirebaseUserActions.getInstance().end(getIndexApiAction());
-        super.onStop();
-    }
 
 
     //  public void polecenie (View view) {

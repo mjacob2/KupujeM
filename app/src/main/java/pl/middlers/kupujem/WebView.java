@@ -1,23 +1,12 @@
 package pl.middlers.kupujem;
 
-import android.app.Activity;
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.view.View;
-import android.graphics.Bitmap;
-import android.view.Window;
 import android.webkit.WebSettings;
-import android.webkit.WebChromeClient;
-import android.webkit.WebViewClient;
-import android.support.v7.widget.Toolbar;
-import android.view.View;
 import android.widget.ProgressBar;
-import android.widget.Toast;
-
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
 import com.google.firebase.analytics.FirebaseAnalytics;
-
-import butterknife.BindView;
 
 public class WebView extends AppCompatActivity {
 
@@ -33,14 +22,9 @@ public class WebView extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_web_view);
 
-
-
         Intent intent = getIntent();
         String value = intent.getStringExtra("key"); //if it's a string you stored.
         String value2 = intent.getStringExtra("title");
-
-
-
 
        webview = findViewById(R.id.webview);
         WebSettings webSettings = webview.getSettings();

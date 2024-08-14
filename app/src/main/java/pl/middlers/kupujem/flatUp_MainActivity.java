@@ -12,10 +12,6 @@ import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.os.Bundle;
 import android.preference.PreferenceManager;
-import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.LinearLayoutManager;
-import android.support.v7.widget.RecyclerView;
-import android.support.v7.widget.Toolbar;
 import android.util.Base64;
 import android.view.LayoutInflater;
 import android.view.Menu;
@@ -26,7 +22,6 @@ import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
-
 import com.google.firebase.analytics.FirebaseAnalytics;
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
@@ -41,6 +36,11 @@ import java.lang.reflect.Type;
 import java.util.ArrayList;
 
 import static android.content.ClipDescription.MIMETYPE_TEXT_PLAIN;
+
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
 
 
 public class flatUp_MainActivity extends AppCompatActivity {
@@ -259,28 +259,25 @@ public class flatUp_MainActivity extends AppCompatActivity {
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
-        switch (item.getItemId()) {
-            case R.id.menu_samouczek:
+        int id = item.getItemId();
 
+        if (id == R.id.menu_samouczek) {
+            Intent intents = new Intent(this, Samouczek.class);
+            startActivity(intents);
 
-                Intent intents = new Intent(this, Samouczek.class);
-                startActivity(intents);
+            // Firebase Event
+            mFirebaseAnalytics = FirebaseAnalytics.getInstance(this);
+            Bundle params3 = new Bundle();
+            mFirebaseAnalytics.logEvent("flatUp_menu_samouczek_open", params3);
 
-                //Firebase Event
-                mFirebaseAnalytics = FirebaseAnalytics.getInstance(this);
-                Bundle params3 = new Bundle();
-                mFirebaseAnalytics.logEvent("flatUp_menu_samouczek_open", params3);
-
-                return true;
-
-
-            default:
-                // If we got here, the user's action was not recognized.
-                // Invoke the superclass to handle it.
-                return super.onOptionsItemSelected(item);
-
+            return true;
+        } else {
+            // If we got here, the user's action was not recognized.
+            // Invoke the superclass to handle it.
+            return super.onOptionsItemSelected(item);
         }
     }
+
 
     /**
      * Kidy klikniesz w przycisk żeby obejrzeć samouczek

@@ -10,13 +10,13 @@
 
 
 
-<android.support.constraint.ConstraintLayout
+<androidx.constraintlayout.widget.ConstraintLayout
 
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
 
-    <android.support.v7.widget.Toolbar
+    <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolbar2"
         android:layout_width="match_parent"
         android:layout_height="?attr/actionBarSize"
@@ -28,7 +28,7 @@
         app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
 
 
-    <android.support.v7.widget.CardView
+    <androidx.cardview.widget.CardView
         android:id="@+id/cardView6"
         android:layout_width="0dp"
         android:layout_height="170dp"
@@ -66,10 +66,10 @@
             android:textColor="@android:color/white"
             android:textSize="20sp" />
 
-    </android.support.v7.widget.CardView>
+    </androidx.cardview.widget.CardView>
 
 
-    <android.support.v7.widget.CardView
+    <androidx.cardview.widget.CardView
         android:id="@+id/cardView7"
         android:layout_width="0dp"
         android:layout_height="230dp"
@@ -102,9 +102,9 @@
             android:textColor="@android:color/white"
             android:textSize="20sp" />
 
-    </android.support.v7.widget.CardView>
+    </androidx.cardview.widget.CardView>
 
-    <android.support.v7.widget.CardView
+    <androidx.cardview.widget.CardView
         android:id="@+id/cardView8"
         android:layout_width="0dp"
         android:layout_height="230dp"
@@ -140,9 +140,9 @@
             android:textColor="@android:color/white"
             android:textSize="20sp" />
 
-    </android.support.v7.widget.CardView>
+    </androidx.cardview.widget.CardView>
 
-    <android.support.v7.widget.CardView
+    <androidx.cardview.widget.CardView
         android:id="@+id/cardView9"
         android:layout_width="0dp"
         android:layout_height="170dp"
@@ -174,9 +174,9 @@
             android:textColor="@android:color/white"
             android:textSize="20sp" />
 
-    </android.support.v7.widget.CardView>
+    </androidx.cardview.widget.CardView>
 
-    <android.support.v7.widget.CardView
+    <androidx.cardview.widget.CardView
         android:background="?attr/selectableItemBackground"
         android:clickable="true"
         android:onClick="pomoc"
@@ -209,9 +209,9 @@
             android:textColor="@android:color/white"
             android:textSize="20sp" />
 
-</android.support.v7.widget.CardView>
+</androidx.cardview.widget.CardView>
 
-    <android.support.v7.widget.CardView
+    <androidx.cardview.widget.CardView
         android:id="@+id/cardView11"
         android:clickable="true"
         android:onClick="click_kroki"
@@ -243,9 +243,9 @@
             android:textAlignment="center"
             android:textColor="@android:color/white"
             android:textSize="20sp" />
-</android.support.v7.widget.CardView>
+</androidx.cardview.widget.CardView>
 
 
-</android.support.constraint.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
 
 </ScrollView>

@@ -4,19 +4,8 @@ import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.SharedPreferences;
-//import android.os.Build;
 import android.os.Bundle;
 import android.preference.PreferenceManager;
-//import android.support.annotation.NonNull;
-//import android.support.annotation.Nullable;
-import android.support.design.widget.TabLayout;
-import android.support.v4.app.Fragment;
-import android.support.v4.app.FragmentManager;
-import android.support.v4.app.FragmentPagerAdapter;
-import android.support.v4.view.ViewPager;
-import android.support.v7.app.AlertDialog;
-import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.view.WindowManager;
 import android.view.inputmethod.InputMethodManager;
@@ -25,19 +14,17 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
-
-//import com.anjlab.android.iab.v3.BillingProcessor;
-//import com.anjlab.android.iab.v3.TransactionDetails;
-
+import androidx.appcompat.app.AlertDialog;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
+import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentManager;
+import androidx.fragment.app.FragmentPagerAdapter;
+import androidx.viewpager.widget.ViewPager;
+import com.google.android.material.tabs.TabLayout;
 import com.google.firebase.analytics.FirebaseAnalytics;
-
 import java.util.ArrayList;
 import java.util.List;
-
-import static pl.middlers.kupujem.R.id.oprocentowanie;
-
-//import static pl.middlers.kupujem.R.id.wysokosc_podatku;
-//import static pl.middlers.kupujem.R.id.wysokosc_taksy_brutto;
 
 public class Tabs_Kalkulatory extends AppCompatActivity {
     //implements BillingProcessor.IBillingHandler
@@ -763,7 +750,7 @@ public class Tabs_Kalkulatory extends AppCompatActivity {
 
         mKwotaKredytu = (EditText) findViewById(R.id.kwota_kredytu);
         mLiczbaLat = (EditText) findViewById(R.id.liczba_lat);
-        mOprocentowanie = (EditText) findViewById(oprocentowanie);
+        mOprocentowanie = (EditText) findViewById(R.id.oprocentowanie);
         mRRWysokoscRaty = (TextView) findViewById(R.id.RR_wysokosc_raty);
         mRRLacznieDoSplaty = (TextView) findViewById(R.id.RR_lacznie_do_splaty);
         mRRSumaOdsetek = (TextView) findViewById(R.id.RR_suma_odsetek);

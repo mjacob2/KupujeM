@@ -1,10 +1,8 @@
 package pl.middlers.kupujem;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.support.v7.widget.Toolbar;
-
-import pl.middlers.kupujem.R;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
 
 public class Nowe_ubezpiecz extends AppCompatActivity {
 

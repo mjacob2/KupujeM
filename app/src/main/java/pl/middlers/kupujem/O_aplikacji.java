@@ -1,18 +1,10 @@
 package pl.middlers.kupujem;
 
-import android.content.Intent;
-import android.net.Uri;
-import android.os.Build;
 import android.os.Bundle;
-import android.support.design.widget.FloatingActionButton;
-import android.support.design.widget.Snackbar;
-import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.Toolbar;
-import android.view.View;
 import android.webkit.WebSettings;
-import android.widget.ProgressBar;
 
-import com.google.firebase.analytics.FirebaseAnalytics;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
 
 public class O_aplikacji extends AppCompatActivity {
 

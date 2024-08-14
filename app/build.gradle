@@ -2,34 +2,38 @@ apply plugin: 'com.android.application'
 
 buildscript {
     repositories {
-        jcenter()
         google()
+        mavenCentral()
+        flatDir {
+            dirs 'libs'
+        }
+
     }
     dependencies {
-        classpath 'com.neenbedankt.gradle.plugins:android-apt:1.8'
+        classpath 'com.android.tools.build:gradle:8.5.2'
+        classpath 'com.google.gms:google-services:4.3.15'
     }
 }
 
 android {
+    namespace = "pl.middlers.kupujem"
     signingConfigs {
         config {
             keyAlias 'kupujempassword'
             keyPassword 'KOnefka$3101'
-            storeFile file('C:/Users/jakub/AndroidStudioProjects/KupujeM/password/password.jks')
+            storeFile file('C:/Users/password.jks')
             storePassword 'KOnefka$3101'
         }
     }
-    compileSdkVersion 31
+    compileSdkVersion 35
     defaultConfig {
         applicationId "pl.middlers.kupujem"
-        minSdkVersion 16
-        targetSdkVersion 30
+        minSdkVersion 21
+        targetSdkVersion 35
         versionCode 73
         versionName "9.2.5"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
-
-        multiDexEnabled true //important
-
+        multiDexEnabled true
     }
     buildTypes {
         release {
@@ -42,22 +46,19 @@ android {
             signingConfig signingConfigs.config
         }
     }
-    productFlavors {
-    }
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8
     }
-    buildToolsVersion = '30.0.0 rc1'
+    buildToolsVersion = '35.0.0'
 }
 
-
 repositories {
-    jcenter()
+    google()
     mavenCentral()
-    maven { url 'https://github.com/leonardocardoso/mvn-repo/raw/master/maven-deploy' }
-
-
+    flatDir {
+        dirs 'libs'
+    }
 }
 
 dependencies {
@@ -65,38 +66,31 @@ dependencies {
     implementation files('libs/activation.jar')
     implementation files('libs/additionnal.jar')
     implementation files('libs/mail.jar')
-    // required
-    //implementation 'com.facebook.android:facebook-android-sdk:4.26.0'
-    implementation 'com.android.support:appcompat-v7:28.0.0'
-    implementation 'com.android.support:recyclerview-v7:28.0.0'
-    implementation 'com.android.support:cardview-v7:28.0.0'
-    implementation 'com.android.support:design:28.0.0'
-    implementation 'com.android.support:percent:28.0.0'
-    implementation 'com.android.support:support-v4:28.0.0'
-    implementation 'com.google.firebase:firebase-messaging:23.0.1'
-    implementation 'com.android.support.constraint:constraint-layout:2.0.4'
+    implementation 'androidx.appcompat:appcompat:1.4.2'
+    implementation 'androidx.recyclerview:recyclerview:1.2.1'
+    implementation 'androidx.cardview:cardview:1.0.0'
+    implementation 'com.google.android.material:material:1.12.0'
+    implementation 'com.google.firebase:firebase-messaging:24.0.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.0.4'
     implementation 'com.github.clans:fab:1.6.4'
-    implementation 'org.jsoup:jsoup:1.14.3'
+    implementation 'org.jsoup:jsoup:1.18.1'
     implementation 'com.koushikdutta.urlimageviewhelper:urlimageviewhelper:1.0.4'
-    implementation 'com.leocardz:link-preview:2.0.0@aar'
-    implementation 'com.google.code.gson:gson:2.9.0'
+    implementation(name: 'link-preview-2.0.0', ext: 'aar')
+    implementation 'com.google.code.gson:gson:2.11.0'
     implementation 'com.google.firebase:firebase-appindexing:20.0.0'
-    implementation 'com.google.firebase:firebase-database:20.0.4'
+    implementation 'com.google.firebase:firebase-database:21.0.0'
+    implementation 'androidx.core:core:1.13.1'
     testImplementation 'junit:junit:4.13.2'
-    androidTestImplementation 'com.android.support.test:runner:1.0.2'
-    androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
+    androidTestImplementation 'androidx.test:runner:1.4.0'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
     implementation 'com.jakewharton:butterknife:10.2.3'
     annotationProcessor 'com.jakewharton:butterknife-compiler:10.2.3'
-    implementation 'com.github.bumptech.glide:glide:4.13.1'
-    implementation 'com.google.firebase:firebase-firestore:24.0.2'
-    implementation 'com.firebaseui:firebase-ui-firestore:8.0.0'
-    implementation 'com.google.firebase:firebase-core:20.1.0'
-    implementation 'com.android.billingclient:billing:4.1.0'
-    implementation 'com.google.android.material:material:1.5.0'
-
-    implementation 'com.anjlab.android.iab.v3:library:2.0.3'
+    implementation 'com.github.bumptech.glide:glide:4.16.0'
+    implementation 'com.google.firebase:firebase-firestore:25.0.0'
+    implementation 'com.firebaseui:firebase-ui-firestore:8.0.2'
+    implementation 'com.google.firebase:firebase-core:21.1.1'
+    implementation 'com.android.billingclient:billing:7.0.0'
+    implementation 'com.anjlab.android.iab.v3:library:2.2.0'
 }
-
-
 
 apply plugin: 'com.google.gms.google-services'

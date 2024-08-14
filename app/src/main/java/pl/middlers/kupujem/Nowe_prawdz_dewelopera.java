@@ -2,15 +2,12 @@ package pl.middlers.kupujem;
 
 import android.content.Intent;
 import android.net.Uri;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.support.v7.widget.Toolbar;
 import android.text.method.LinkMovementMethod;
-import android.view.View;
 import android.widget.TextView;
-
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
 import com.google.firebase.appindexing.Action;
-import com.google.firebase.appindexing.FirebaseUserActions;
 import com.google.firebase.appindexing.builders.Actions;
 
 public class Nowe_prawdz_dewelopera extends AppCompatActivity {
@@ -57,24 +54,6 @@ public class Nowe_prawdz_dewelopera extends AppCompatActivity {
      */
     public Action getIndexApiAction() {
         return Actions.newView("Nowe_prawdz_dewelopera", "http://middlers.pl/jaksprawdzicdewelopera");
-    }
-
-    @Override
-    public void onStart() {
-        super.onStart();
-
-        // ATTENTION: This was auto-generated to implement the App Indexing API.
-        // See https://g.co/AppIndexing/AndroidStudio for more information.
-        FirebaseUserActions.getInstance().start(getIndexApiAction());
-    }
-
-    @Override
-    public void onStop() {
-
-        // ATTENTION: This was auto-generated to implement the App Indexing API.
-        // See https://g.co/AppIndexing/AndroidStudio for more information.
-        FirebaseUserActions.getInstance().end(getIndexApiAction());
-        super.onStop();
     }
 }
 
